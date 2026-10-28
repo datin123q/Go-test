@@ -1,0 +1,107 @@
+# This workflow will build and push a new container image to Amazon ECR,
+# and then will deploy a new task definition to Amazon ECS, on every push
+# to the master branch.
+#
+# To use this workflow, you will need to complete the following set-up steps:
+#
+# 1. Create an ECR repository to store your images.
+#    For example: `aws ecr create-repository --repository-name my-ecr-repo --region us-east-2`.
+#    Replace the value of `ECR_REPOSITORY` in the workflow below with your repository's name.
+#    Replace the value of `aws-region` in the workflow below with your repository's region.
+#
+# 2. Create an ECS task definition, an ECS cluster, and an ECS service.
+#    For example, follow the Getting Started guide on the ECS console:
+#      https://us-east-2.console.aws.amazon.com/ecs/home?region=us-east-2#/firstRun
+#    Replace the values for `service` and `cluster` in the workflow below with your service and cluster names.
+#
+# 3. Store your ECS task definition as a JSON file in your repository.
+#    The format should follow the output of `aws ecs register-task-definition --generate-cli-skeleton`.
+#    Replace the value of `task-definition` in the workflow below with your JSON file's name.
+#    Replace the value of `container-name` in the workflow below with the name of the container
+#    in the `containerDefinitions` section of the task definition.
+#
+# 4. Store an IAM user access key in GitHub Actions secrets named `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+#    See the documentation for each action used below for the recommended IAM policies for this IAM user,
+#    and best practices on handling the access key credentials.
+
+on:
+  push:
+    branches:
+      - develop
+
+name: Deploy to Amazon ECS
+
+jobs:
+  deploy:
+    name: Energhshares Job Scheduler
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v3
+        with:
+          go-version: ^1.22
+        id: go
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+      - name: Configure git for private modules
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: git config --global url."https://hillfolk:${TOKEN}@github.com/illuminarean".insteadOf "https://github.com/illuminarean"
+      #        run: git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+
+      - name: Get dependencies
+        env:
+          GOPRIVATE: "github.com/illuminarean"
+          GOPROXY: "https://proxy.golang.org,direct"
+        #          GOSUMDB: "github.com/illuminarean"
+        run: |
+          go get -v -t -d ./...
+          if [ -f Gopkg.toml ]; then
+              curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+              dep ensure
+          fi
+
+      - name: Build
+        env:
+          GOPRIVATE: "github.com/illuminarean"
+          GOPROXY: "https://proxy.golang.org,direct"
+          GOSUMDB: "github.com/illuminarean"
+        run: |
+          go build -o .
+      #          GOOS=$os GOARCH=$arch CGO_ENABLED=0 go build -o .
+      - name: Copy files
+        run: |
+          mkdir bin
+          cp -R ./energyshares-job-scheduler ./config.dev.yml ./config.yml ./i18n ./font ./deployscripts ./bin
+        shell: bash
+
+      - name: Make zip file
+        run: zip -qq -r ./$GITHUB_SHA.zip ./bin ./appspec.yml
+        shell: bash
+
+      - name: Upload to S3
+        env:
+          PROJECT_NAME: job-scheduler
+        run: ls | aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://eskk-stg-app-codedeploy-bucket/$PROJECT_NAME/$GITHUB_SHA.zip
+
+      - name: Code Deploy
+        env:
+          PROJECT_NAME: job-scheduler
+        run: aws deploy create-deployment --application-name eskk-stg-job-scheduler-seoul --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name eskk-stg-job-scheduler-seoul-group --s3-location bucket=eskk-stg-app-codedeploy-bucket,bundleType=zip,key=$PROJECT_NAME/$GITHUB_SHA.zip
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2.0.2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: scheduler bot
+          SLACK_TITLE: 개발 스케쥴러 서버 배포
+          SLACK_MESSAGE: 개발 스케쥴러 서버에 energyshres-job-scheduler 배포되었습니다.

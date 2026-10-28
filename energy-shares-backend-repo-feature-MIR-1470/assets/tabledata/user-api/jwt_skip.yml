@@ -1,0 +1,184 @@
+#############
+# [작성 방법]
+#
+# 모든 method 에 대하여 jwt skip 을 적용하고 싶은 경우: method 를 "" 로 설정
+# - path: "/api/examples"
+#   method: ""
+#
+# (권장)
+# 특정 method 에 대하여 jwt skip 을 적용하고 싶은 경우: method 를 콤마(,) 로 구분하여 설정
+# - path: "/api/examples"
+#   method: "GET,POST"
+#
+#############
+
+jwt_skip_data:
+  # swagger
+  - path: "/doc"
+    method: ""
+  - path: "/doc/swagger.json"
+    method: ""
+  - path: "/api/swagger"
+    method: ""
+  - path: "/api/swagger*"
+    method: ""
+
+  # common
+  - path: "/api/version"
+    method: "GET"
+  - path: "/api/codes"
+    method: "GET"
+  - path: "/api/health-check"
+    method: "GET"
+
+  # auth
+  - path: "/api/auth/update-token"
+    method: ""
+
+  # blog-posts
+  - path: "/api/blog-posts"
+    method: "GET"
+
+  # columns
+  - path: "/api/columns/:id"
+    method: "GET"
+  - path: "/api/columns/:id/preview/:user_id"
+    method: "GET"
+  - path: "/api/columns"
+    method: "GET"
+
+  # contact
+  - path: "/api/contact/send-contact-mail"
+    method: "POST"
+
+  # corporateusers
+  - path: "/api/corporateusers/:id/hold-user"
+    method: "PUT"
+  - path: "/api/corporateusers/hold-user"
+    method: "GET"
+  - path: "/api/corporateusers/existscorpno"
+    method: "GET"
+  - path: "/api/corporateusers/findEmail"
+    method: "GET"
+  - path: "/api/corporateusers/existsemail"
+    method: "GET"
+  - path: "/api/corporateusers/signup"
+    method: "POST"
+  - path: "/api/corporateusers/signuprequest"
+    method: "POST"
+  - path: "/api/corporateusers/signuprequest/:request_id"
+    method: "GET,DELETE"
+
+  # fundingrequests
+  - path: "/api/fundingrequests"
+    method: "POST"
+
+  # japan-banks
+  - path: "/api/japan-banks"
+    method: "GET"
+  - path: "/api/japan-banks/:code/branches"
+    method: "GET"
+
+  # policy
+  - path: "/api/policies"
+    method: "GET"
+
+  # privateusers
+  - path: "/api/privateusers/hold-user"
+    method: "GET"
+  - path: "/api/privateusers/:id/hold-user"
+    method: "PUT"
+  - path: "/api/privateusers/signup-request/:request_id"
+    method: "GET"
+  - path: "/api/privateusers/signup-request/:request_id/verified"
+    method: "PUT"
+  - path: "/api/privateusers/exists-email"
+    method: "GET"
+  - path: "/api/privateusers/findEmail"
+    method: "GET"
+
+  # projects
+  - path: "/api/projects/list"
+    method: "GET"
+  - path: "/api/projects/:id/detail"
+    method: "GET"
+  - path: "/api/projects/:id/news"
+    method: "GET"
+  - path: "/api/projects/:id/preview/:user_id"
+    method: "GET"
+
+  # subscription
+  - path: "/api/subscription"
+    method: "POST"
+
+  # users
+  - path: "/api/users/existsemail"
+    method: "GET"
+  - path: "/api/users/passwordreset/:request_id"
+    method: "POST"
+  - path: "/api/users/passwordresetrequest"
+    method: "POST"
+  - path: "/api/users/passwordresetrequest/:id"
+    method: "GET,DELETE"
+
+  ####################
+
+  # v1/banners
+  - path: "/api/v1/banners"
+    method: "GET"
+
+  # v1/users
+  - path: "/api/v1/users/login"
+    method: "POST"
+  - path: "/api/v1/users/signup-requests"
+    method: "POST"
+  - path: "/api/v1/users/signup-requests/:request_id"
+    method: "GET"
+  - path: "/api/v1/users/signup-requests/:request_id/verify"
+    method: "POST"
+  - path: "/api/v1/users/signup"
+    method: "POST"
+
+  # v1/users-verify
+  - path: "/api/v1/users-verify/email-exists"
+    method: "GET"
+  - path: "/api/v1/users-verify/password-reset"
+    method: "POST"
+  - path: "/api/v1/users-verify/password-reset/:request_id"
+    method: "GET,POST"
+
+  # v1/private-users
+  - path: "/api/v1/private-users/signup/ekyc/status"
+    method: "GET"
+  - path: "/api/v1/private-users/signup/ekyc/webhook"
+    method: "POST"
+
+  # v1/blog-posts
+  - path: "/api/v1/blog-posts"
+    method: "GET"
+
+  # v1/common
+  - path: "/api/v1/csrf"
+    method: "GET"
+
+  # v1/faqs
+  - path: "/api/v1/faqs"
+    method: "GET"
+
+  # v1/news
+  - path: "/api/v1/news"
+    method: "GET"
+
+  # v1/policies
+  - path: "/api/v1/policies"
+    method: "GET"
+  - path: "/api/v1/policies/histories"
+    method: "GET"
+
+  # v1/codes
+  - path: "/api/v1/codes"
+    method: "GET"
+
+  # adebis
+  - path: "/api/adebis/itp"
+    method: "GET,POST"

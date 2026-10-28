@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -f /var/run/energyshares-jobs-scheduler.pid ]; then
+kill -9 `cat /var/run/energyshares-jobs-scheduler.pid`
+fi
+
+# Run your process inbackground
+cd /home/ubuntu/bin;
+./jobs-scheduler run
+sleep 30;
+sudo ps -eaf|grep jobs-scheduler|grep -v grep|awk '{print $2}' > /var/run/energyshares-jobs-scheduler.pid
+
+# Check if the services started successfully
+if ! kill -0 $! 2>/dev/null; then
+    # Return 1 so that systemd knows the service failed to start
+    exit 1
+fi

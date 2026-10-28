@@ -1,0 +1,45 @@
+services:
+  energysharesdb:
+    image: mysql:8.0.32
+    ports:
+      - "${ESJ_DB_PORT:-3306}:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: energysharesdb
+      MYSQL_USER: energyshares_user
+      MYSQL_PASSWORD: energyshares_password
+      TZ: UTC
+    volumes:
+      - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
+      - energysharesdb-data:/var/lib/mysql
+
+  mynumberdb:
+    image: mysql:8.0.32
+    ports:
+      - "${ESJ_MYNUMBER_DB_PORT:-3307}:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mynumberdb
+      MYSQL_USER: mynumber_user
+      MYSQL_PASSWORD: mynumber_password
+      TZ: UTC
+
+  localstack:
+    # タグ必須: 2026.x 以降のイメージは LOCALSTACK_AUTH_TOKEN が無いと起動しない
+    # (exit code 55 / License activation failed)。4.14.0 が認証不要の最終バージョン。
+    image: localstack/localstack:4.14.0
+    ports:
+      - "127.0.0.1:${ESJ_LOCALSTACK_PORT:-4566}:4566" # LocalStack Gateway
+      - "127.0.0.1:4510-4559:4510-4559" # external services port range
+    environment:
+      # LocalStack configuration: https://docs.localstack.cloud/references/configuration/
+      - DEBUG=${DEBUG:-0}
+      - PERSISTENCE=1
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./docker/localstack/init/ready.d:/etc/localstack/init/ready.d"
+      - localstack-data:/var/lib/localstack
+
+volumes:
+  energysharesdb-data:
+  localstack-data:

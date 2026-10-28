@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+
+files:
+  - source: ./build
+    destination: /tmp/build
+file_exists_behavior: OVERWRITE
+permissions:
+  - object: /tmp/build
+    owner: ubuntu
+    group: ubuntu
+    mode: 755
+hooks:
+  BeforeInstall:
+    - location: ./build/.deployscripts/codedeploy/install_dependencies.sh
+      timeout: 300
+  AfterInstall:
+    - location: ./build/.deployscripts/codedeploy/codedeploy.sh
+      timeout: 300

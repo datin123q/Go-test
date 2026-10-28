@@ -1,0 +1,23 @@
+FUNDING_REQUEST:
+  REQUEST_STATUS:
+    codes:
+      - code: STANDBY_REQUEST
+        descriptions:
+          ko: "신청중"
+          en: "Applying"
+          ja: "申請中"
+      - code: PROCESSING_REQUEST
+        descriptions:
+          ko: "보류중"
+          en: "Pending"
+          ja: "保留中"
+      - code: PASS_REQUEST
+        descriptions:
+          ko: "승인 완료"
+          en: "Approved"
+          ja: "承認済み"
+      - code: FAIL_REQUEST
+        descriptions:
+          ko: "무효"
+          en: "Invalid"
+          ja: "無効"

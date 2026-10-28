@@ -1,0 +1,201 @@
+# This workflow will build a golang project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
+
+name: Go
+
+on:
+  push:
+    branches: [ "main","develop","monorepo","remove-submodule", "sprint/**" ]
+  pull_request:
+    branches: [ "main","develop","monorepo", "sprint/**" ]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # MIR-1207: ランナーがテスト中に応答しなくなる事象が2026-09-08/09に連続した。
+    # 実際のジョブはGitHub側の無応答検知で約54分後に強制終了されており、6時間の
+    # デフォルト上限までは張り付かなかったが、正常系(実測5〜7分)に対して原因調査が
+    # 始まるまでの待ち時間として長すぎる。20分あれば正常系を妨げない。
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        go-version: [ 1.25.1, ]
+        platform: [ ubuntu-latest ]
+
+    runs-on: ${{ matrix.platform }}
+    env:
+      GOPRIVATE: github.com/illuminarean/*
+    steps:
+      # チェックアウトを先に行う。setup-go はキャッシュキーに go.sum を使うため、
+      # 順序が逆だとファイルが無く「Restore cache failed」で毎回キャッシュを
+      # 取り逃がす。モジュールもビルドもゼロからやり直しになる。
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v4
+
+      # MIR-1414: ZOLOME(mirapro-backend)のテストで、Goのキャッシュの展開中にランナーのディスクが不足して落ちた
+      # (No space left on device)。ZOLOMEはテスト用のサービスのコンテナも立てるが、こちらには無く、まだ起きていない。
+      # キャッシュの持ち方は同じなので、予防としてキャッシュを展開する前に、標準ランナーに同梱される未使用のツール
+      # チェーンを外して空きを作る(ユーザー画面のデプロイで踏んだMIR-1165と同じやり方)。空いた容量は前後のdfでログに残す。
+      - name: Free disk space
+        run: |
+          df -h /
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android
+          df -h /
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: ${{ matrix.go-version }}
+          # MIR-1207: setup-goの標準キャッシュ(cache: true)はgo.sumのハッシュだけを
+          # キーにしており、GitHub Actionsのキャッシュは同一キーに上書き保存できない
+          # ため、最初にそのキーで保存された時点のビルドキャッシュがgo.sumを変えない
+          # 限りずっと復元され続け、その後のソース変更分は一度もキャッシュに反映
+          # されていなかった(実測でRun testsログに(cached)が1件も無いことを確認
+          # 済み)。GOCACHEはgithub.shaを含む使い捨てキーで毎回保存し直す方式に
+          # 分離するため、ここでは無効化する。
+          cache: false
+
+      - name: Restore Go module cache
+        id: restore-mod-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/go/pkg/mod
+          # モジュールの内容はgo.sumが変わらない限り同じなので、従来どおり
+          # go.sumのハッシュをキーにする(上書きされない制約が問題にならない側)。
+          key: go-mod-${{ runner.os }}-${{ matrix.go-version }}-${{ hashFiles('go.sum', 'apps/*/go.sum') }}
+
+      - name: Restore Go build cache
+        id: restore-build-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/go-build
+          # github.shaを含めて毎回別キーにすることで、後段のsaveステップが
+          # 必ず新規保存になり(同一キーへの上書き不可という制約を回避)、
+          # 直前のコミット分のビルド結果を毎回蓄積できる。復元時はrestore-keysで
+          # 直近のキーへ前方一致させ、無ければ空から始める。
+          key: go-build-${{ runner.os }}-${{ matrix.go-version }}-${{ github.sha }}
+          restore-keys: |
+            go-build-${{ runner.os }}-${{ matrix.go-version }}-
+
+      - name: Set up timezone
+        run: |
+          sudo ln -snf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+          echo "Asia/Tokyo" | sudo tee /etc/timezone
+          sudo dpkg-reconfigure -f noninteractive tzdata
+
+      # MIR-1341: pkg/contract/contract_test.goのTestFillFieldsResolvesAstralGlyphsが
+      # テキスト抽出にpdftotext(poppler-utils)を使う。ubuntu-latestに最初から
+      # 入っているかは未確認のため、入れる手順を明示しておく。updateを省くと、
+      # ランナーのイメージが古いパッケージ一覧を持ったままのときにミラー上の
+      # バージョンと食い違い、404で突然CIが落ちることがある(①敵対的検証で指摘)。
+      - name: Install poppler-utils (pdftotext)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      # - name: Configure AWS credentials from Test account
+      #   uses: aws-actions/configure-aws-credentials@v4
+      #   with:
+      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws-region: ap-northeast-2
+
+      - name: Install dependencies
+        id: install-deps
+        run: |
+          go mod download
+
+      - name: Run tests
+        run: |
+          set +e  # 에러가 발생해도 스크립트가 종료되지 않도록 설정
+          # MIR-1207: PRへのカバレッジコメント投稿は既に廃止済みで、コメント以外に
+          # coverage.txtやレポートを読む場所が無い。カバレッジ計測(-covermode=atomic)は
+          # 全パッケージの再コンパイルを強制しビルドキャッシュがほとんど効かなくなる
+          # (実測でオプションなしの2.7倍)ため、消費者がいない状態で払い続ける価値は
+          # 無いと判断し、カバレッジ計測自体をやめた。
+          # ルート直下は./...で網羅できる。apps/以下は go.work で束ねた別モジュールで
+          # ./...には含まれないため、モジュールごとに明示する(実際に確認済み)。
+          # 以前はルート側もdomain/repository/service/pkg/dbと個別に列挙しており、
+          # clean-arch-domainとcmdが漏れていた(将来ルート直下に新しいディレクトリが
+          # 増えても検査対象に入らない構造でもあった)。./...に置き換えることで解消
+          # される。パッケージごとにgo testを9回起動していたのも1回にまとめ、依存
+          # 解決とリンクの重複を無くす。teeで標準出力にも流し、失敗時はコンソールで
+          # 即座に追えるようにする。このステップはshell: bashを明示していないため
+          # 既定はbash -e {0}でpipefailは付かず、teeを挟むと$?はtee自身の終了
+          # コードになる。go testの終了コードは必ずPIPESTATUS[0]で見る。
+          ENV=GITHUB go test -v \
+            ./... \
+            ./apps/admin-api/... ./apps/user-api/... ./apps/jobs-scheduler/... ./apps/invest-worker/... \
+            2>&1 | tee test.log
+          test_result=${PIPESTATUS[0]}
+          if [ $test_result -ne 0 ]; then
+            # grepにはコンパイルエラーなどFAIL行が1件も無いログを渡すこともあるため、
+            # マッチが無くてもスクリプトを止めない(no matchはgrep自身が終了コード1を
+            # 返す)。-aは、生成物のダンプなどでtest.logにNULバイトが混ざりgrepが
+            # バイナリ扱いしてFAIL行を拾い損ねるのを防ぐ。マッチが1件も無い場合は
+            # コンパイルエラーなどFAIL形式で出ない異常終了と分かるよう、test.logの
+            # 末尾を代わりに残す(空のtest_errors.logだけが残る事態を避けるため)。
+            grep -a -e '--- FAIL' -e '^FAIL' test.log > test_errors.log
+            if [ ! -s test_errors.log ]; then
+              echo "FAIL形式の行が見つかりませんでした。test.logの末尾50行:" > test_errors.log
+              tail -n 50 test.log >> test_errors.log
+            fi
+            cat test_errors.log
+            exit 1
+          fi
+
+      - name: Upload test logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: go-test-logs-${{ matrix.go-version }}-${{ matrix.platform }}
+          path: |
+            test.log
+            test_errors.log
+          if-no-files-found: warn
+
+      - name: Save Go module cache
+        # go.sumが変わらない限り同じキーなので、既に完全一致で復元できていた
+        # (cache-hit)回はactions/cache/saveがtarを作ってから捨てるだけの
+        # 無駄になる。復元ステップにidを振ってcache-hitで見送る。
+        # go.sumのハッシュキーは(GOCACHEと違って)使い捨てではなく上書きもできない
+        # ため、go mod downloadが完了する前にタイムアウト等で強制終了された場合に
+        # 保存してしまうと、不完全な状態がgo.sumを変えるまでずっと復元され続ける。
+        # そのため「Install dependencies」が成功した場合だけ保存する。if:が
+        # success()/failure()/always()/cancelled()のいずれも含まない式だと
+        # 暗黙にsuccess() &&が前置されるため、後段のRun testsがテスト失敗
+        # すると(Install dependencies自体は成功していても)このステップごと
+        # スキップされてしまう。それを避けるため!cancelled()を明示する
+        # (ジョブがキャンセル・タイムアウトされた回だけは保存を試みない)。
+        if: >-
+          !cancelled() &&
+          steps.install-deps.outcome == 'success' &&
+          steps.restore-mod-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/go/pkg/mod
+          key: go-mod-${{ runner.os }}-${{ matrix.go-version }}-${{ hashFiles('go.sum', 'apps/*/go.sum') }}
+
+      - name: Save Go build cache
+        # MIR-1207: pushのみで保存する。PRごとに保存すると、リポジトリ全体で10GBの
+        # 上限に対してブランチの数だけ1GB超のキャッシュが積み上がり、LRUで develop
+        # 分が追い出されて効果が消えかねないため。PRはdevelop側で育ったキャッシュを
+        # restore-keysで復元するだけに留める。cache-hitが既に完全一致(同じコミット
+        # の再実行)なら保存自体を見送り、無駄なtarを避ける。!cancelled()にするのは、
+        # ジョブがタイムアウト等でキャンセルされた回に不完全なGOCACHEを保存すると、
+        # このキーはコミットSHA固有で以後上書きできないため、後続コミットが
+        # restore-keysの前方一致でその壊れた状態を拾ってしまうことがあるため。
+        # Install dependenciesが失敗した場合は~/.cache/go-buildが一度も
+        # 作られていない可能性があり、その状態でactions/cache/saveを呼ぶと
+        # 「パスが存在しない」エラーで落ちるため、成功時だけ保存する。
+        if: >-
+          !cancelled() &&
+          github.event_name == 'push' &&
+          steps.install-deps.outcome == 'success' &&
+          steps.restore-build-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/go-build
+          key: go-build-${{ runner.os }}-${{ matrix.go-version }}-${{ github.sha }}

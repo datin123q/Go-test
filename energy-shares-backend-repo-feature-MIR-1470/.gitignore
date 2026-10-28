@@ -1,0 +1,92 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+### Go template
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+ vendor/
+
+# Go workspace file
+back.go.work
+go.work.sum
+
+### macOS template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# local mysql container related
+esjp-dev-dump.cnf
+esjp_mynumberdb_dev_dump.sql
+esjp_esdb_dev_dump.sql
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+/back.go.work.sum
+/bin/
+
+# swagger files
+swagger/
+!pkg/swagger/
+!pkg/swagger/*.go
+swagger-ui**/
+
+# config files
+config/config.local.yml
+config/config.dev.yml
+config/config.qa.yml
+config/config.stg.yml
+config/config.prod.yml
+
+# dump files
+energysharesdb_dump.sql
+
+# env files
+.env*
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Task files
+tasks/

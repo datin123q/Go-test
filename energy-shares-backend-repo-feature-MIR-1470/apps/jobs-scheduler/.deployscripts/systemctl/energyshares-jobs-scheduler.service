@@ -1,0 +1,17 @@
+[Unit]
+Description=energyshares jobs scheduler service
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/local/bin/energyshares-jobs-scheduler-service
+WorkingDirectory=/home/ubuntu/bin
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=energyshares-jobs-scheduler-service
+
+[Install]
+WantedBy=multi-user.target

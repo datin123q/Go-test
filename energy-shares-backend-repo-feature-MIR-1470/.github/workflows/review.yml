@@ -1,0 +1,22 @@
+name: Review/Comment 7 day Stats
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run pull request stats
+        uses: flowwer-dev/pull-request-stats@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          period: 14
+          limit: 7
+          charts: true
+          disable-links: true

@@ -1,0 +1,52 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://prometheus-loki.energyshares.jp:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: codedeploy-agent
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: codedeploy-agent-log
+          host: es-jp-job-scheduler
+          env: prod
+          agent: promtail
+          __path__: /var/log/aws/codedeploy-agent/codedeploy-agent.log
+  - job_name: codedeploy-deploy
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: codedeploy-deploy-log
+          host: es-jp-job-scheduler
+          env: prod
+          agent: promtail
+          __path__: /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
+  - job_name: energyshares-job-scheduler
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: energyshares-job-scheduler-log
+          host: es-jp-job-scheduler
+          env: prod
+          agent: promtail
+          __path__: /var/log/energyshares/energyshares-jobs-scheduler.log
+    pipeline_stages:
+      - regex:
+          expression: '^(?P<timestamp>[^\s]+ [^\s]+ [^\s]+) (?P<hostname>[^\s]+) (?P<service>[^\[]+)\[(?P<pid>[^\]]+)\]: (?P<log_json>{.*})$'
+      - json:
+          expressions:
+            level:
+            msg:
+          source: log_json
+      - labels:
+          level:
+          msg:

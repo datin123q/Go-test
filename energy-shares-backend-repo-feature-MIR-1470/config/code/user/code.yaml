@@ -1,0 +1,18 @@
+USER:
+  USER_TYPE:
+    codes:
+      - code: ADMIN
+        descriptions:
+          ko: "운영자"
+          en: "Admin"
+          ja: "運用者"
+      - code: PRIVATE
+        descriptions:
+          ko: "개인회원"
+          en: "Private Member"
+          ja: "個人会員"
+      - code: CORPORATE
+        descriptions:
+          ko: "법인회원"
+          en: "Corporate Member"
+          ja: "法人会員"

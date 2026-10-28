@@ -1,0 +1,11 @@
+/var/log/energyshares/energyshares-jobs-scheduler.log
+{
+  daily
+  rotate 186
+  copytruncate
+  missingok
+  notifempty
+  compress
+  dateext
+  dateyesterday
+}

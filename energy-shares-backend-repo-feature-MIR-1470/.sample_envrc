@@ -1,0 +1,12 @@
+export ENV=local
+export TZ=UTC
+
+# GOの設定
+export GOBIN=$PWD/bin
+export PATH=$GOBIN:$PATH
+
+# AWS関連
+export AWS_ACCESS_KEY_ID=localstack
+export AWS_SECRET_ACCESS_KEY=localstack
+export AWS_DEFAULT_REGION=ap-northeast-1
+export AWS_ENDPOINT_URL=http://localhost:4566  # LocalStack のエンドポイント

@@ -1,0 +1,129 @@
+commonConfig:
+  env: local
+  debug: false
+  jobScheduler: http://localhost:8082
+  # MIR-1329: メール・帳簿サービスと連携する場合にのみ設定する(任意)。
+  # 今はキー自体が無く、ローカルでは繋がっていない。
+  emailService:
+    url: http://localhost:8090
+  statutoryBooksService: http://localhost:8095
+
+  # MIR-1469・MIR-1470: JPKI方式(マイナンバーカードの署名)で使うNexwayの設定。値はNexwayが発行する。
+  # 本番・ステージングは、Parameter Storeの設定(paramstore.sh)の commonConfig.nexway の下に同じキーを足す。
+  # 空・未設定でも起動はできるが、JPKI方式だけが動かない(署名用URLの発行は「いまは利用できない」を返し、
+  # 検証結果通知は500を返してNexwayの再送を待つ)。ホ方式には影響しない。
+  nexway:
+    jpkiAuthBaseUrl: ""       # 本人確認デジタル認証サービスのURL(ホスト部まで)
+    jpkiAuthToken: ""         # 同APIトークン
+    jpkiBpoBaseUrl: ""        # 本人確認BPOサービス JPKI版のURL(ホスト部まで)
+    jpkiBpoToken: ""          # 同APIトークン
+    jpkiBpoSigningSecret: ""  # 署名検証オプション(HMAC-SHA256)のシークレット
+
+  serviceConfig:
+    url:
+      userServiceDomain: http://localhost:3000
+
+  database:
+    driver: mysql
+    connection: energyshares_user:energyshares_password@tcp(127.0.0.1:3306)/energysharesdb?charset=utf8mb4&parseTime=True&loc=Local
+    logger:
+
+  myNumberDatabase:
+    driver: mysql
+    connection: mynumber_user:mynumber_password@tcp(127.0.0.1:3307)/mynumberdb?charset=utf8mb4&parseTime=True&loc=Local
+    logger:
+
+  aws:
+    region: ap-northeast-1
+    ses_region: ap-northeast-1
+    sns_region: ap-northeast-1
+    s3_public_bucket: mira-local-public-storage
+    s3_private_bucket: mira-local-private-storage
+    s3_ekyc_images_bucket: ekyc_images
+    cdn: "http://localhost:4566/mira-local-public-storage"
+    s3_content_bucket: ""
+    private_key_path: "../../assets/key/local/private_key.pem"
+    base_endpoint: "http://localhost:4566"
+    invest_worker_queue_url: http://localhost:4566/000000000000/my-local-test-queue.fifo
+
+  bankcodejp:
+    apiKey: Jl1YA1k6KeJrwTk8IfaMdyyCYWCUG5DK2BvWxnH
+
+  admin:
+    name: ADMIN
+    email: admin@energyshares.jp
+    password: Illuminarean!@34
+
+  gmoAozoraConfig:
+    clientId: your_client_id
+    clientSecret: your_client_secret
+    redirectUri: your_redirect_uri
+
+  swagger:
+    version: "5.32.0"
+    openApiSpecPath: "/api/swagger/openapi.yaml"
+
+userConfig:
+  service: miralita-local-user-api
+  httpPort: 8080
+
+adminConfig:
+  service: miralita-local-admin-api
+  httpPort: 8081
+
+jobSchedulerConfig:
+  service: miralita-local-job-scheduler
+  httpPort: 8082
+  cronHttpPort: 8083
+  cron:
+    RefreshTokenJob: "0 10 1,16 * *"
+    GetAccountInfoJob: "1,31 * * * *"
+    BulkTransferJob: "0/10 * * * *"
+    BulkTransferResultCheckJob: "0/10 * * * *"
+    BulkTransferStatusCheckJob: "0 12,16 * * *"
+    GetEquityVaTransactionJob: "0 9 * * *"
+    AutoInvestmentJob: "0 9 * * *"
+    CheckInvestmentProposeJob: "0 0 * * *"
+    FundingOpenJob: "0 * * * *"
+    FundingCloseJob: "0 * * * *"
+    RepaymentDividendJob: "0 9 * * *"
+    VaDepositNotUseItemCheckJob: "0/10 * * * *"
+    DepositRequestExpireJob: "0 0 * * *"
+    DepositAutoProcessJob: "0 9 * * *"
+    UserAddressCheckJob: "0 9 * * *"
+    MyNumberDeleteFileJob: "0 9 * * *"
+    MailRequestRetryJob: "* * * * *"
+    ContractCreateJob: "* * * * *"
+    CreateInvestorTransactionBalanceReportJob: "0 9 1 1,4,7,10 ?"
+    CreateInvestorPaymentStatementJob: "0 9 1 1 *"
+    CreateTaxOfficePaymentStatementJob: "0 9 1 1 *"
+    CreateTaxOfficePaymentStatementSumJob: "0 9 1 1 *"
+    BlogPostRequest: "0 * * * *"
+    CreateHolidayCalendarJob: "" # 祝日取得ジョブ: 祝日はロジックで使用していないため、実行不要。
+    CloseBannersJob: "0 0 * * *"
+    DeleteTestUsersJob: "0 1 1 * *"
+    LotteryCSVUploadJob: "*/1 * * * *"
+    # MIR-1114: 法定帳簿への送信に失敗した event_message を送り直す。
+    # 対象は「未送信かつ作成から10分以上経過」した行で、1回あたり最大500件。
+    # 設定が無いとジョブが登録されずエラーも出ないため、空にしないこと。
+    RePublishJob: "0/10 * * * *"
+    # 営業日の15:53(JST)に翌営業日の勤怠連絡を促すメッセージをSlackへ投稿する。
+    # cronはnewCronWithLocationでJST指定済みのため、UTC変換は不要。
+    AttendanceReminderJob: "53 15 * * *"
+    # 営業日の6:53(JST)に本日の勤怠連絡を促すメッセージをSlackへ投稿する。
+    AttendanceMorningReminderJob: "53 6 * * *"
+    # MIR-1470: JPKI方式で、署名結果の通知(Webhook)を取りこぼした記録を拾い直す。
+    # 対象は「署名用URLを発行したまま、BPOへ未申請・結果未確定で、作成から1時間以上経過」した行で、
+    # 1回あたり最大25件。ネクスウェイの検証結果取得APIで確かめ、BPOへの申請または失敗の記録を行い、
+    # 失敗した会員へは本人確認のやり直しをお願いするメールを送る。1時間に1回を想定している。
+    # 設定が無いとジョブが登録されずエラーも出ないため、本番・ステージングのParameter Storeにも足すこと。
+    JpkiSignatureRecoveryJob: "7 * * * *"
+  slack:
+    attendanceReminderWebhookUrl: ""
+
+workerConfig:
+  service: miralita-local-invest-worker
+  maxNumberOfSqsMessages: 10
+  waitTimeSecondsForSqsMessages: 20
+  maxRetries: 5
+  shutdownGraceTimeSeconds: 30

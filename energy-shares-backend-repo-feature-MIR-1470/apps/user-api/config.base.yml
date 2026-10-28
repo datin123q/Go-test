@@ -1,0 +1,4 @@
+commonConfig:
+  env: dev
+  aws:
+    region: ap-northeast-2

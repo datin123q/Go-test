@@ -1,0 +1,125 @@
+pipeline {
+    agent any
+    options {
+        ansiColor('xterm')
+        timestamps()
+    }
+    environment {
+        GITHUB_ACCOUNT = credentials('es-jp-backend')
+    }
+    tools {
+        go "${GOLANG_VERSION}"
+        git "git"
+    }
+    stages {
+        stage('Setup Variables') {
+            steps {
+                logStageName()
+                script {
+                    checkout scm
+                    setEnvironmentVariables(params.COMMON_DEPLOY_CONFIG)
+                    def paramKey = "${params.DEPLOY_ENV.toUpperCase()}_DEPLOY_CONFIG"
+                    def currentEnv = params[paramKey]
+                    if (!currentEnv) {
+                        error "No parameter found for ${paramKey}"
+                    }
+                    setEnvironmentVariables(currentEnv)
+                }
+            }
+        }
+        stage('Sync Parameter Store') {
+            when {
+                anyOf {
+                    environment name: 'DEPLOY_ENV', value: 'stg'
+                    environment name: 'DEPLOY_ENV', value: 'prod'
+                }
+            }
+            steps {
+                logStageName()
+                script {
+                    def parameterValue = ""
+                    withAWS(credentials: ILM_AWS_CREDENTIALS, region: ILM_AWS_DEPLOY_REGION) {
+                        parameterValue = runCommand(returnStdout: true, command: "aws ssm get-parameter --name '${PARAMETER_NAME}' --with-decryption --query 'Parameter.Value' --output text")
+                    }
+                    env.PARAMETER_VALUE = parameterValue
+                    withAWS(credentials: AWS_CREDENTIALS, region: AWS_DEPLOY_REGION) {
+                        sh """
+                            set +x
+                            aws ssm put-parameter --name "${PARAMETER_NAME}" --value "\$PARAMETER_VALUE" --tier Advanced --type SecureString --overwrite
+                        """
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                logStageName()
+                script {
+                    if (params.SEND_SLACK) {
+                        slackSend(
+                                channel: SLACK_DEPLOY_CHANNEL,
+                                color: '#00FF00',
+                                botUser: true,
+                                message: """DEPLOY STARTED:
+- 작업: ${JOB_NAME}
+- 프로젝트: ${PROJECT_NAME}-${APP_NAME}
+- 배포환경: ${DEPLOY_ENV}
+- 빌드태그: [${BUILD_TAG}]
+- URL: ${BUILD_URL}
+                                        """.stripIndent()
+                        )
+                    }
+                    def root = tool name: "${GOLANG_VERSION}", type: 'go'
+                    withEnv(["GOROOT=${root}", "PATH+GO=${root}/bin"]) {
+                        withAWS(credentials: AWS_CREDENTIALS, region: AWS_DEPLOY_REGION) {
+                            TARGET = APP_NAME
+                            if (TARGET == 'job-scheduler') {
+                                TARGET = 'jobs-scheduler'
+                            }
+                            echo "TARGET : ${TARGET}"
+                            sh "make ${TARGET} CMD=\"${CMD}\""
+                        }
+                    }
+                }
+            }
+        }
+        stage('Wait for ECS to cut over') {
+            steps {
+                logStageName()
+                script {
+                    def deployMsg = ""
+                    withAWS(credentials: AWS_CREDENTIALS, region: AWS_DEPLOY_REGION) {
+                        deployMsg = runCommand(returnStdout: true, command: "make ${TARGET} CMD=\"wait_deploy\"")
+                    }
+                    echo "deploymentMessage : ${deployMsg}"
+                    if (deployMsg.contains("ERROR")) {
+                        error('DEPLOY FAILED')
+                    }
+                }
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                if (params.SEND_SLACK) {
+                    def title = "[DEPLOY SUCCESS - BACKEND] Commit Messages"
+                        slackSend(channel: SLACK_DEPLOY_CHANNEL, blocks: buildSlackBlocks(title: title), botUser: true)
+                }
+            }
+        }
+        failure {
+            script {
+                msg = "DEPLOY FAILED: Job '${JOB_NAME} ${PROJECT_NAME} ${DEPLOY_ENV} [${BUILD_TAG}]' (${BUILD_URL})"
+                if (params.SEND_SLACK) {
+                     slackSend(channel: SLACK_DEPLOY_CHANNEL, color: '#FF0000', message: msg)
+                }
+            }
+        }
+        always {
+            cleanWs()
+            pruneDockerSystem()
+            setBuildDescription()
+        }
+    }
+}

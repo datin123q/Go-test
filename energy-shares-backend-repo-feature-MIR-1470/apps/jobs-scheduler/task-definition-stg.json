@@ -1,0 +1,42 @@
+{
+  "family": "energy-shares-jp-stg-job-scheduler",
+  "taskRoleArn": "arn:aws:iam::731788860725:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::731788860725:role/ecsTaskExecutionRole",
+  "networkMode": "bridge",
+  "containerDefinitions": [
+    {
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/energy-shares-jp-stg-job-scheduler",
+          "awslogs-region": "ap-northeast-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "protocol": "tcp",
+          "containerPort": 80
+        }
+      ],
+      "cpu": 0,
+      "volumesFrom": [],
+      "image": "731788860725.dkr.ecr.ap-northeast-1.amazonaws.com/energy-shares-jp/stg-job-scheduler:latest",
+      "name": "energy-shares-jp-stg-job-scheduler-container"
+    }
+  ],
+  "volumes": [
+  ],
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "cpu": "1024",
+  "memory": "3936",
+  "tags": [
+    {
+      "key": "Project",
+      "value": "energy-shares-jp"
+    }
+  ]
+}

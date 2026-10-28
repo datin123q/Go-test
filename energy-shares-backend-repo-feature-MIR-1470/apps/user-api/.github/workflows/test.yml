@@ -1,0 +1,58 @@
+name: SonarQube test
+on:
+  push:
+    branches:
+      - develop
+      - qa
+      - master
+      - release
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+jobs:
+  test:
+    strategy:
+      matrix:
+        go-version: [ 1.22.x, ]
+        platform: [ ubuntu-latest ]
+
+    runs-on: ${{ matrix.platform }}
+    env:
+      GOPRIVATE: github.com/illuminarean/energy-share-core-api
+      GH_ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+    steps:
+      - name: Set up Go 1.22
+        uses: actions/setup-go@v3
+        with:
+          go-version: ${{ matrix.go-version }}
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials from Test account
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+
+      - name: Granting private modules access
+        run: |
+          git config --global url."https://$GH_ACCESS_TOKEN@github.com/".insteadOf "https://github.com"
+
+      ## runs go mod vendor
+      - name: go module
+        run: go mod tidy
+
+      ## runs go mod vendor
+      - name: go module
+        run: go mod vendor -v
+
+      - name: Test
+        run: ENV=GITHUB go test ./... -coverprofile="coverage.out"
+
+      - name: Sonar Scanner
+        uses: docker://sonarsource/sonar-scanner-cli:latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}

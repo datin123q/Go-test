@@ -1,0 +1,44 @@
+{
+  "family": "es-jp-qav2-job-scheduler",
+  "taskRoleArn": "arn:aws:iam::540464586484:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::540464586484:role/ecsTaskExecutionRole",
+  "networkMode": "bridge",
+  "containerDefinitions": [
+    {
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/es-jp/qav2/job-scheduler",
+          "awslogs-region": "ap-northeast-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "protocol": "tcp",
+          "containerPort": 80
+        }
+      ],
+      "cpu": 0,
+      "volumesFrom": [],
+      "image": "540464586484.dkr.ecr.ap-northeast-2.amazonaws.com/illuminarean/es-jp-qav2-job-scheduler:latest",
+      "name": "qav2-job-scheduler-container"
+    }
+  ],
+  "volumes": [
+  ],
+  "placementConstraints": [
+  ],
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "cpu": "512",
+  "memory": "475",
+  "tags": [
+    {
+      "key": "Project",
+      "value": "es-jp"
+    }
+  ]
+}

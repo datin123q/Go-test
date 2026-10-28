@@ -1,0 +1,4 @@
+INSERT INTO `sign_up_request`
+(id, request_id                            , email                  , url                                                                      , email_expire         , url_expire           , created              , send_count, user_type, referral_code) VALUES
+(1 , '97f5b703-d2f0-487c-ab9e-0c46e303df97', 'sample@miralita.co.jp'               , 'https://stg-miralita.click/sign-up/97f5b703-d2f0-487c-ab9e-0c46e303df97'               , '2025-10-17 03:26:58', '2025-10-17 03:27:34', '2025-10-17 03:26:47', 0         , 'PRIVATE', ''           ),
+(2 , 'f2d0b2cf-1456-4ae3-9df0-4f8ef5b4f101', 'pre-main-registration@miralita.co.jp', 'https://stg-miralita.click/sign-up/f2d0b2cf-1456-4ae3-9df0-4f8ef5b4f101', '2026-04-22 09:00:00', '2026-04-22 09:20:00', '2026-04-22 08:59:50', 0         , 'PRIVATE', ''           );

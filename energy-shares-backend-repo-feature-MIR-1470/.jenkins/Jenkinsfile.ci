@@ -1,0 +1,172 @@
+pipeline {
+    agent any
+    options {
+        ansiColor('xterm')
+        timestamps()
+    }
+    environment {
+        GITHUB_ACCOUNT = credentials('es-jp-backend')
+        CD_JOB_NAME = env.JOB_NAME.replace('ci', 'cd')
+    }
+    tools {
+        go "${GOLANG_VERSION}"
+        git "git"
+    }
+    stages {
+        stage('Setup Variables') {
+            steps {
+                logStageName()
+                script {
+                    checkout scm
+                    setEnvironmentVariables(params.COMMON_BUILD_CONFIG)
+                    def paramKey = "${params.DEPLOY_ENV.toUpperCase()}_BUILD_CONFIG"
+                    def currentEnv = params[paramKey]
+                    if (!currentEnv) {
+                        error "No parameter found for ${paramKey}"
+                    }
+                    setEnvironmentVariables(currentEnv)
+                }
+            }
+        }
+        stage('Prepare') {
+            steps {
+                logStageName()
+                script {
+                    sh "go version"
+                    sh 'ls -al'
+                    sh "git config --global url.'https://${GITHUB_ACCOUNT}@github.com/illuminarean'.insteadOf 'https://github.com/illuminarean' "
+                    sh 'git status'
+                }
+            }
+        }
+        stage('Deploy Swagger') {
+            when {
+                allOf {
+                    environment name: 'DEPLOY_ENV', value: 'dev'
+                    expression { params.DEPLOY_SWAGGER }
+                }
+            }
+            steps {
+                logStageName()
+                script {
+                    //swagger api json file deploy
+                    withAWS(credentials: AWS_CREDENTIALS, region: AWS_DEPLOY_REGION) {
+                        def root = tool name: "${GOLANG_VERSION}", type: 'go'
+                        swaggerApiFile = ""
+                        withEnv(["GOROOT=${root}", "PATH+GO=${root}/bin"]) {
+                            // TODO: job-scheduler & jobs-scheduler 명칭 관련 통일시 변경
+                            if (APP_NAME == 'job-scheduler') {
+                                sh "make gen-swagger-${APP_NAME} 2>&1  | tee gen_swagger_result.temp"
+                                swaggerApiFile = runCommand(returnStdout: true, command: "cat gen_swagger_result.temp | grep -E \"created and saved successfully.\" | awk -F '[:]'  '{print \$1}' | awk -F '[/]' '{print \$(NF)}'")
+                            }else {
+                                sh "make gen-swagger-${APP_NAME}"
+                                swaggerApiFile = "swagger-${APP_NAME}.json"
+                            }
+                            deploySwaggerJsonFileName = runCommand(returnStdout: true, command: "echo \"${swaggerApiFile}\" | sed -e \"s/swagger/esjp/g\"")
+                            sh "test -f gen_swagger_result.temp && rm -rf gen_swagger_result.temp || true"
+                        }
+                        echo "SWAGGER_API_FILE : ${swaggerApiFile}"
+                    }
+                    if (fileExists("./swagger/${swaggerApiFile}")) {
+                        sh "cp -pr ./swagger/${swaggerApiFile} ${DEPLOY_SCRIPT_PATH}/${deploySwaggerJsonFileName}"
+                        dir(DEPLOY_SCRIPT_PATH) {
+                            sh "zip -r --symlinks ../../${DEPLOY_FILE} ./appspec.yml ./after_codedeploy.sh ./before_codedeploy.sh ./*api.json"
+                        }
+                        // code deploy file s3 upload
+                        withAWS(credentials: "illuminarean-aws-s3-user", region: "ap-northeast-2") {
+                            catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                                sh "aws s3 cp --region ap-northeast-2 ./${env.DEPLOY_FILE} " +
+                                        "s3://${env.DEPLOY_BUCKET_NAME}/${env.DEPLOY_FILE_PATH}/${env.DEPLOY_FILE} > /dev/null"
+                            }
+                            script {
+                                swagger_deploymentId = readJSON text: runCommand(
+                                        returnStdout: true,
+                                        command: "aws deploy create-deployment " +
+                                                "--application-name ${CODEDEPLOY_APP_NAME} " +
+                                                "--deployment-group-name ${CODEDEPLOY_APP_NAME}-group " +
+                                                "--deployment-config-name ${DEPLOYMENT_CONFIG_NAME} " +
+                                                "--s3-location bucket=${DEPLOY_BUCKET_NAME},bundleType=zip,key=${DEPLOY_FILE_PATH}/${DEPLOY_FILE}"
+                                )
+                                swagger_deploymentId = swagger_deploymentId['deploymentId']
+                            }
+
+                            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                                try {
+                                    sh "aws deploy wait deployment-successful --region ${AWS_DEPLOY_REGION}  --deployment-id ${swagger_deploymentId}"
+                                } catch (Exception e) {
+                                    error 'Swagger DEPLOY FAILED'
+                                }
+                            }
+                        }
+                    } else {
+                        echo "Not found swagger json file : \"./swagger/${swaggerApiFile}\""
+                    }
+                }
+            }
+        }
+        stage('Build Source & ECR Push') {
+            steps {
+                logStageName()
+                script {
+                    if (params.SEND_SLACK) {
+                        slackSend(
+                                channel: SLACK_BUILD_CHANNEL,
+                                color: '#00FF00',
+                                botUser: true,
+                                message: """BUILD STARTED:
+- 작업: ${env.JOB_NAME}
+- 프로젝트: ${PROJECT_NAME}-${APP_NAME}
+- 배포환경: ${DEPLOY_ENV}
+- 빌드태그: [${BUILD_TAG}]
+- URL: ${env.BUILD_URL}
+                                        """.stripIndent()
+                        )
+                    }
+                    def root = tool name: "${GOLANG_VERSION}", type: 'go'
+                    withEnv(["GOROOT=${root}", "PATH+GO=${root}/bin"]) {
+                        withAWS(credentials: AWS_CREDENTIALS, region: AWS_DEPLOY_REGION) {
+                            TARGET = APP_NAME
+                            if (TARGET == 'job-scheduler') {
+                                TARGET = 'jobs-scheduler'
+                            }
+                            echo "TARGET : ${TARGET}"
+                            sh "make ${TARGET} CMD=\"${CMD}\""
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                if (params.SEND_SLACK) {
+                    def title = "[BUILD SUCCESS - BACKEND] Commit Messages"
+                        slackSend(channel: SLACK_BUILD_CHANNEL, blocks: buildSlackBlocks(title: title), botUser: true)
+                }
+                if (DEPLOY_ENV == 'dev' && params.TRIGGER_CD) {
+                    def cdJobParams = [
+                        string(name: 'GOLANG_VERSION', value: GOLANG_VERSION),
+                        string(name: 'DEPLOY_ENV', value: DEPLOY_ENV),
+                        string(name: 'BUILD_TAG', value: BUILD_TAG),
+                        string(name: 'APP_NAME', value: APP_NAME)
+                    ]
+                    triggerCdJob(cdJobName: CD_JOB_NAME, parameters: cdJobParams)
+                }
+            }
+        }
+        failure {
+            script {
+                msg = "BUILD FAILED: Job '${env.JOB_NAME} ${PROJECT_NAME} ${DEPLOY_ENV} [${BUILD_TAG}]' (${env.BUILD_URL})"
+                if (params.SEND_SLACK) {
+                     slackSend(channel: SLACK_BUILD_CHANNEL, color: '#FF0000', message: msg)
+                }
+            }
+        }
+        always {
+            cleanWs()
+            pruneDockerSystem()
+            setBuildDescription()
+        }
+    }
+}

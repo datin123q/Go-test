@@ -1,0 +1,4366 @@
+[
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADDRESS2",
+    "translation": "Detailed Address"
+  },
+  {
+    "id": "model.spv.address",
+    "translation": "Location"
+  },
+  {
+    "id": "pdf.project_info.application_rule",
+    "translation": "Applicable Rules"
+  },
+  {
+    "id": "pdf.project_info.corp_name",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "pdf.report.description_head",
+    "translation": "Thank you for always using EnergyShares."
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_ENVIRONMENTAL_IMPACT",
+    "translation": "Whether Environmental Impact Assessment Is Necessary"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADD",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECKER",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_users.individual_investors_list",
+    "translation": "Private Investor List"
+  },
+  {
+    "id": "model.mail.title",
+    "translation": "Title"
+  },
+  {
+    "id": "model.spv.phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "pdf.report.presence_or_not",
+    "translation": "Present · Absent"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TARGET_FUNDRAISING_AMOUNT",
+    "translation": "Recruitment Amount"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNLISTED_COMPANY_EMPLOYEE",
+    "translation": "Unlisted Company Employee"
+  },
+  {
+    "id": "menu.manage_printout.audit_response",
+    "translation": "Audit Response"
+  },
+  {
+    "id": "menu.manage_users.individual_investors_detail",
+    "translation": "Private Investor Details"
+  },
+  {
+    "id": "model.withdrawal.amount",
+    "translation": ""
+  },
+  {
+    "id": "model.withdrawal.investor_id",
+    "translation": ""
+  },
+  {
+    "id": "pdf.project_info.power_develop_scale",
+    "translation": "Scale of Development"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_INVESTING",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ADDRESS",
+    "translation": "Address"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_COMMISSION_RISK",
+    "translation": "Listed ads such as fee risk, etc."
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BESS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_INFO",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_REFUND",
+    "translation": "Forced Withdrawal"
+  },
+  {
+    "id": "pdf.report.media",
+    "translation": "Media"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME6",
+    "translation": "More than 30 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ADDRESS",
+    "translation": "Address (Equipment)"
+  },
+  {
+    "id": "model.user.loan_bank_account",
+    "translation": "Virtual Account Number"
+  },
+  {
+    "id": "model.withdrawal.fee",
+    "translation": ""
+  },
+  {
+    "id": "pdf.project_info.end_at",
+    "translation": "Recruitment End Date"
+  },
+  {
+    "id": "pdf.report.balance_previous_month",
+    "translation": "Previous Month's Balance"
+  },
+  {
+    "id": "pdf.report.thousand",
+    "translation": "Thousand"
+  },
+  {
+    "id": "pdf.report.sum",
+    "translation": "Total"
+  },
+  {
+    "id": "commoncode.FAQ_TYPE.INVESTOR",
+    "translation": "Investor"
+  },
+  {
+    "id": "commoncode.EKYC_RESULT_STATUS.MATCH",
+    "translation": "Match"
+  },
+  {
+    "id": "commoncode.EKYC_RESULT_STATUS.UNMATCH",
+    "translation": "Unmatch"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SOLAR_TOTAL_SIZE",
+    "translation": "Total Scale of Solar Cells"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_SCHEDULED",
+    "translation": "Settlement Proceeding"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTMENT",
+    "translation": "Investment"
+  },
+  {
+    "id": "model.funding_request.corp_name",
+    "translation": "Corporation name"
+  },
+  {
+    "id": "model.project.post",
+    "translation": "Post Status"
+  },
+  {
+    "id": "model.user.disagree",
+    "translation": "Disagree"
+  },
+  {
+    "id": "pdf.report.transaction_date",
+    "translation": "Transfer Date"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET4",
+    "translation": "5 million yen ~ 7 million yen"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.CANCEL_INVEST",
+    "translation": "Cancel Investment"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.LOGIN",
+    "translation": "Login"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_BEFORE_TEXT",
+    "translation": "(Before Change) Answers"
+  },
+  {
+    "id": "pdf.invest_info.post_date",
+    "translation": "Recruitment Start Date"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.REPAYMENT_SETTLEMENT",
+    "translation": "Repayment"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CITY",
+    "translation": "City or District, County"
+  },
+  {
+    "id": "pdf.report.transfer_date",
+    "translation": "Transfer Date"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FIXED_PURCHASE_PRICE",
+    "translation": "Fixed Purchase Price"
+  },
+  {
+    "id": "commoncode.USER_TYPE.ADMIN",
+    "translation": "Admin"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage_list",
+    "translation": "Excess/Shortage Management List"
+  },
+  {
+    "id": "menu.manage_users.4_manage_users",
+    "translation": "Investor Management"
+  },
+  {
+    "id": "model.adminstrator.sign_up_date",
+    "translation": "Last Access Date"
+  },
+  {
+    "id": "model.trust_info.investor_name",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.SMS_STATUS.RETRY_SMS",
+    "translation": "Re-Send"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NAME2",
+    "translation": "Name (Furigana)"
+  },
+  {
+    "id": "model.deposit_check_data.va_account_number",
+    "translation": "Virtual Account"
+  },
+  {
+    "id": "model.sms.content",
+    "translation": "Content"
+  },
+  {
+    "id": "pdf.report.location",
+    "translation": "Location"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ZIPCODE",
+    "translation": "Postal Code (Equipment)"
+  },
+  {
+    "id": "menu.manage_accounting.payment_list",
+    "translation": "Transaction List"
+  },
+  {
+    "id": "menu.manage_operating_system.manage_newsletter_subscriber",
+    "translation": "Newsletter Subscription Management"
+  },
+  {
+    "id": "model.user_transaction.deposit_withdrawal",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.CANCEL_DEPOSIT",
+    "translation": "Cancel"
+  },
+  {
+    "id": "model.user.agree",
+    "translation": "Agree"
+  },
+  {
+    "id": "model.user.sign_up_request",
+    "translation": "Member Sign-Up Application Date"
+  },
+  {
+    "id": "model.virtual_account.va_account_number",
+    "translation": "Virtual Account Number"
+  },
+  {
+    "id": "commoncode.LOGIN_RESULT.FAIL_LOGIN",
+    "translation": "Login Failed"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DATE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_ACCOUNT",
+    "translation": "Account Number"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage_detail",
+    "translation": "Excess /Shortage Details"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.PROPOSAL",
+    "translation": "Awaiting Investment Proposal"
+  },
+  {
+    "id": "pdf.report.amount",
+    "translation": "Price"
+  },
+  {
+    "id": "pdf.spv_info.addr",
+    "translation": "Address"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET7",
+    "translation": "More than 30 million yen"
+  },
+  {
+    "id": "menu.manage_product.funding_request_detail",
+    "translation": "Loan Request Details"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_list",
+    "translation": "FAQ List"
+  },
+  {
+    "id": "menu.manage_website.manage_column_list",
+    "translation": "Column List"
+  },
+  {
+    "id": "model.user.address",
+    "translation": "Address"
+  },
+  {
+    "id": "model.user.temporary_date",
+    "translation": "Temporary Registration Date"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_b",
+    "translation": "B"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.VARIANCE_PORTFOLIO",
+    "translation": "Portfolio variance"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.RAISING_FUTURE_MONEY",
+    "translation": "Funding for the future"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.MICRO_INVESTMENT",
+    "translation": "Interest in micro-investments"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.RENEWABLE_ENERGY_INVESTMENT",
+    "translation": "Interest in investing in renewable energy"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.ETC",
+    "translation": "ETC"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BIOMASS",
+    "translation": "Biomass"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SUMMARY",
+    "translation": "Project Information"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_INCOMPLETE",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.statement_submission_classification",
+    "translation": "Document Submission Type"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.FAIL_SMS_CERT",
+    "translation": "Authentication Not Completed"
+  },
+  {
+    "id": "pdf.report.new_add",
+    "translation": "New=1, Add=2"
+  },
+  {
+    "id": "commoncode.GENDER.FEMALE",
+    "translation": "Female"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.PRIVATE_INVESTOR",
+    "translation": "Private General Investor"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.detail",
+    "translation": "My Page Notice Management Details"
+  },
+  {
+    "id": "model.funding_request.status",
+    "translation": "Status"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POSTED_STATE",
+    "translation": "Posting Status"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.FUND_EQUITY",
+    "translation": "Equity - Fund Type"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.PASS_REQUEST",
+    "translation": "Approved"
+  },
+  {
+    "id": "model.user.sign_up_date",
+    "translation": "Member Sign-Up Date"
+  },
+  {
+    "id": "pdf.report.furikana",
+    "translation": "Furigana"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME5",
+    "translation": "10 million yen ~ 30 million yen"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.OFF_VA_ACCOUNT",
+    "translation": "Not Granted"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_FAIL",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_CANCEL",
+    "translation": "Cancel"
+  },
+  {
+    "id": "menu.manage_users.pre_indv_investors_list",
+    "translation": "Temporary Registration Individual Member List"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.GMO_API_REQUEST",
+    "translation": "GMO API Integration"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.REQUEST_PAYMENT",
+    "translation": "Request Payment"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.SUCCESS_SMS",
+    "translation": "Success"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_DOCUMENT",
+    "translation": "Change Documentation"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ORGANIZATION_EMPLOYEE",
+    "translation": "Group Staff"
+  },
+  {
+    "id": "model.project.project_status",
+    "translation": "Recruitment Status"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.INVALID_FUNDING",
+    "translation": "Invalid"
+  },
+  {
+    "id": "model.corporate.address",
+    "translation": "Location"
+  },
+  {
+    "id": "model.mypage.project_name",
+    "translation": ""
+  },
+  {
+    "id": "model.virtual_account.update_date",
+    "translation": "Modified Date"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.GOOGLE",
+    "translation": "Google"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_NAME",
+    "translation": "Project Name"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUND_NUMBER",
+    "translation": "Fund Number"
+  },
+  {
+    "id": "commoncode.NATIONALITY_CODE.OTHERS",
+    "translation": "Outside of Japan"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.INVALID_VA_ACCOUNT",
+    "translation": "Void"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_detail",
+    "translation": "Corporate Investor Details"
+  },
+  {
+    "id": "model.user.age",
+    "translation": "Age"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_CITY",
+    "translation": "City or District, County (Equipment)"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.SUCCESS_INVEST",
+    "translation": "Investment Complete"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.UNSUCCESSFUL_INVEST",
+    "translation": "Unsuccessful"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CONTRACT_BEFORE_PAGE",
+    "translation": "Written Before Contract Establishment"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_LIMITED_INVEST",
+    "translation": "Investment Restriction Status Change"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_TYPE.DEPOSIT_TRANSACTION",
+    "translation": "Deposit"
+  },
+  {
+    "id": "pdf.project_info.target_loan_amount",
+    "translation": "Total Loan Amount"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DESCRIPTION",
+    "translation": "Project Description"
+  },
+  {
+    "id": "model.trust_info.transaction_id",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_NAME",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SOLICITATION",
+    "translation": "Solicitation policy"
+  },
+  {
+    "id": "model.withdrawal.amount_sum",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.cleanup_number",
+    "translation": "Organizing Number"
+  },
+  {
+    "id": "pdf.report.dividend_rate",
+    "translation": "Dividend Rate"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_INFO",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ORGANIZATION_EXECUTIVE",
+    "translation": "Group Executive"
+  },
+  {
+    "id": "model.mypage.qty",
+    "translation": "Investment Quantity"
+  },
+  {
+    "id": "model.csv_form.second_line_phrase",
+    "translation": ""
+  },
+  {
+    "id": "model.settlement.dividend_date",
+    "translation": "Dividend Date"
+  },
+  {
+    "id": "pdf.invest_info.expected_return",
+    "translation": "Expected Return"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.CASH_REFUND",
+    "translation": "Cash"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.NORMAL_SMS",
+    "translation": "Individual/All"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PURPOSE",
+    "translation": "Purpose of Investment"
+  },
+  {
+    "id": "model.withdrawal.id",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.description_my_number",
+    "translation": "↓ To enter your personal number, leave the left part blank and fill in here."
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SUBSTANTIVE_RULER",
+    "translation": "About the De Facto Ruler"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CEO_NAME",
+    "translation": "Name of CEO"
+  },
+  {
+    "id": "menu.manage_website.manage_news_detail",
+    "translation": "News Details"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_OPERATION_TERM",
+    "translation": "Operation Period"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_READY",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_PHONE",
+    "translation": "Account Representative Phone Number"
+  },
+  {
+    "id": "model.user.equity_branch_name",
+    "translation": "Virtual Account Branch Name"
+  },
+  {
+    "id": "pdf.report.breakdown",
+    "translation": "Breakdown"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_BY_OPERATOR",
+    "translation": "Direct Admin Processing"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_READY",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.POLICY_HISTORY_TYPE.POLICY_HISTORY_CONTENTS",
+    "translation": "Change Contents"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CAUTION",
+    "translation": "Notice"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_NOTE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IS_ADDRESS_CHANGE",
+    "translation": "Processing Address Change (Investment Restricted)"
+  },
+  {
+    "id": "pdf.project_info.burden_payment_status",
+    "translation": "Payment Status of Grid Connection Construction Work"
+  },
+  {
+    "id": "pdf.report.submittee_last_word",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.taxation",
+    "translation": "Taxable Portion"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_DONE",
+    "translation": ""
+  },
+  {
+    "id": "model.project.id",
+    "translation": "ID"
+  },
+  {
+    "id": "model.investment_waiters.user_type",
+    "translation": "Investment Grade"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_PROVINCE",
+    "translation": "Province, City, Metropolis"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_ADMIN",
+    "translation": "Admin"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEL",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LISTED_COMPANY_EXECUTIVES",
+    "translation": "Listed Company Executive"
+  },
+  {
+    "id": "model.mypage.pay",
+    "translation": "Payment Amount"
+  },
+  {
+    "id": "pdf.report.balance",
+    "translation": "Balance"
+  },
+  {
+    "id": "pdf.report.recruitment",
+    "translation": "Recruitment"
+  },
+  {
+    "id": "pdf.invest_info.invest_info",
+    "translation": "Investment Information"
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.OK_DEPOSIT",
+    "translation": "OK"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_OUTPUT_SUPPRESSION",
+    "translation": "Output Suppression"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.CORPORATE_PRO_INVESTOR",
+    "translation": "Corporate Professional Investor"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.APPLE",
+    "translation": "Apple"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.EXECESS_AND_SHORTAGE_TARGET_EXECUTE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_COMPLETED",
+    "translation": ""
+  },
+  {
+    "id": "model.sms.send_date",
+    "translation": "Send Date"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_AFTER_TEXT",
+    "translation": "(After Change) Answers"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BUSINESSREGISTRATION",
+    "translation": "Business Registration"
+  },
+  {
+    "id": "menu.manage_printout.7_manage",
+    "translation": "Print Report"
+  },
+  {
+    "id": "pdf.project_info.start_date",
+    "translation": "Start Date"
+  },
+  {
+    "id": "pdf.report.head_office",
+    "translation": "Head Office"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME3",
+    "translation": "5 million yen ~ 7 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_PROVINCE",
+    "translation": "Province, City, Metropolis (Equipment)"
+  },
+  {
+    "id": "model.funding_request.phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_OPERATOR",
+    "translation": "Operation Management"
+  },
+  {
+    "id": "model.user.withdrawal_deposit_type",
+    "translation": "Withdrawal Account Deposit Type"
+  },
+  {
+    "id": "commoncode.TRANSACTION_TYPE.TRANSACTION_BLOCK",
+    "translation": "Transaction Restricted"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ASSET",
+    "translation": "Financial Assets"
+  },
+  {
+    "id": "model.mypage.invest_date",
+    "translation": "Transaction Date"
+  },
+  {
+    "id": "model.project.request_date",
+    "translation": "Data Request Date"
+  },
+  {
+    "id": "model.user.address2",
+    "translation": "Detailed Address"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_GRID_CONNECTION_STATUS",
+    "translation": "Grid Connection Contract Status"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_CONTENTS",
+    "translation": "Change Contents"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.EQUITY_PROJECT",
+    "translation": "Equity Type"
+  },
+  {
+    "id": "model.csv_form.first_line_phrase",
+    "translation": ""
+  },
+  {
+    "id": "model.payment.invest_date",
+    "translation": "Transaction Date"
+  },
+  {
+    "id": "model.user.postal_code_state",
+    "translation": "Mail Send Status"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EXPECTED_RETURN",
+    "translation": "Expected Return"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SETTLEMENT",
+    "translation": "Settlement Execution"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_DOCUMENT_TYPE.USER_HISTORY_DOCUMENT_DEL",
+    "translation": "Delete"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SYSTEM_ACCESS_POWER_COMPANY",
+    "translation": "Grid Connection Power Company"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_PAYMENT_STATEMENT",
+    "translation": "Payment Statement"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.FAIL_SMS",
+    "translation": "Fail"
+  },
+  {
+    "id": "model.project.target_share_amount",
+    "translation": "Recruitment Amount"
+  },
+  {
+    "id": "pdf.project_info.system_access_power_company",
+    "translation": "Grid Connection Power Company"
+  },
+  {
+    "id": "commoncode.PRINT_STATUS_TYPE.PRINT_STATUS_FAIL",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUNDRAISING_START_DATE",
+    "translation": "Recruitment Start Date"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ADDRESS2",
+    "translation": "Account Representative Detailed Address"
+  },
+  {
+    "id": "menu.manage_product.product_register",
+    "translation": "Add New Investment Product"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_total_amount",
+    "translation": "Total Deposit Amount"
+  },
+  {
+    "id": "pdf.invest_info.spv_developer",
+    "translation": "Developer"
+  },
+  {
+    "id": "model.spv.post_date",
+    "translation": "Registration Date"
+  },
+  {
+    "id": "model.withdrawal.complete_date",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.price",
+    "translation": "Unit Price"
+  },
+  {
+    "id": "pdf.report.processing_points_first",
+    "translation": "First"
+  },
+  {
+    "id": "pdf.report.cleanup_column",
+    "translation": "Organizing Column"
+  },
+  {
+    "id": "pdf.report.recipient",
+    "translation": "Recipient"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_ACCOUNT_REGISTRATION",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LOAN_COMPLETED",
+    "translation": "Loan Confirmation"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ZIPCODE",
+    "translation": "Postal Code"
+  },
+  {
+    "id": "pdf.report.sir",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_STATE_TYPE.FUNDING_STATE_NOT_NEED",
+    "translation": "Not Necessary"
+  },
+  {
+    "id": "commoncode.PAYMENT_HISTORY_TYPE.PAYMENT_HISTORY_CONTRACT",
+    "translation": "Change Contract"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPEN_FUNDING",
+    "translation": "Now Recruiting"
+  },
+  {
+    "id": "pdf.project_info.fixed_purchase_price",
+    "translation": "Fixed Purchase Price"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SOLAR_TOTAL_SIZE",
+    "translation": "Total Solar Cell Scale"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET5",
+    "translation": "7 million yen ~ 10 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SITE_CHARACTERISTICS",
+    "translation": "Site Characteristics"
+  },
+  {
+    "id": "model.deposit_check_data.investor_name",
+    "translation": "Investor Name"
+  },
+  {
+    "id": "pdf.report.processing_points_third",
+    "translation": "Third"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_REPAYMENT_SCHEDULE",
+    "translation": "Dividend Schedule"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.LOAN",
+    "translation": "Loan Type"
+  },
+  {
+    "id": "model.corporate.uid",
+    "translation": "ID"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_AGREEMENT_TYPE.USER_HISTORY_AGREEMENT_AGREE",
+    "translation": "Agree"
+  },
+  {
+    "id": "menu.manage_system_data_manage",
+    "translation": "System Data Management"
+  },
+  {
+    "id": "model.sms.send_count",
+    "translation": "Send Count"
+  },
+  {
+    "id": "pdf.project_info.need",
+    "translation": "Necessary"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MOBILEPHONE",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "pdf.report.note",
+    "translation": "Note"
+  },
+  {
+    "id": "pdf.report.profit_dividend_rate",
+    "translation": "Profit Dividend Rate"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CEO_NAME",
+    "translation": "Name of CEO"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_DEVELOP_SCALE",
+    "translation": "Scale of Development"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms",
+    "translation": "SMS Management"
+  },
+  {
+    "id": "pdf.project_info.funding_end_date",
+    "translation": "Recruitment End Date"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_EMAIL",
+    "translation": "Email"
+  },
+  {
+    "id": "menu.manage_mail_sms.5_manage_mail_sms",
+    "translation": "Email/SMS Management"
+  },
+  {
+    "id": "menu.manage_operating_system.look_up_administrators_access_history",
+    "translation": "Admin Access Log"
+  },
+  {
+    "id": "menu.manage_project.request",
+    "translation": "List of Members Requesting Materials"
+  },
+  {
+    "id": "model.spv.id",
+    "translation": "ID"
+  },
+  {
+    "id": "model.user.equity_bank_name",
+    "translation": "Virtual Account Financial Institution Name"
+  },
+  {
+    "id": "model.withdrawal.deposit_type",
+    "translation": ""
+  },
+  {
+    "id": "model.settlement.period",
+    "translation": "Settlement Period"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_PROJECT",
+    "translation": "투자상품 별 회원"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CERTIFICATION",
+    "translation": "Authenticate"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_CERTIFICATION",
+    "translation": "Account Representative Authentication"
+  },
+  {
+    "id": "menu.manage_printout.for_investors",
+    "translation": "For Investors"
+  },
+  {
+    "id": "model.subscription.email",
+    "translation": "Email"
+  },
+  {
+    "id": "pdf.report.agreed_price",
+    "translation": "Contracted Unit Price"
+  },
+  {
+    "id": "pdf.report.phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "model.corporate.corp_type",
+    "translation": "Corporation Information"
+  },
+  {
+    "id": "model.user.withdrawal_branch_name",
+    "translation": "Withdrawal Account Branch Name"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ZIP_CODE",
+    "translation": "Postal Code"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_DEPARTMENT",
+    "translation": "Account Representative Department"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LISTED_COMPANY_EMPLOYEE",
+    "translation": "Listed Company Position"
+  },
+  {
+    "id": "model.funding_request.email",
+    "translation": "Email"
+  },
+  {
+    "id": "model.user.phone_certified",
+    "translation": "Phone Number Authentication Date"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_DATE",
+    "translation": "Equipment Approval Date"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PROVINCE",
+    "translation": "Province, City, Metropolis"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_CONFIRM",
+    "translation": "Confirm"
+  },
+  {
+    "id": "model.deposit_match_data.investment_amount",
+    "translation": "Investment Application Amount"
+  },
+  {
+    "id": "pdf.evaluation_project.climatology_and_hazards",
+    "translation": "Climate and Risk Factors"
+  },
+  {
+    "id": "model.user.uid",
+    "translation": "ID"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.REQUEST_SMS",
+    "translation": "Request"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEPOSITOR",
+    "translation": "Account Holder"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_LASTNAME_FURIGANA",
+    "translation": "Account Representative Last Name (Furigana)"
+  },
+  {
+    "id": "menu.manage_product.developer",
+    "translation": "Developer Management"
+  },
+  {
+    "id": "pdf.evaluation_project.evaluation_project",
+    "translation": "Project Evaluation"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_ANTISOCIAL_AUDIT",
+    "translation": "Waiting on Anti-social"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_SENT",
+    "translation": "Successful Send"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_FAILED",
+    "translation": "Failed Send"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_PENDING",
+    "translation": "Pending Send"
+  },
+  {
+    "id": "commoncode.NATIONALITY_CODE.JP",
+    "translation": "Japan"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_DIRECT",
+    "translation": "직접입력"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_REPORT",
+    "translation": "Fund Report"
+  },
+  {
+    "id": "pdf.report.profit",
+    "translation": "Profit"
+  },
+  {
+    "id": "pdf.report.processing_points_second",
+    "translation": "Second"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.SUCCESS_PAYMENT",
+    "translation": "Confirm Deposit"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SPV",
+    "translation": "Development Company"
+  },
+  {
+    "id": "menu.manage_main.contact_detail",
+    "translation": "Question Management Details"
+  },
+  {
+    "id": "model.mypage.name",
+    "translation": "Name"
+  },
+  {
+    "id": "model.user.nationality",
+    "translation": "Nationality"
+  },
+  {
+    "id": "pdf.invest_info.funding_accounts_qty",
+    "translation": "Quantity"
+  },
+  {
+    "id": "pdf.report.batch",
+    "translation": "Batch"
+  },
+  {
+    "id": "pdf.report.transaction_balance",
+    "translation": "Transaction Balance"
+  },
+  {
+    "id": "pdf.attachment.reference",
+    "translation": "References"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POLICY",
+    "translation": "Notice"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.DIVIDEND_REPAYMENT_SETTLEMENT",
+    "translation": "Dividend • Repayment"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.AUTO_SMS",
+    "translation": "Automatic Delivery"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INVALID_REASON",
+    "translation": "무효 처리 사유"
+  },
+  {
+    "id": "menu.manage_accounting.payment_detail",
+    "translation": "Transaction Summary Details"
+  },
+  {
+    "id": "menu.manage_users.user_access_log",
+    "translation": "User Access Log"
+  },
+  {
+    "id": "menu.manage_users.user_list_download",
+    "translation": "Member list Download"
+  },
+  {
+    "id": "menu.manage_users.referral_code_issuance",
+    "translation": ""
+  },
+  {
+    "id": "model.deposit_check_data.investor_id",
+    "translation": "Investor ID"
+  },
+  {
+    "id": "pdf.report.order_date",
+    "translation": "Order Date"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CORP_NAME",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "model.operator_history.state",
+    "translation": "Work Contents"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SILENT_PARTNERSHIPS",
+    "translation": "Anonymous Union Agreement"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_FIRSTNAME",
+    "translation": "CEO First Name"
+  },
+  {
+    "id": "menu.manage_website.manage_news_register",
+    "translation": "Add News"
+  },
+  {
+    "id": "model.corporate.corp_name",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "model.corporate.representative_name",
+    "translation": "CEO Name"
+  },
+  {
+    "id": "model.corporate.manager_name",
+    "translation": "Manager Name"
+  },
+  {
+    "id": "model.corporate.manager_birthday",
+    "translation": "Manager Birthday"
+  },
+  {
+    "id": "model.corporate.shareholder_name",
+    "translation": "Beneficial Owner Name"
+  },
+  {
+    "id": "model.corporate.shareholder_birthday",
+    "translation": "Beneficial Owner Birthday"
+  },
+  {
+    "id": "model.payment.investor",
+    "translation": "Investor"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_NONE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.WIND",
+    "translation": "Wind Power"
+  },
+  {
+    "id": "model.investment_waiters.phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "model.user.payment_status",
+    "translation": "Transaction Status"
+  },
+  {
+    "id": "model.withdrawal.status",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.cancellation",
+    "translation": "Cancellation"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_NON_PEPS",
+    "translation": "Consent to non-foreign PEPs"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCHEDULE_DATE",
+    "translation": "Scheduled Grid Connection Date"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_INVESTOR",
+    "translation": "Investment Member Management"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LOCAL_OFFICIALS_MANAGER",
+    "translation": "Local Public Official - Management Position"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_REPAYMENT",
+    "translation": "Repayment"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.notice",
+    "translation": "Send My Page Notice"
+  },
+  {
+    "id": "pdf.report.submission",
+    "translation": "          Year      Month      Day  Submission"
+  },
+  {
+    "id": "model.csv_form.fifth_line_phrase",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_PROGRESS_PERCENT",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_COMPLETED",
+    "translation": "Complete"
+  },
+  {
+    "id": "pdf.report.my_number_or",
+    "translation": "Personal Number or"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_manage",
+    "translation": "Withdrawal Request Management"
+  },
+  {
+    "id": "commoncode.POLICY_VIEW_TYPE.POLICY_VIEW_JOIN",
+    "translation": "Member Sign-Up"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.WIND_BESS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_OPERATOR",
+    "translation": "Admin Processing"
+  },
+  {
+    "id": "menu.manage_users.pre_corp_investors_list",
+    "translation": "Temporary Registration Corporate Member List"
+  },
+  {
+    "id": "pdf.report.tax_accountant",
+    "translation": "Tax Accountant"
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.LACK_DEPOSIT",
+    "translation": "Insufficient"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRADING_DIARY",
+    "translation": "Trade Diary"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_COMPLETE",
+    "translation": ""
+  },
+  {
+    "id": "pdf.project_info.output_suppression",
+    "translation": "Output Suppression"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_PUBLISHED",
+    "translation": "Posting Status Change"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_ADD",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CITY",
+    "translation": "City or District, County"
+  },
+  {
+    "id": "pdf.project_info.to",
+    "translation": "Until"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_CONTENTS",
+    "translation": "Change Contents"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_CITY",
+    "translation": "Account Representative City or District, County"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_WITHDRAWAL_CANCEL",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTOR_CANCEL",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_main.contact_manage",
+    "translation": "Question Management"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SYSTEM_ACCESS_POWER_COMPANY",
+    "translation": "Grid Connection Power Company"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FINANCE_NAME",
+    "translation": "Financial Institution Name"
+  },
+  {
+    "id": "menu.manage_users.individual_investors",
+    "translation": "Private Investor Management"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.CLOSE_FUNDING",
+    "translation": "Redemption Complete"
+  },
+  {
+    "id": "model.payment.transaction_id",
+    "translation": "Transaction Number"
+  },
+  {
+    "id": "model.sms.status",
+    "translation": "Send Status"
+  },
+  {
+    "id": "model.spv.email",
+    "translation": "Email"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_IS_ADDRESS_CHANGE",
+    "translation": "Processing Account Representative Address Change (Investment Restricted)"
+  },
+  {
+    "id": "model.mypage.invest_status",
+    "translation": "Transaction Status"
+  },
+  {
+    "id": "model.mypage.spv_name",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGIN",
+    "translation": "Login"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGOUT",
+    "translation": "Logout"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGIN_FAIL",
+    "translation": "Login Fail"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.REGISTER",
+    "translation": "Register"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.CHANGE",
+    "translation": "Change"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.DELETE",
+    "translation": "Delete"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.DOWNLOAD",
+    "translation": "Download"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOOKUP",
+    "translation": "Lookup"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.UPLOAD",
+    "translation": "Upload"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_INVESTMENT_METHOD",
+    "translation": "Investment Type"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MINIMUM_FUNDRAISING_AMOUNT",
+    "translation": "Minimum Fundraising Amount"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAIT_HISTORY_TYPE.INVESTMENT_WAIT_HISTORY_MAIL",
+    "translation": "Send Investment Proposal Email"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_request",
+    "translation": "Withdrawal Request List"
+  },
+  {
+    "id": "menu.manage_product.tab2_waiting",
+    "translation": "Waiting Details"
+  },
+  {
+    "id": "pdf.report.debit",
+    "translation": "Debit"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_DATE",
+    "translation": "Equipment Approval Date"
+  },
+  {
+    "id": "pdf.report.corp_no",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "model.user.equity_bank_account",
+    "translation": "Virtual Account Number"
+  },
+  {
+    "id": "pdf.project_info.addr",
+    "translation": "Address"
+  },
+  {
+    "id": "pdf.report.ceo_name",
+    "translation": "CEO Name Stamp"
+  },
+  {
+    "id": "pdf.report.inspection",
+    "translation": "Inspection"
+  },
+  {
+    "id": "commoncode.LOGIN_RESULT.SUCCESS_LOGIN",
+    "translation": "Login Success"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_CUSTOMER_CENTERED_WORK",
+    "translation": "Customer-oriented business operation policy"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.FAIL_FUNDING",
+    "translation": "Disagreement"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_AUDIT",
+    "translation": "Change Sign-Up Status"
+  },
+  {
+    "id": "menu.manage_product.developer_register",
+    "translation": "Add New Developer"
+  },
+  {
+    "id": "pdf.report.processing_points_fourth",
+    "translation": "Fourth"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.FAIL_INVEST",
+    "translation": "Unable to Invest"
+  },
+  {
+    "id": "menu.manage_accounting.deposit_list",
+    "translation": "Deposit List"
+  },
+  {
+    "id": "menu.manage_printout.for_tax_office",
+    "translation": "For Tax Office"
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.NO_DEPOSIT",
+    "translation": "NO"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FOREST_DEVELOPMENT",
+    "translation": "Whether Forestry Development Permission is Necessary"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.WAITING",
+    "translation": "Waiting"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BIOFUEL",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_MYNUMBER",
+    "translation": "My Number Management"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_AUDIT_STATUS",
+    "translation": "Sign-Up Status"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRANSACTION_RECORD",
+    "translation": "Recruitment Handling-Related Transaction Records"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_FIRSTNAME",
+    "translation": "Account Representative First Name"
+  },
+  {
+    "id": "pdf.report.name_or",
+    "translation": "Name or"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DIVIDEND_RATE",
+    "translation": "Interest Rate"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MINIMUM_INVESTMENT",
+    "translation": "Minimum Number of Investments"
+  },
+  {
+    "id": "commoncode.PROJECT_PUBLISH_TYPE.PROJECT_PUBLISH_POSTED",
+    "translation": "Posted"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_manage_detail",
+    "translation": "Sent Email Details"
+  },
+  {
+    "id": "pdf.report.japan_money",
+    "translation": "Yen"
+  },
+  {
+    "id": "pdf.report.payments",
+    "translation": "Payments"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.PROCESSING_REQUEST",
+    "translation": "Pending"
+  },
+  {
+    "id": "menu.manage_accounting.trust_info.list",
+    "translation": ""
+  },
+  {
+    "id": "model.user.agreement_date",
+    "translation": "수신동의 일자"
+  },
+  {
+    "id": "model.user.gender",
+    "translation": "Gender"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET6",
+    "translation": "10 million yen ~ 30 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DISTANCE",
+    "translation": "Self-Employed Distance"
+  },
+  {
+    "id": "model.sms.sender",
+    "translation": "Sender"
+  },
+  {
+    "id": "pdf.report.statement_of_payment_in_Total",
+    "translation": "Of the total, the payment statement submission is"
+  },
+  {
+    "id": "model.user.pay",
+    "translation": "Payment Amount"
+  },
+  {
+    "id": "pdf.project_info.system_connection_scheduled_date",
+    "translation": "Scheduled Grid Connection Date"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_PHONE",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_APPROVE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_PRIVATE_FREE_BUSINESS",
+    "translation": "Private Business / Free Business"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTOR",
+    "translation": "Investor Withdrawal"
+  },
+  {
+    "id": "menu.manage_accounting.manage_withdrawal_close",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.submit",
+    "translation": "Submit"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_NAME",
+    "translation": "Project Name"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_NEWSLETTER",
+    "translation": "메일 매거진 수신동의 인원"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.CONFIRM",
+    "translation": "Confirm"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FAMILY_NAME2",
+    "translation": "Last Name (Furigana)"
+  },
+  {
+    "id": "waiting.manual_investment.registration",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME4",
+    "translation": "7 million yen ~ 10 million yen"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_BY_USER",
+    "translation": "Direct Member Processing"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_PRODUCT",
+    "translation": "Investment Product Management"
+  },
+  {
+    "id": "menu.manage_qna.title",
+    "translation": "Q\u0026A Management"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_TEXT",
+    "translation": "Answers"
+  },
+  {
+    "id": "pdf.report.communication_time_seal",
+    "translation": "Communication Date Stamp"
+  },
+  {
+    "id": "pdf.report.sum_what_you_need",
+    "translation": "Total of What Is Necessary"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NAME",
+    "translation": "Name"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_STUDENT",
+    "translation": ""
+  },
+  {
+    "id": "model.payment.pay",
+    "translation": "Payment Amount"
+  },
+  {
+    "id": "pdf.report.identification",
+    "translation": "Identification"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.DISAPPROVED",
+    "translation": "Not Approved (Re-Notification Completed)"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_CHECK_TYPE.USER_HISTORY_CHECK_NO",
+    "translation": "No"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_WAIT",
+    "translation": ""
+  },
+  {
+    "id": "model.user.audit_status",
+    "translation": "Sign-Up Processing"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage",
+    "translation": "Excess/Shortage Management"
+  },
+  {
+    "id": "pdf.report.payment_confirmed_year_month",
+    "translation": "Payment Confirmation Year Month"
+  },
+  {
+    "id": "pdf.report.to_residents_or_corporations",
+    "translation": "To Residents or Domestic Corporations"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_PAYMENT",
+    "translation": "Transaction / Settlement Management"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_match_status",
+    "translation": "Excess/Shortage Status"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_REVIEW",
+    "translation": "Change Review Status"
+  },
+  {
+    "id": "commoncode.SPV_HISTORY_TYPE.SPV_HISTORY_CONTENTS",
+    "translation": "Change Contents"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET2",
+    "translation": "1.5 million yen ~ 3 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_REFERENCE_FILE",
+    "translation": "Project References (Download)"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_FIRST",
+    "translation": "Q1"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_PROVINCE",
+    "translation": "Account Representative Province, City, Metropolis"
+  },
+  {
+    "id": "model.payment.project_name",
+    "translation": "Project Name"
+  },
+  {
+    "id": "model.user.postal_code",
+    "translation": "Personal Identification Code"
+  },
+  {
+    "id": "pdf.project_info.purchase_period",
+    "translation": "Purchase Period"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CORP_NO",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAIT_HISTORY_TYPE.INVESTMENT_WAIT_HISTORY_STATUS",
+    "translation": "Change Waiting Status"
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_DEL",
+    "translation": "Delete"
+  },
+  {
+    "id": "menu.manage_product.developer_detail",
+    "translation": "Developer Details"
+  },
+  {
+    "id": "pdf.evaluation_project.site_characteristics",
+    "translation": "Site Characteristics"
+  },
+  {
+    "id": "pdf.project_info.corp_info",
+    "translation": "Corporation Information"
+  },
+  {
+    "id": "pdf.project_info.develop_scale",
+    "translation": "Scale"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ADDRESS2",
+    "translation": "Detailed Address"
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_CHANGE",
+    "translation": "Change"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_detail",
+    "translation": "FAQ Details"
+  },
+  {
+    "id": "menu.manage_website.manage_column_detail",
+    "translation": "Column Details"
+  },
+  {
+    "id": "model.adminstrator.email",
+    "translation": "Email"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_date",
+    "translation": "Deposit Date"
+  },
+  {
+    "id": "model.withdrawal.branch_code",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.CORPORATE_INVESTOR",
+    "translation": "Corporate General Investor"
+  },
+  {
+    "id": "model.mypage.investor_type",
+    "translation": "Investor Grade"
+  },
+  {
+    "id": "pdf.invest_info.interest_rate",
+    "translation": "Interest Rate"
+  },
+  {
+    "id": "model.withdrawal.orderer",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_FUNDS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.REFUND_INVEST",
+    "translation": "Redeemed"
+  },
+  {
+    "id": "commoncode.PAYMENT_CHANGED_CONTENT_TYPE.PAYMENT_CHANGED_CONTENT_CONTRACT_UPLOAD",
+    "translation": "Upload Contract"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_COOLING_OFF",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANNERIMAGE_URL",
+    "translation": "Banner"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNION_EMPLOYEE",
+    "translation": "Union Staff"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_response",
+    "translation": "Account Representative Confirmation Code Authentication Date"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_DEL",
+    "translation": ""
+  },
+  {
+    "id": "model.operator_history.menu",
+    "translation": "Log Type"
+  },
+  {
+    "id": "model.virtual_account.project_type",
+    "translation": "Investment Type"
+  },
+  {
+    "id": "pdf.report.payment_statement",
+    "translation": "%s year's anonymous union contract, etc."
+  },
+  {
+    "id": "commoncode.EXCESS_AND_SHORTAGE_TARGET.COMPLETED",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.GEOTHERMAL",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_accounting.send_manage",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators",
+    "translation": "Admin Management"
+  },
+  {
+    "id": "pdf.report.dividend_date",
+    "translation": "Agreement Date"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FIXED_PURCHASE_PERIOD",
+    "translation": "Fixed Purchase Period"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_TRANSACTION",
+    "translation": "Transaction Restricted"
+  },
+  {
+    "id": "pdf.report.point",
+    "translation": "Summary"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ADDRESS2",
+    "translation": "Detailed Address (Equipment)"
+  },
+  {
+    "id": "pdf.report.investor_name",
+    "translation": "Customer Name"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.SUCCESS_FUNDING",
+    "translation": "Established"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_USER",
+    "translation": "회원구분"
+  },
+  {
+    "id": "model.payment.spv_name",
+    "translation": "Developer"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.PROCESS_PAYMENT",
+    "translation": "Awaiting Deposit"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_AUTO",
+    "translation": "Automatic Processing"
+  },
+  {
+    "id": "model.payment.payment_status",
+    "translation": "Transaction Status"
+  },
+  {
+    "id": "pdf.report.description_middle",
+    "translation": "We report the customer's transaction details within the target transaction period as follows."
+  },
+  {
+    "id": "pdf.report.investment",
+    "translation": "Investment"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ENVIRONMENTAL_IMPACT",
+    "translation": "Whether Environmental Impact Assessment Is Necessary"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_ANSWER",
+    "translation": "Change Answers"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LOCAL_OFFICIALS",
+    "translation": "Local Official"
+  },
+  {
+    "id": "menu.manage_operating_system.display_code",
+    "translation": "Display Code"
+  },
+  {
+    "id": "model.funding_request.id",
+    "translation": "Application ID"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCALE",
+    "translation": "Scale"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_DOCUMENT_TYPE.USER_HISTORY_DOCUMENT_ADD",
+    "translation": "Add"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_VIRTUAL_ACCOUNT",
+    "translation": "Account Deposit"
+  },
+  {
+    "id": "model.project.period",
+    "translation": "Recruitment Period"
+  },
+  {
+    "id": "model.settlement.etc_profit",
+    "translation": "Miscellaneous Profit"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MAINIMAGE_URL",
+    "translation": "Thumbnail"
+  },
+  {
+    "id": "commoncode.PROJECT_INVEST_TYPE.PROJECT_INVEST_NOTBLOCK",
+    "translation": "No Investment Restrictions"
+  },
+  {
+    "id": "pdf.project_info.project_info",
+    "translation": "Project Information"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_REPAY_DISTRIBUTION",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_FIXED_PURCHASE_PRICE_DATE",
+    "translation": "Fixed Purchase Period"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.SIGN_UP_COMPLETE_SMS",
+    "translation": "Member Sign-up Approved"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_WAIT",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_product.product_list",
+    "translation": "Investment Product List"
+  },
+  {
+    "id": "model.user.marketing_agree",
+    "translation": "Newsletter Agreement"
+  },
+  {
+    "id": "pdf.report.item_code",
+    "translation": "(Project Name Code)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANK_NAME",
+    "translation": "Financial Institution Name"
+  },
+  {
+    "id": "commoncode.PROJECT_INVEST_TYPE.PROJECT_INVEST_BLOCK",
+    "translation": "Investment Restricted"
+  },
+  {
+    "id": "menu.manage_mynumber_list",
+    "translation": "My Number Management List"
+  },
+  {
+    "id": "model.user.qty2",
+    "translation": "Transaction Quantity"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_FIRSTNAME_FURIGANA",
+    "translation": "Account Representative First Name (Furigana)"
+  },
+  {
+    "id": "model.mail.send_count",
+    "translation": "Number of Sent Mail"
+  },
+  {
+    "id": "pdf.report.non_taxable_or",
+    "translation": "Tax-free or"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_HOUSEWIFE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_DEL",
+    "translation": "Delete"
+  },
+  {
+    "id": "model.corporate.code_certified",
+    "translation": "Location Confirmation Code Authentication Date"
+  },
+  {
+    "id": "pdf.report.Investment_price",
+    "translation": "Investment Unit Price"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CONTRACT_AFTER_PAGE",
+    "translation": "Written at the Time of Contract Establishment"
+  },
+  {
+    "id": "pdf.invest_info.total_shares_qty",
+    "translation": "Total Shares"
+  },
+  {
+    "id": "pdf.report.transaction_record",
+    "translation": "Recruitment-Related Transaction Records"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.CONTRACT_BATCH_EXECUTE",
+    "translation": "Batch Run Before Contract Establishment"
+  },
+  {
+    "id": "menu.manage_users.pre_indv_investors",
+    "translation": "Temporary Registration Individual Member Management"
+  },
+  {
+    "id": "model.user_transaction.amount",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DISAPPROVE",
+    "translation": ""
+  },
+  {
+    "id": "model.investment_waiters.status",
+    "translation": "Waiting Status"
+  },
+  {
+    "id": "pdf.report.day",
+    "translation": "Day"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_STATUS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_TRANSACTION",
+    "translation": "Change Investment Restrictions"
+  },
+  {
+    "id": "menu.manage_mynumber.8_manage",
+    "translation": "My Number Management"
+  },
+  {
+    "id": "model.trust_info.title",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.number",
+    "translation": "Quantity"
+  },
+  {
+    "id": "pdf.report.transaction_balance_report",
+    "translation": "Transaction Balance Report"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.PASSWORD_RESET_COMPLETE_SMS",
+    "translation": "Reset Password"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_REFERENCE",
+    "translation": "References"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_ASSIGNMENT",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_QUESTIONS",
+    "translation": "Questions"
+  },
+  {
+    "id": "model.csv_form.third_line_phrase",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_ADD",
+    "translation": "Add"
+  },
+  {
+    "id": "model.mail.status",
+    "translation": "Sent Mail Status"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_c_risk",
+    "translation": "Medium"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ZIP_CODE",
+    "translation": "Postal Code (Equipment)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_CERTIFICATION",
+    "translation": "CEO Authentication"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_DIVIDEND",
+    "translation": "Dividend"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_match_amount",
+    "translation": "Excess/Shortage Amount"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_INVESTOR_LIMIT",
+    "translation": ""
+  },
+  {
+    "id": "model.operator_history.ip",
+    "translation": "IP"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_ABOUT_EVALUATION",
+    "translation": ""
+  },
+  {
+    "id": "model.settlement.principal_balance",
+    "translation": "Principal Balance"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.INVALIDITY_AUDIT",
+    "translation": "Invalid"
+  },
+  {
+    "id": "menu.manage_product.funding_request_list",
+    "translation": "Loan Request List"
+  },
+  {
+    "id": "model.project.project_type",
+    "translation": "Investment Type"
+  },
+  {
+    "id": "pdf.report.agreed_qty",
+    "translation": "Contracted Quantity"
+  },
+  {
+    "id": "pdf.report.balance_base_date",
+    "translation": "Balance Base Date"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.PRIVATE_PRO_INVESTOR",
+    "translation": "Private Professional Investor"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.HYDROGEN",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_manage_detail",
+    "translation": "Sent SMS Details"
+  },
+  {
+    "id": "menu.manage_users.user_access_log_list",
+    "translation": "User Access Log List"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TECHNICAL_ASPECTS",
+    "translation": "Technical Aspects"
+  },
+  {
+    "id": "pdf.project_info.corp_no",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "pdf.report.person_in_charge",
+    "translation": "Account Representative"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_AGREEMENT_TYPE.USER_HISTORY_AGREEMENT_DISAGREE",
+    "translation": "Disagree"
+  },
+  {
+    "id": "model.trust_info.investor_id",
+    "translation": ""
+  },
+  {
+    "id": "pdf.evaluation_project.grade_a_risk",
+    "translation": "Low"
+  },
+  {
+    "id": "pdf.report.trading_diary",
+    "translation": "Trade Diary"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_CONSULTING",
+    "translation": ""
+  },
+  {
+    "id": "model.trust_info.deposit_date",
+    "translation": ""
+  },
+  {
+    "id": "model.user.withdrawal_bank_account",
+    "translation": "Withdrawal Account Number"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_CAUTION",
+    "translation": "Terms of Service"
+  },
+  {
+    "id": "pdf.report.payer",
+    "translation": "Payer"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.RETRY_MAIL",
+    "translation": "Re-send"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANK_ACCOUNT",
+    "translation": "Account Number"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.DIVIDEND_SETTLEMENT",
+    "translation": "Dividend"
+  },
+  {
+    "id": "model.deposit_match_data.investor_name",
+    "translation": "Investor Name"
+  },
+  {
+    "id": "model.mail.send_date",
+    "translation": "Send Date"
+  },
+  {
+    "id": "model.user_account.balance",
+    "translation": "Deposit Balance"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCALE_FUND",
+    "translation": "Total Scale"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_REPORT",
+    "translation": "Print Report"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ALL_CERTIFICATE_HISTORY",
+    "translation": "Certificate of Personal History Information"
+  },
+  {
+    "id": "model.adminstrator.update_date",
+    "translation": "Date of Update"
+  },
+  {
+    "id": "model.private.birthday",
+    "translation": "Date of Birth"
+  },
+  {
+    "id": "model.user.withdrawal_depositor",
+    "translation": "Withdrawal Account Holder"
+  },
+  {
+    "id": "commoncode.FAQ_TYPE.OTHER",
+    "translation": "Other"
+  },
+  {
+    "id": "commoncode.GENDER.MALE",
+    "translation": "Male"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.REQUEST_INVEST",
+    "translation": "Applying for Investment"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_DOING",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POWER_PLANT",
+    "translation": "Power Generation Type"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_OFFICIALS",
+    "translation": "State Official"
+  },
+  {
+    "id": "model.deposit_check_data.investment_amount",
+    "translation": "Fixed Investment Amount"
+  },
+  {
+    "id": "model.user_account.user_name",
+    "translation": "Investor Name"
+  },
+  {
+    "id": "pdf.report.payment_amount",
+    "translation": "Payment Amount"
+  },
+  {
+    "id": "pdf.spv_info.corp_info",
+    "translation": "Corporation Information"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_ADDRESS_AUDIT",
+    "translation": "Confirming Address"
+  },
+  {
+    "id": "menu.manage_mypage.notice_manage",
+    "translation": "My Page Notice Management"
+  },
+  {
+    "id": "pdf.report.withdrawal",
+    "translation": "Withdrawal"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_SHAREHOLDER",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_send",
+    "translation": "Send SMS"
+  },
+  {
+    "id": "model.user_transaction.kind",
+    "translation": ""
+  },
+  {
+    "id": "pdf.invest_info.expected_exit_date",
+    "translation": "Expected Funding Collection Date"
+  },
+  {
+    "id": "pdf.project_info.remaining",
+    "translation": "Time Remaining"
+  },
+  {
+    "id": "pdf.spv_info.end_at",
+    "translation": "Recruitment End Date"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DUE_DATE",
+    "translation": "Expected Fund Collection Date"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SHARES",
+    "translation": "Number of Shares"
+  },
+  {
+    "id": "menu.manage_qna.detail",
+    "translation": "Q\u0026A Details"
+  },
+  {
+    "id": "model.investment_waiters.turn",
+    "translation": "Turn"
+  },
+  {
+    "id": "model.user.ekyc_id",
+    "translation": "eKYC ID"
+  },
+  {
+    "id": "pdf.report.to_non_resident_or_corporation",
+    "translation": "To Non-Residents or Foreign Corporations"
+  },
+  {
+    "id": "model.settlement.type",
+    "translation": "Loan Contents"
+  },
+  {
+    "id": "pdf.report.signed_and_seal",
+    "translation": "Signature and Stamp"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_NO",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_MEMBER",
+    "translation": "Direct Member Processing"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ADDRESS2",
+    "translation": "Detailed Address (Equipment)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROCESS",
+    "translation": "Power Connection Agenda Recruitment Process"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_STATUS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PROFESSIONAL_INVESTOR",
+    "translation": "Professional Investor System (Notice)"
+  },
+  {
+    "id": "menu.manage_website.manage_faq",
+    "translation": "FAQ Management"
+  },
+  {
+    "id": "menu.manage_website.manage_column",
+    "translation": "Column Management"
+  },
+  {
+    "id": "pdf.invest_info.internal_rate_of_return",
+    "translation": "Previous Quarter's Internal Rate of Return"
+  },
+  {
+    "id": "pdf.report.credit",
+    "translation": "Credit"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BRANCH_NAME",
+    "translation": "Branch Name"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.EQUITY",
+    "translation": "Equity Type"
+  },
+  {
+    "id": "model.user.invest_date",
+    "translation": "Transaction Date"
+  },
+  {
+    "id": "pdf.evaluation_project.technical_aspects",
+    "translation": "Technical Aspects"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.COMPLETED_AUDIT",
+    "translation": "Approved"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_MY_NUMBER_AUDIT",
+    "translation": "Confirming My Number"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_FINAL_APPROVAL_AUDIT",
+    "translation": "Waiting on Final Approval"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_IDENTITY_REGISTER_AUDIT",
+    "translation": "Waiting on Identity Verification Registration"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TOTAL_EVALUATION_SCORE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRANSACTION_BALANCE_REPORT",
+    "translation": "Transaction Balance Report"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_RETIREE",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_website.1_manage_website",
+    "translation": "Operation Management"
+  },
+  {
+    "id": "menu.manage_website.manage_news_list",
+    "translation": "News List"
+  },
+  {
+    "id": "model.login_history.login_time",
+    "translation": "Connection Date"
+  },
+  {
+    "id": "pdf.report.address",
+    "translation": "Address (Residential)"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET1",
+    "translation": "Less than 1.5 million yen"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_PAYMENT_STATEMENT_SUM",
+    "translation": "Payment Statement Summary"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CORPNO",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_LASTNAME",
+    "translation": "CEO Last Name"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TOTAL_SHARES",
+    "translation": "Total Shares"
+  },
+  {
+    "id": "model.login_history.ip",
+    "translation": "IP Connection"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_NON_ANTISOCIAL_FORCES_AGREEMENT",
+    "translation": "Consent to commit to non-antisocial forces"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_PROTECTION",
+    "translation": "Personal information protection policy"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LAND_STATUS",
+    "translation": "Land Acquisition Status"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_SECOND",
+    "translation": "Q2"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INVEST_GRADE",
+    "translation": "Investment Grade"
+  },
+  {
+    "id": "model.funding_request.start_date",
+    "translation": "Loan Application Date"
+  },
+  {
+    "id": "model.virtual_account.va_branch_code",
+    "translation": "Virtual Account Branch Number"
+  },
+  {
+    "id": "commoncode.MAIL_TYPE.MAIL_SEND_PRIORITY_FAST",
+    "translation": "High Priority Send"
+  },
+  {
+    "id": "commoncode.MAIL_TYPE.MAIL_SEND_PRIORITY_NORMAL",
+    "translation": "Normal Priority Send"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NEWSLETTER",
+    "translation": "Receive Newsletter"
+  },
+  {
+    "id": "pdf.report.number_of_cases",
+    "translation": "Quantity"
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.OVER_DEPOSIT",
+    "translation": "Excess"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_GOING",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_CONTENTS",
+    "translation": "Change Contents"
+  },
+  {
+    "id": "commoncode.USER_TYPE.CORPORATE",
+    "translation": "Corporate Member"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors",
+    "translation": "Corporate Investor Management"
+  },
+  {
+    "id": "model.operator_history.created",
+    "translation": "Processing Date"
+  },
+  {
+    "id": "pdf.project_info.for_years",
+    "translation": "Years"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_AUTO",
+    "translation": "Automatic Processing"
+  },
+  {
+    "id": "model.investment_waiters.name",
+    "translation": "Name / Corporation Name"
+  },
+  {
+    "id": "pdf.report.or_name",
+    "translation": "Name"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_detail",
+    "translation": "Admin Details"
+  },
+  {
+    "id": "model.investment_waiters.waiting_date",
+    "translation": "Application Date"
+  },
+  {
+    "id": "model.spv.corp_name",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_VISIBLE_INVESTMENT_INFO",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.END_FUNDING",
+    "translation": "Recruitment Complete"
+  },
+  {
+    "id": "model.corporate.corp_number",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "model.user.equity_depositor",
+    "translation": "Virtual Account Holder"
+  },
+  {
+    "id": "model.user.withdrawal_bank_name",
+    "translation": "Withdrawal Account Financial Institution Name"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.MAIL",
+    "translation": "Mail"
+  },
+  {
+    "id": "commoncode.PAYMENT_CHANGED_CONTENT_TYPE.PAYMENT_CHANGED_CONTENT_TRANSACTION_STATUS",
+    "translation": "Transaction Status"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUNDRAISING_END_DATE",
+    "translation": "Recruitment End Date"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_SENDING",
+    "translation": ""
+  },
+  {
+    "id": "pdf.project_info.equipment_date",
+    "translation": "Equipment Approval Date"
+  },
+  {
+    "id": "pdf.report.withdrawal_amount",
+    "translation": "Withdrawal Amount"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_MESSENGER",
+    "translation": "Mail / SMS Management"
+  },
+  {
+    "id": "model.mypage.mobile_phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME2",
+    "translation": "3 million yen ~ 5 million yen"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ADDRESS",
+    "translation": "Address (Equipment)"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.OPERATION_INVEST",
+    "translation": "In Operation"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.WAIT_APPROVE",
+    "translation": "Awaiting Approval"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ADDRESS",
+    "translation": "Account Representative Address"
+  },
+  {
+    "id": "menu.dashboard",
+    "translation": "Dashboard"
+  },
+  {
+    "id": "menu.manage_terms_manage_detail",
+    "translation": "Terms and Conditions Management Details"
+  },
+  {
+    "id": "pdf.report.phone_short",
+    "translation": "Phone"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADDRESS",
+    "translation": "Address"
+  },
+  {
+    "id": "commoncode.USER_TYPE.PRIVATE",
+    "translation": "Private Member"
+  },
+  {
+    "id": "menu.manage_accounting.3_manage_accounting",
+    "translation": "Transaction/Settlement Management"
+  },
+  {
+    "id": "model.virtual_account.linked_status",
+    "translation": "Virtual Account Status"
+  },
+  {
+    "id": "pdf.project_info.distance",
+    "translation": "Self-Employed Distance"
+  },
+  {
+    "id": "pdf.spv_info.corp_no",
+    "translation": "Corporation Number"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.COMPLETED",
+    "translation": "Complete"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_manage_send",
+    "translation": "Manage Sent Email"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_AMOUNT_LIMIT",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_NAME",
+    "translation": "Branch Name"
+  },
+  {
+    "id": "model.user.code_certified",
+    "translation": "Personal Identity Confirmation Code Authentication Date"
+  },
+  {
+    "id": "pdf.project_info.equipment_addr",
+    "translation": "Address"
+  },
+  {
+    "id": "pdf.report.customer_account",
+    "translation": "Customer Account Report"
+  },
+  {
+    "id": "pdf.report.submittee_first_word",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.SAME_DEPOSIT",
+    "translation": "Match"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FAMILY_NAME",
+    "translation": "Last Name"
+  },
+  {
+    "id": "model.project.response_date",
+    "translation": "Data Transmission Date"
+  },
+  {
+    "id": "model.user.loan_depositor",
+    "translation": "Virtual Account Holder"
+  },
+  {
+    "id": "pdf.report.fund_name",
+    "translation": "Fund Name"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.PAYMENT_STATEMENT_BATCH_EXECUTE",
+    "translation": "Batch Run of Payment Document Issuance"
+  },
+  {
+    "id": "menu.manage_website.manage_main_banner",
+    "translation": "Banner Management"
+  },
+  {
+    "id": "model.mypage.email",
+    "translation": "Email"
+  },
+  {
+    "id": "model.user.name_furi",
+    "translation": "Name (Furigana)"
+  },
+  {
+    "id": "pdf.report.payment_statement_sum",
+    "translation": "%s yearly anonymous union contract, etc.\u003cbr/\u003eProfit dividend payment statement"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CITY",
+    "translation": "City or District, County"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.CASH_PAYMENT",
+    "translation": "Cash"
+  },
+  {
+    "id": "model.user.mobile_phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "model.withdrawal.request_date",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.tax_office_head",
+    "translation": "Tax Manager"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ELECTRONIC_TEACHING",
+    "translation": "Consent to electronic issuance of information"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.VIRTUAL_ACCOUNT_REFUND",
+    "translation": "Virtual Account"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_POSTAL_CODE",
+    "translation": "Postal Code Delivery Status"
+  },
+  {
+    "id": "model.project.project_name",
+    "translation": "Project Name"
+  },
+  {
+    "id": "pdf.invest_info.funding_shares_qty",
+    "translation": "Quantity"
+  },
+  {
+    "id": "pdf.invest_info.minimum_number_of_investment_shares",
+    "translation": "Minimum Number of Investments"
+  },
+  {
+    "id": "pdf.project_info.power_connection_agenda_process",
+    "translation": "Power Connection Agenda Recruitment Process"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DEVELOP_SCALE",
+    "translation": "Scale of Development"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_send",
+    "translation": "Send Email"
+  },
+  {
+    "id": "pdf.report.furikana_name",
+    "translation": "Furigana Name"
+  },
+  {
+    "id": "pdf.report.transaction_details",
+    "translation": "Transaction Details"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_PROCESSING",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.PROCESS_INVEST",
+    "translation": "Investment Processing"
+  },
+  {
+    "id": "model.user.postal_code_send_date",
+    "translation": "Mail Send Date"
+  },
+  {
+    "id": "pdf.report.withholding_tax",
+    "translation": "Withholding Tax Amount"
+  },
+  {
+    "id": "model.investment_waiters.email",
+    "translation": "Email (ID)"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET3",
+    "translation": "3 million yen ~ 5 million yen"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DEPOSITOR",
+    "translation": "Account Holder"
+  },
+  {
+    "id": "pdf.project_info.loan_shares",
+    "translation": "Shares"
+  },
+  {
+    "id": "pdf.report.paid",
+    "translation": "Paid"
+  },
+  {
+    "id": "model.virtual_account.user_id",
+    "translation": "Investor ID"
+  },
+  {
+    "id": "pdf.project_info.equipment_name",
+    "translation": "Project Name"
+  },
+  {
+    "id": "commoncode.EXCESS_AND_SHORTAGE_TARGET.NOT_EXECUTED",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_REVIEW_STATE",
+    "translation": "Review Status"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.SELECTION_INVEST",
+    "translation": "Win (wait for deposit)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_APPLICATION_RULE",
+    "translation": "Applicable Rules"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_ANTISOCIAL",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.cleanup_department",
+    "translation": "Organizing Department"
+  },
+  {
+    "id": "pdf.report.my_number_or_corp_number",
+    "translation": "Personal Number or Corporation Number"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.APPROVE",
+    "translation": "Approved"
+  },
+  {
+    "id": "model.subscription.subscription_date",
+    "translation": "Subscription Date"
+  },
+  {
+    "id": "pdf.project_info.no_need",
+    "translation": "Not Necessary"
+  },
+  {
+    "id": "pdf.report.deposit_amount",
+    "translation": "Deposit Amount"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_PROVINCE",
+    "translation": "Province, City, Metropolis (Equipment)"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_LAND_STATUS",
+    "translation": "Land Acquisition Status"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.WAITING_END",
+    "translation": "Waiting Completed"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CERTIFIEDCOPY",
+    "translation": "Certificate of Personal History Information"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_POWER_OF_ATTORNEY",
+    "translation": "Power of Attorney"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_CHECK_TYPE.USER_HISTORY_CHECK_YES",
+    "translation": "Yes"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_amount",
+    "translation": "Deposit Amount"
+  },
+  {
+    "id": "pdf.invest_info.target_fundraising_amount",
+    "translation": "Recruitment Amount"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FOREST_DEVELOPMENT",
+    "translation": "Whether Forestry Development Permission Is Necessary"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_LICENSE_STATUS",
+    "translation": "License Acquisition Status"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CLIMATOLOGY_AND_HAZARDS",
+    "translation": "Climate and Risk Factors"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ADULT_GUARDIAN",
+    "translation": "Consent regarding adult guardians, etc."
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_THIRD",
+    "translation": "Q3"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DOCUMENT",
+    "translation": ""
+  },
+  {
+    "id": "model.adminstrator.phone",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "model.deposit_match_data.update_date",
+    "translation": "Date of Last Update"
+  },
+  {
+    "id": "model.user.transaction_id",
+    "translation": "Transaction Number"
+  },
+  {
+    "id": "pdf.report.balance_month",
+    "translation": "Current Month's Balance"
+  },
+  {
+    "id": "model.settlement.interest_amount",
+    "translation": "Interest"
+  },
+  {
+    "id": "model.user_transaction.invest_name",
+    "translation": ""
+  },
+  {
+    "id": "pdf.invest_info.funding_date",
+    "translation": "Recruitment Period"
+  },
+  {
+    "id": "commoncode.DEPOSIT_TYPE_CODE.ORDINARY_ACCOUNT",
+    "translation": "Regular Account"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_STATE_TYPE.FUNDING_STATE_NEED",
+    "translation": "Necessary"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.FAIL_REQUEST",
+    "translation": "Invalid"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_EMAIL",
+    "translation": "Account Representative Email"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNION_EXECUTIVE",
+    "translation": "Union Executive"
+  },
+  {
+    "id": "model.deposit_check_data.invest_date",
+    "translation": "Investment Date"
+  },
+  {
+    "id": "pdf.report.description_tail",
+    "translation": "This document corresponds to the report on the balance of transactions stipulated in Article 37, Clause 1 of the Financial Product Transactions Act and Article 98, Clause 1, No. 3 of the Ministry of Internal Affairs and Communications, etc."
+  },
+  {
+    "id": "pdf.invest_info.scale_fund",
+    "translation": "(Total) Scale"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ANTISOCIAL_FORCES_BAGIC",
+    "translation": "Basic policy regarding anti-social forces"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_CITY",
+    "translation": "City or District, County (Equipment)"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_EXECUTION_STATUS.SETTLEMENT_INCOMPLETE",
+    "translation": "Incomplete"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_PHONE",
+    "translation": "CEO Phone Number"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEPOSIT_TYPE",
+    "translation": "Deposit Type"
+  },
+  {
+    "id": "menu.manage_accounting.receiving_amount",
+    "translation": "Confirm Deposit Amount"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IRR",
+    "translation": "Previous Quarter's Internal Rate of Return"
+  },
+  {
+    "id": "model.investment_waiters.qty",
+    "translation": "Investment Quantity"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BIRTHDAY",
+    "translation": "Birthday"
+  },
+  {
+    "id": "menu.manage_users.pre_corp_investors",
+    "translation": "Temporary Registration Corporate Member Management"
+  },
+  {
+    "id": "model.mail.type",
+    "translation": "Sent Mail Type"
+  },
+  {
+    "id": "model.withdrawal.bank_code",
+    "translation": ""
+  },
+  {
+    "id": "pdf.invest_info.minimum_fundraising_amount",
+    "translation": "Minimum Fundraising Amount"
+  },
+  {
+    "id": "pdf.report.transaction_period",
+    "translation": "Transaction Period"
+  },
+  {
+    "id": "menu.manage_website.manage_news",
+    "translation": "News Management"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.INVESTMENT_SETTLEMENT",
+    "translation": "Financing"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CORP_NAME",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_d",
+    "translation": "D"
+  },
+  {
+    "id": "pdf.report.correction_Invalid",
+    "translation": "Correction=3, Invalidation=4"
+  },
+  {
+    "id": "commoncode.DEPOSIT_TYPE_CODE.CHECKING_ACCOUNT",
+    "translation": "Checking Account"
+  },
+  {
+    "id": "commoncode.TRANSACTION_HISTORY_TYPE.TRANSACTION_HISTORY_TRANSACTION",
+    "translation": "Transaction Status Change"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_LASTNAME_FURIGANA",
+    "translation": "CEO Last Name (Furigana)"
+  },
+  {
+    "id": "pdf.project_info.equipment_id",
+    "translation": "Equipment ID"
+  },
+  {
+    "id": "menu.manage_accounting.manage_withdrawal_download",
+    "translation": ""
+  },
+  {
+    "id": "menu.manage_operating_system.6_manage_operating_system",
+    "translation": "Basic Management"
+  },
+  {
+    "id": "model.corporate.postal_code",
+    "translation": "Location Confirmation Code"
+  },
+  {
+    "id": "pdf.evaluation_project.land_status",
+    "translation": "Land Status"
+  },
+  {
+    "id": "pdf.report.agreement_date",
+    "translation": "Agreement Date"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_AUDIT",
+    "translation": "Waiting on Approval"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.PROVISIONAL_AUDIT",
+    "translation": "Provisional Member"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_ADDRESS2",
+    "translation": "Detailed Address"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PROVINCE",
+    "translation": "Province, City, Metropolis"
+  },
+  {
+    "id": "pdf.project_info.is_forest_development",
+    "translation": "Whether Forestry Development Permission Is Necessary"
+  },
+  {
+    "id": "menu.manage_website.manage_product_recommendation",
+    "translation": "Recommended Product Management"
+  },
+  {
+    "id": "pdf.report.project_name",
+    "translation": "Project Name"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.UNREGISTERED",
+    "translation": "Not Registered"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_FIRST",
+    "translation": "Initial Answer Registration"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PROCESS",
+    "translation": "Power Connection Agenda Recruitment Process"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_FOURTH",
+    "translation": "Q4"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_LASTNAME",
+    "translation": "Account Representative Last Name"
+  },
+  {
+    "id": "menu.manage_accounting.deposit_detail",
+    "translation": "Deposit History List"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PHONE",
+    "translation": "Phone Number"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_OFFICIALS_MANAGER",
+    "translation": "State Official - Management Position"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails",
+    "translation": "Email Management"
+  },
+  {
+    "id": "model.user.email",
+    "translation": "Email"
+  },
+  {
+    "id": "model.user.email_id",
+    "translation": "Email (ID)"
+  },
+  {
+    "id": "model.user.zip_code",
+    "translation": "Postal Code"
+  },
+  {
+    "id": "commoncode.TRANSACTION_TYPE.TRANSACTION_NOTBLOCK",
+    "translation": "No Transaction Restrictions"
+  },
+  {
+    "id": "model.login_history.device",
+    "translation": "Device Information"
+  },
+  {
+    "id": "model.settlement.status",
+    "translation": "Status"
+  },
+  {
+    "id": "pdf.report.duty_free",
+    "translation": "Duty Free"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.FUND_PROJECT",
+    "translation": "Fund"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.STANDBY_REQUEST",
+    "translation": "Applying"
+  },
+  {
+    "id": "model.mypage.invest_number",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.deposit",
+    "translation": "Deposit"
+  },
+  {
+    "id": "pdf.report.invest_kind",
+    "translation": "Transaction Type"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ID",
+    "translation": "Equipment ID"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_ADDRESS",
+    "translation": "Address"
+  },
+  {
+    "id": "pdf.report.year",
+    "translation": "Year"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.DEPOSIT_REQUEST",
+    "translation": "Deposit Request"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_register",
+    "translation": "Add New FAQ"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.OK_SMS_CERT",
+    "translation": "Authentication Complete"
+  },
+  {
+    "id": "model.adminstrator.name",
+    "translation": "Name"
+  },
+  {
+    "id": "model.project.category_type",
+    "translation": "Power Generation Type"
+  },
+  {
+    "id": "pdf.spv_info.corp_name",
+    "translation": "Corporation Name"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_REFERENCE",
+    "translation": "Change References"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.ETC",
+    "translation": ""
+  },
+  {
+    "id": "model.settlement.broker_fee",
+    "translation": "Broker Fee"
+  },
+  {
+    "id": "pdf.report.investor_id",
+    "translation": "Investor ID"
+  },
+  {
+    "id": "pdf.report.refund",
+    "translation": "Refund"
+  },
+  {
+    "id": "pdf.report.repayment",
+    "translation": "Repayment"
+  },
+  {
+    "id": "pdf.report.spv_name",
+    "translation": "Publisher"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_BOOK",
+    "translation": "Copy of Withdrawal Account Bank Book"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_POSITION",
+    "translation": "Position of Account Representative"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PRO_INVEST_FINANCE_ASSET",
+    "translation": "Possession of financial assets of over 300 million yen"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.list",
+    "translation": "My Page Notice Sent List"
+  },
+  {
+    "id": "menu.manage_product.tab1",
+    "translation": ""
+  },
+  {
+    "id": "model.sms.type",
+    "translation": "Delivery Type"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.SCHEDULED",
+    "translation": "Scheduled"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.ON_VA_ACCOUNT",
+    "translation": "Granted"
+  },
+  {
+    "id": "model.trust_info.deposit_amount",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PRINT_STATUS_TYPE.PRINT_STATUS_COMPLETE",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_TYPE.WITHDRAWAL_TRANSACTION",
+    "translation": "Withdraw"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_a",
+    "translation": "A"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_d_risk",
+    "translation": "High"
+  },
+  {
+    "id": "pdf.report.tax_accountant_number",
+    "translation": "Tax Accountant Number"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.FUNDING_REQUEST_ACCEPT",
+    "translation": "Loan Request Approval Complete"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE",
+    "translation": ""
+  },
+  {
+    "id": "model.operator_history.name",
+    "translation": "Admin Name"
+  },
+  {
+    "id": "model.user.last_login_date",
+    "translation": "Last Access Date"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EMAIL",
+    "translation": "Email"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.FAIL_PAYMENT",
+    "translation": "Payment Failure"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.ALL_PROJECT",
+    "translation": "All Projects"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION1_FRONT",
+    "translation": "Identity Confirmation Document 1 (Front)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION1_BACK",
+    "translation": "Identity Confirmation Document 1 (Back)"
+  },
+  {
+    "id": "pdf.report.money_balance",
+    "translation": "Money Balance"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.HOLD_AUDIT",
+    "translation": "Identity Confirmation Pending"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_APPLICATION_RULE",
+    "translation": "Applicable Rules"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_RECOGNITION_AND_SYSTEM_ACCESS_DATA",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PAYMENT_STATUS",
+    "translation": "Payment Status of Grid Connection Work Charges"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_CUSTOMER_ACCOUNT",
+    "translation": "Customer Account Report"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_EMAIL",
+    "translation": "CEO Email"
+  },
+  {
+    "id": "pdf.report.payment_confirmation_date",
+    "translation": "Payment Confirmation Date"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.FUND_LOAN",
+    "translation": "Loan - Fund Type"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNLISTED_COMPANY_EXECUTIVES",
+    "translation": "Unlisted Company Executive"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_list",
+    "translation": "Admin List"
+  },
+  {
+    "id": "menu.manage_product.product_detail",
+    "translation": "Investment Product Details"
+  },
+  {
+    "id": "model.project.created",
+    "translation": "Registration Date"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME1",
+    "translation": "Less than 3 million yen"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.VIRTUAL_ACCOUNT_PAYMENT",
+    "translation": "Virtual Account"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.NO_SMS_CERT",
+    "translation": "Not Authenticated"
+  },
+  {
+    "id": "commoncode.TRANSACTION_CHANGED_CONTENT_TYPE.TRANSACTION_CHANGED_CONTENT_TRANSACTION_STATUS",
+    "translation": "Transaction Status"
+  },
+  {
+    "id": "model.user_account.user_id",
+    "translation": "Investor ID"
+  },
+  {
+    "id": "commoncode.POLICY_VIEW_TYPE.POLICY_VIEW_FOOTER",
+    "translation": "Footer"
+  },
+  {
+    "id": "pdf.project_info.is_environmental_impact",
+    "translation": "Whether Environmental Impact Assessment Is Necessary"
+  },
+  {
+    "id": "pdf.report.sign",
+    "translation": "(Stamp)"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.SOLAR_BESS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPERATION_FUNDING",
+    "translation": "In Operation"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_shares_detail",
+    "translation": "Investment Transaction Summary Details"
+  },
+  {
+    "id": "model.mail.sender",
+    "translation": "Sender"
+  },
+  {
+    "id": "model.user.loan_branch_name",
+    "translation": "Virtual Account Branch Name"
+  },
+  {
+    "id": "pdf.evaluation_project.local_permits",
+    "translation": "PLA(Regional Permit)"
+  },
+  {
+    "id": "pdf.project_info.fixed_purchase_period",
+    "translation": "Fixed Purchase Period"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SCHEDULE_DATE",
+    "translation": "Scheduled Grid Connection Date"
+  },
+  {
+    "id": "commoncode.POSTAL_CODE_STATE.POSTAL_CODE_STATE_SENT",
+    "translation": "Shipment Complete"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.CREDIT_REFUND",
+    "translation": "Credit Card"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_list",
+    "translation": "Corporate Investor List"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_check_status",
+    "translation": "Confirm Deposit Amount"
+  },
+  {
+    "id": "pdf.invest_info.power_plant",
+    "translation": "Power Generation Type"
+  },
+  {
+    "id": "pdf.report.investment_amount",
+    "translation": "Investment Amount"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_ANTISOCIAL_AUDIT",
+    "translation": "Confirming Anti-Social"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SPECIFIC_INVESTORS",
+    "translation": "Professional Investor System (Notice)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PRICE_PER_SHARE",
+    "translation": "Price Per Share"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_BIRTHDAY",
+    "translation": "Account Representative Birthday"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PERSONAL_BIRTHDAY",
+    "translation": "Birthday"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NATIONALITY",
+    "translation": "Nationality"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_GENDER",
+    "translation": "Gender"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PURCHASE_PERIOD",
+    "translation": "Years"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PRO_INVEST_ASSET",
+    "translation": "Possession of assets of over 300 million yen"
+  },
+  {
+    "id": "model.deposit_match_data.lack_amount",
+    "translation": "Deposit Amount Not Confirmed"
+  },
+  {
+    "id": "model.login_history.email",
+    "translation": "Processor"
+  },
+  {
+    "id": "model.settlement.repayment_reserve",
+    "translation": "Repayment Reserve"
+  },
+  {
+    "id": "model.user.loan_bank_name",
+    "translation": "Virtual Account Financial Institution Name"
+  },
+  {
+    "id": "pdf.report.qty",
+    "translation": "Quantity"
+  },
+  {
+    "id": "commoncode.CORP_TYPE_CODE.CORP",
+    "translation": "법인"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.LOAN_PROJECT",
+    "translation": "Loan Type"
+  },
+  {
+    "id": "commoncode.POSTAL_CODE_STATE.POSTAL_CODE_STATE_NOTSENT",
+    "translation": "Not Sent"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION2_FRONT",
+    "translation": "Identity Confirmation Document 2 (Front)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION2_BACK",
+    "translation": "Identity Confirmation Document 2 (Back)"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ETC",
+    "translation": ""
+  },
+  {
+    "id": "pdf.evaluation_project.equipment_recognition_and_system_access_data",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.VA_BATCH_EXECUTE",
+    "translation": "Batch Run of Virtual Account Alert"
+  },
+  {
+    "id": "commoncode.PAYMENT_HISTORY_TYPE.PAYMENT_HISTORY_TRANSACTION",
+    "translation": "Change Transaction Status"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_FIRSTNAME_FURIGANA",
+    "translation": "CEO First Name (Furigana)"
+  },
+  {
+    "id": "model.deposit_match_data.investor_id",
+    "translation": "Investor ID"
+  },
+  {
+    "id": "pdf.report.transaction_kind",
+    "translation": "Transaction Type"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_PUT_TAKE_MONEY",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ID",
+    "translation": "Equipment ID"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_EXECUTION_STATUS.SETTLEMENT_COMPLETE",
+    "translation": "Complete"
+  },
+  {
+    "id": "menu.manage_qna.list",
+    "translation": "Q\u0026A List"
+  },
+  {
+    "id": "menu.manage_terms_manage",
+    "translation": "Terms and Conditions Management"
+  },
+  {
+    "id": "model.mypage.project_type",
+    "translation": ""
+  },
+  {
+    "id": "pdf.invest_info.month",
+    "translation": "Months"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.CREDIT_PAYMENT",
+    "translation": "Credit Card"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_ADD",
+    "translation": "Add"
+  },
+  {
+    "id": "menu.manage_accounting.receiving_amount_list",
+    "translation": "Deposit Amount Confirmation List"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_state",
+    "translation": "Account Representative Mail Shipment Status"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_c",
+    "translation": "C"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.SOLAR",
+    "translation": "Solar Generation"
+  },
+  {
+    "id": "commoncode.PROJECT_PUBLISH_TYPE.PROJECT_PUBLISH_UNPOSTED",
+    "translation": "Not Posted"
+  },
+  {
+    "id": "model.user.name",
+    "translation": "Name"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_EMAIL",
+    "translation": "Email"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_OPERATINGFUNDS",
+    "translation": "Use of Surplus Funds"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_register",
+    "translation": "Add New Admin"
+  },
+  {
+    "id": "commoncode.CORP_TYPE_CODE.MANAGER",
+    "translation": "관리자"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FIXED_PURCHASE_PRICE",
+    "translation": "Fixed Purchase Price"
+  },
+  {
+    "id": "pdf.invest_info.term_of_operation",
+    "translation": "Operation Period"
+  },
+  {
+    "id": "menu.manage_virtualaccount_manage",
+    "translation": "Virtual Account Management"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PAYMENT_STATUS",
+    "translation": "Payment Status of Grid Connection Work Charges"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANNUAL_INCOME",
+    "translation": "Annual Salary"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_INVEST_GRADE",
+    "translation": "Change Investment Grade"
+  },
+  {
+    "id": "menu.manage_product.developer_list",
+    "translation": "Developer List"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_b_risk",
+    "translation": "Medium - Low"
+  },
+  {
+    "id": "commoncode.POLICY_HISTORY_TYPE.POLICY_CHANGED_CONTENTS",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ZIPCODE",
+    "translation": "Account Representative Postal Code"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_NAME",
+    "translation": "Project Name"
+  },
+  {
+    "id": "model.user.job",
+    "translation": "Occupation"
+  },
+  {
+    "id": "pdf.project_info.total_size_of_solar",
+    "translation": "Total Scale of Solar Cells"
+  },
+  {
+    "id": "pdf.report.or_furikana_name",
+    "translation": "Or name"
+  },
+  {
+    "id": "commoncode.FAQ_TYPE.DEVELOPER",
+    "translation": "Development Company"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_request_detail",
+    "translation": "Withdrawal Request Details"
+  },
+  {
+    "id": "menu.manage_product.product",
+    "translation": "Investment Product Management"
+  },
+  {
+    "id": "model.user_transaction.date",
+    "translation": ""
+  },
+  {
+    "id": "model.withdrawal.bank_account",
+    "translation": ""
+  },
+  {
+    "id": "pdf.report.order_qty",
+    "translation": "Order Quantity"
+  },
+  {
+    "id": "pdf.report.submittee_second_word",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FACILITY_STATUS",
+    "translation": "Facility Approval Status"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_POSTAL_CODE_STATUS",
+    "translation": "Account Representative Postal Code Delivery Status"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_COMPLETE",
+    "translation": ""
+  },
+  {
+    "id": "pdf.project_info.days",
+    "translation": "Days"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.ADMIN_ROLE_DELETED",
+    "translation": "Delete Admin Permissions"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LIMITED_INVEST",
+    "translation": "Investment Restricted"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LOCAL_PERMITS",
+    "translation": "PLA (Regional Permit)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_NEWS",
+    "translation": "News"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_OUTPUT_SUPPRESSION",
+    "translation": "Output Suppression"
+  },
+  {
+    "id": "model.trust_info.period",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_STATUS",
+    "translation": "Recruitment Status"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code",
+    "translation": "Account Representative Confirmation Code"
+  },
+  {
+    "id": "model.user.sign_up_response",
+    "translation": "Member Sign-Up Approval Date"
+  },
+  {
+    "id": "pdf.project_info.shares",
+    "translation": "Shares"
+  },
+  {
+    "id": "pdf.report.month",
+    "translation": "Month"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_SIGNED",
+    "translation": ""
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_DISTANCE",
+    "translation": "Self-Employed Distance"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.STANDBY_FUNDING",
+    "translation": "Pre-Recruitment"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_BASE",
+    "translation": "Basic Management"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DISAPPROVE_INVALID_REASON",
+    "translation": "반사회 비승인 처리 사유"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PASSWORD",
+    "translation": "Password"
+  },
+  {
+    "id": "model.settlement.withholding_tax",
+    "translation": "Tax Withholding"
+  },
+  {
+    "id": "model.user.investor_type",
+    "translation": "Investment Grade"
+  },
+  {
+    "id": "pdf.report.record_date",
+    "translation": "Record Date"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_manage_send",
+    "translation": "Manage Sent SMS"
+  },
+  {
+    "id": "menu.manage_product.funding_request",
+    "translation": "Loan Request Status"
+  },
+  {
+    "id": "model.csv_form.fourth_line_phrase",
+    "translation": ""
+  },
+  {
+    "id": "model.user_account.updated",
+    "translation": "Last Modification Date"
+  },
+  {
+    "id": "menu.manage_product.2_manage_product",
+    "translation": "Investment Product Management"
+  },
+  {
+    "id": "menu.manage_product.funding_requester",
+    "translation": "Funding Requester Management"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_send_date",
+    "translation": "Account Representative Mail Shipment Date"
+  },
+  {
+    "id": "model.investment_waiters.amount",
+    "translation": "Payment Amount"
+  },
+  {
+    "id": "pdf.invest_info.price_per_share",
+    "translation": "Price Per Share"
+  },
+  {
+    "id": "pdf.report.distribution",
+    "translation": "Dividend"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_WAIT",
+    "translation": "Waiting"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_SUCCESS",
+    "translation": "Success"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_FAIL",
+    "translation": "Fail"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_REPAYMENT",
+    "translation": "Refund"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_CANCEL",
+    "translation": "Cancel"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.INVESTMENT_EXECUTE",
+    "translation": "Investment"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.DIVIDEND_RETURN",
+    "translation": "Dividend"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.REPAYMENT_RETURN",
+    "translation": "Repayment"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_STATUS_CODE.RETURN_SCHEDULED",
+    "translation": "Scheduled"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_STATUS_CODE.RETURN_COMPLETED",
+    "translation": "Completed"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.type",
+    "translation": "Type"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.decide_date",
+    "translation": "Decision Date"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.execute_date",
+    "translation": "Execution Date"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.status",
+    "translation": "Status"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.repayment",
+    "translation": "Repayment"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.dividend",
+    "translation": "Dividend"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.broker_fee",
+    "translation": "Broker Fee(default 0)"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.withholding_tax",
+    "translation": "Withholding Tax"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.repayment_reserve",
+    "translation": "Repayment Reserve"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.investment_balance",
+    "translation": "Investment Balance"
+  },
+  {
+    "id": "commoncode.PROJECT_COUNTRY_TYPE.PROJECT_COUNTRY_JP",
+    "translation": "JAPAN"
+  },
+  {
+    "id": "commoncode.PROJECT_COUNTRY_TYPE.PROJECT_COUNTRY_US",
+    "translation": "USA"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WAITING",
+    "translation": "Cancellation Waitlist"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.END_FUNDING",
+    "translation": "Funding Closed"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.CANCELLED",
+    "translation": "Cancelled"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING",
+    "translation": "Selected (Awaiting Deposit)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_SUCCESS",
+    "translation": "Selected (Confirmed)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_CANCELED",
+    "translation": "Selected (Cancelled)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_FAILED",
+    "translation": "Selected (Unsuccessful)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.PROPOSAL",
+    "translation": "Investment Proposal Pending"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RECEIVED",
+    "translation": "Received"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RESPONSE_PENDING",
+    "translation": "Awaiting Response"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RESPONSE_COMPLETED",
+    "translation": "Responded"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.INCOME_AND_CAPITAL_GAIN",
+    "translation": "インカムゲインおよびキャピタルゲイン"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.INCOME_GAIN",
+    "translation": "インカムゲイン"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.CAPITAL_GAIN",
+    "translation": "キャピタルゲイン"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.APPLIED",
+    "translation": "Applied"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.WINNING",
+    "translation": "Winning"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.PARTIAL_WINNING",
+    "translation": "Partial Winning"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.LOST",
+    "translation": "Lost"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.CANCELED",
+    "translation": "Canceled"
+  },
+  {
+    "id": "menu.manage_accounting.project_lottery.list",
+    "translation": "Lottery List"
+  },
+  {
+    "id": "model.lottery_application.id",
+    "translation": "Lottery ID"
+  },
+  {
+    "id": "model.lottery_application.status",
+    "translation": "Lottery Status"
+  },
+  {
+    "id": "model.lottery_application.user_name",
+    "translation": "Investor Name"
+  },
+  {
+    "id": "model.lottery_application.user_email",
+    "translation": "Email"
+  },
+  {
+    "id": "model.lottery_application.project_name",
+    "translation": "Fund Name"
+  },
+  {
+    "id": "model.lottery_application.qty",
+    "translation": "Requested Quantity"
+  },
+  {
+    "id": "model.lottery_application.amount",
+    "translation": "Requested Amount"
+  },
+  {
+    "id": "model.lottery_application.winning_amount",
+    "translation": "Total Winning Amount"
+  },
+  {
+    "id": "model.lottery_application.canceled_winning_amount",
+    "translation": "Canceled Winning Amount"
+  },
+  {
+    "id": "model.lottery_application.user_account_balance",
+    "translation": "Available Investment Amount"
+  },
+  {
+    "id": "model.lottery_application.applied_at",
+    "translation": "Applied At"
+  },
+  {
+    "id": "model.bulk_lottery.result",
+    "translation": "Result"
+  },
+  {
+    "id": "model.bulk_lottery.requested_winning_amount",
+    "translation": "Requested Winning Amount"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPERATION_END_FUNDING",
+    "translation": "Operation Ended"
+  }
+]

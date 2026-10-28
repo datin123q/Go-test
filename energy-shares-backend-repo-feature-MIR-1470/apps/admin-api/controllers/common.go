@@ -1,0 +1,125 @@
+package controllers
+
+import (
+	"net/http"
+
+	"github.com/labstack/echo/v4"
+	"github.com/pangpanglabs/echoswagger/v2"
+
+	"github.com/illuminarean/energy-shares-backend-repo/domain"
+	"github.com/illuminarean/energy-shares-backend-repo/pkg/apirender"
+	"github.com/illuminarean/energy-shares-backend-repo/pkg/commoncode"
+)
+
+type CommonApiController struct {
+}
+
+func NewCommonApiController() *CommonApiController {
+	return &CommonApiController{}
+}
+
+func (c *CommonApiController) Init(g echoswagger.ApiGroup) {
+	g.GET("/codes", c.GetCommonCodeList).
+		AddResponse(http.StatusOK, "", commoncode.CodeGroup{}, nil).
+		AddParamHeader("", "locale", "", false).
+		AddParamHeader("", "Accept-Language", "", false).
+		SetDescription("共通コードを照会します。共通コードは日本語がデフォルトとして選択されます。").
+		SetSummary("共通コード照会")
+}
+
+func (CommonApiController) GetCommonCodeList(c echo.Context) error {
+	lang := c.Request().Header.Get("locale")
+	if lang == "" {
+		lang = "ja"
+	}
+	accept := lang
+
+	codes := make([]commoncode.CodeGroup, 0)
+	codes = append(codes, domain.FundingRequest{}.GetReqeustStatusCodeGroup(accept))
+	codes = append(codes, domain.Faq{}.GetTypeCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetCategoryCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetProjectCountryGroup(accept))
+	codes = append(codes, domain.Project{}.GetProjectSelectionTypeCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetTypeCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetListCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetStatusCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetProjrctListStatusCodeGroup(accept))
+	codes = append(codes, domain.Project{}.GetProjecDividendTypeGroup(accept))
+	codes = append(codes, domain.ProjectMilestone{}.GetMilestoneStatus(accept))
+	codes = append(codes, domain.Share{}.GetCodeGroup(accept))
+	codes = append(codes, domain.LotteryApplication{}.GetStatusCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetLoginResultCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetUserTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetLoginTypeCodeGroup(accept))
+	codes = append(codes, domain.Mail{}.GetMailTypeCodeGroup(accept))
+	codes = append(codes, domain.Mail{}.GetMailStatusCodeGroup(accept))
+	codes = append(codes, domain.SmsMsg{}.GetSmsTypeCodeGroup(accept))
+	codes = append(codes, domain.SmsMsg{}.GetSmsStatusCodeGroup(accept))
+	codes = append(codes, domain.PrivateProfile{}.GetAssetsCodeGroup(accept))
+	codes = append(codes, domain.PrivateProfile{}.GetsAnnualincomeCodeGroup(accept))
+	codes = append(codes, domain.PrivateProfile{}.GetGenderCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetAuditStatusCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetInvestorTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetPrivateInvestorTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetCorporateInvestorTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetNationalityCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetDepositTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetCorpTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetUserJobTypeCodeGroup(accept))
+	codes = append(codes, domain.User{}.GetUserInvestmentPurposeTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserHistoryProcessTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetPostalCodeStateCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetTransactionTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserHistoryCheckTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserHistoryAgreementTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserDocumentTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.UserInfoHistory{}.GetUserChangedContentTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectPublishTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectInvestTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectNewsTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectSettlementTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectMilestoneTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.ProjectInfoHistory{}.GetProjectChangedContentTypeCodeGroup(accept))
+	codes = append(codes, domain.SpvInfoHistory{}.GetSpvHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.SpvInfoHistory{}.GetSpvChangedContentTypeCodeGroup(accept))
+	codes = append(codes, domain.PolicyInfoHistory{}.GetPolicyHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.FundingRequestHistory{}.GetFundingHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.FundingRequestHistory{}.GetFundingHistoryStateTypeCodeGroup(accept))
+	codes = append(codes, domain.FundingRequestHistory{}.GetFundingHistoryContentTypeCodeGroup(accept))
+	codes = append(codes, domain.QnaInfoHistory{}.GetQnaChangedContentTypeCodeGroup(accept))
+	codes = append(codes, domain.UserVirtualAccount{}.GetVaLinkStatusCodeGroup(accept))
+	codes = append(codes, domain.UserRoles{}.GetRoleTypeCodeGroup(accept))
+	codes = append(codes, domain.MyNumber{}.GetMyNumberStatusGroup(accept))
+	codes = append(codes, domain.Policy{}.GetTypeCodeGroup(accept))
+	codes = append(codes, domain.Policy{}.GetViewTypeCodeGroup(accept))
+	codes = append(codes, domain.ReportOutput{}.GetQuarterTypeCodeGroup(accept))
+	codes = append(codes, domain.ReportOutput{}.GetReportTypeCodeGroup(accept))
+	codes = append(codes, domain.SettlementSchedule{}.GetSettlementExecutionStatusCodeGroup(accept))
+	codes = append(codes, domain.Settlement{}.GetSettlementStatusCodeGroup(accept))
+	codes = append(codes, domain.Settlement{}.GetSettlementTypeCodeGroup(accept))
+	codes = append(codes, domain.RepaymentDividendSchedule{}.GetInvestmentReturnTypeCodeGroup(accept))
+	codes = append(codes, domain.RepaymentDividendSchedule{}.GetInvestmentReturnStatusCodeGroup(accept))
+	codes = append(codes, domain.TransactionInfoHistory{}.GetTransactionHistoryTypeCodeGroup(accept))
+	codes = append(codes, domain.TransactionInfoHistory{}.GetTransactionChangedContentTypeCodeGroup(accept))
+	codes = append(codes, domain.UserTransaction{}.GetTransactionTypeCodeGroup(accept))
+	codes = append(codes, domain.UserTransaction{}.GetTransactionDetailTypeCodeGroup(accept))
+	codes = append(codes, domain.DepositMatchData{}.GetDepositMatchStatus(accept))
+	codes = append(codes, domain.DepositCheckData{}.GetDepositCheckStatus(accept))
+	codes = append(codes, domain.InvestmentWaiters{}.GetTypeCodeGroup(accept))
+	codes = append(codes, domain.InvestmentWaiters{}.GetStatusCodeGroup(accept))
+	codes = append(codes, domain.InvestmentWaitHistory{}.GetTypeCodeGroup(accept))
+	codes = append(codes, domain.OperatorHistory{}.GetOperatorStateCodeGroup(accept))
+	codes = append(codes, domain.TrustInfoHistory{}.GetTrustInfoHistoryPrintStatusTypeCodeGroup(accept))
+	codes = append(codes, domain.Withdrawal{}.GetWithdrawalStatusTypeCodeGroup(accept))
+	codes = append(codes, domain.WithdrawalClose{}.GetWithdrawalRequestStatusTypeGroup(accept))
+	codes = append(codes, domain.NoticeMsg{}.GetNoticeUserTypeGroup(accept))
+	codes = append(codes, domain.Contract{}.GetContractStatusGroup(accept))
+	codes = append(codes, domain.Faq{}.GetCategoryTypeCodeGroup(accept))
+	codes = append(codes, domain.Transfer{}.GetTransferStatusTypeCodeGroup(accept))
+	codes = append(codes, domain.EkycRequestLog{}.GetResultStatusCodeGroup(accept))
+	codes = append(codes, domain.Qna{}.GetQnaStatusTypeCodeGroup(accept))
+
+	return apirender.RenderSucc(c, http.StatusOK, codes)
+}

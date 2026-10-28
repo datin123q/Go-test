@@ -1,0 +1,108 @@
+name: ilm/qa-phase2 Deploy To Amazon EC2 with CodeDeploy and S3
+
+on:
+  push:
+    branches:
+      - ilm/qa-phase2
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v3
+        with:
+          go-version: ^1.22
+        id: go
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+      - name: Configure git for private modules
+        env:
+          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: git config --global url."https://hillfolk:${TOKEN}@github.com/illuminarean".insteadOf "https://github.com/illuminarean"
+      #        run: git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+
+      - name: Get dependencies
+        env:
+          GOPRIVATE: "github.com/illuminarean"
+          GOPROXY: "https://proxy.golang.org,direct"
+        #          GOSUMDB: "github.com/illuminarean"
+        run: |
+          go get -v -t -d ./...
+          if [ -f Gopkg.toml ]; then
+              curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+              dep ensure
+          fi
+
+      - name: Build
+        env:
+          GOPRIVATE: "github.com/illuminarean"
+          GOPROXY: "https://proxy.golang.org,direct"
+          GOSUMDB: "github.com/illuminarean"
+        run: |
+          go build -o .
+      #          GOOS=$os GOARCH=$arch CGO_ENABLED=0 go build -o .
+      - name: Copy files
+        run: |
+          mkdir bin
+          cp -R ./energyshares-job-scheduler ./config.ilm-qa-phase2.yml ./config.yml ./i18n ./font ./deployscripts ./bin
+        shell: bash
+
+      - name: Make zip file
+        run: zip -qq -r ./$GITHUB_SHA.zip ./bin ./appspec.yml
+        shell: bash
+
+      - name: Upload to S3
+        env:
+          PROJECT_NAME: job-scheduler
+          BUCKET_TYPE: qa-phase2
+        run: ls | aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://ilm-energyshares-deploy-bucket/$BUCKET_TYPE/$PROJECT_NAME/$GITHUB_SHA.zip
+
+      - name: Code Deploy
+        env:
+          PROJECT_NAME: job-scheduler
+          BUCKET_TYPE: qa-phase2
+        run: aws deploy create-deployment --application-name eskk-stg-job-scheduler-seoul-qa-phase2 --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name eskk-stg-job-scheduler-seoul-qa-phase2-group --s3-location bucket=ilm-energyshares-deploy-bucket,bundleType=zip,key=$BUCKET_TYPE/$PROJECT_NAME/$GITHUB_SHA.zip
+#
+#      - name: Build file copy to EC2
+#        uses: appleboy/scp-action@master
+#        with:
+#          host: ${{ secrets.QA_PHASE2_HOST }}
+#          username: ${{ secrets.USERNAME }}
+#          key: ${{ secrets.QA_PHASE2_KEY }}
+#          port: ${{ secrets.PORT }}
+#          source: "./energyshares-job-scheduler,./config.yml,./config.qa-phase2.yml,./i18n,./font"
+#          target: "/home/centos/bin/"
+#
+#      - name: EC2 Deploy
+#        uses: appleboy/ssh-action@master
+#        with:
+#          host: ${{ secrets.QA_PHASE2_HOST }}
+#          username: ${{ secrets.USERNAME }}
+#          key: ${{ secrets.QA_PHASE2_KEY }}
+#          port: ${{ secrets.PORT }}
+#          script_stop: true
+#          script: |
+#            sudo systemctl stop energyshares-job-scheduler.service
+#            sudo systemctl start energyshares-job-scheduler
+#
+#      - name: Slack Notification
+#        uses: rtCamp/action-slack-notify@v2.0.2
+#        env:
+#          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+#          SLACK_USERNAME: scheduler bot
+#          SLACK_TITLE: QA-Phase2 스케쥴러 서버 배포
+#          SLACK_MESSAGE: QA-Phase2 스케쥴러 서버가 배포되었습니다.

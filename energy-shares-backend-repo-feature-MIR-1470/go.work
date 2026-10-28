@@ -1,0 +1,9 @@
+go 1.25.1
+
+use (
+	.
+	./apps/admin-api
+	./apps/invest-worker
+	./apps/jobs-scheduler
+	./apps/user-api
+)

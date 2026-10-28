@@ -1,0 +1,26 @@
+name: Claude Code Review
+on:
+  pull_request:
+    # 初回の PR 作成時だけレビューする。追加プッシュのたびに走らせると
+    # API 利用料が嵩むため、そこは手元の /code-review で担保する。
+    types: [opened]
+    # production 向けの PR ではレビューしない。staging から上げるだけで、
+    # 中身は develop 向けの PR で既にレビュー済み。指摘の対象が無い。
+    branches-ignore: [production]
+
+jobs:
+  review:
+    # 呼び出し先が要求する権限は、呼び出し元が与えた範囲を超えられない。
+    # 指定しないと既定(読み取りのみ)に絞られ、ワークフローの解決に失敗する。
+    # ジョブ単位で与えることで、あとから足したジョブへ権限が波及しない。
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+      # アクションは OIDC で GitHub App トークンを取得する。外すと
+      # 「Could not fetch an OIDC token」で3回リトライした末に失敗する。
+      id-token: write
+      # CI 状態を参照する MCP サーバに必要。無いとそのサーバだけ無効化される。
+      actions: read
+    uses: miralita-inc/github-workflows/.github/workflows/claude-review-go.yml@main
+    secrets: inherit

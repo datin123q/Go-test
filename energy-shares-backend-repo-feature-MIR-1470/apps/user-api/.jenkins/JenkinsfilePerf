@@ -1,0 +1,253 @@
+def deployFailed = false
+
+pipeline {
+    agent any
+    environment {
+        ENV_BRANCH = "${DEPLOY_ENV.toLowerCase()}"
+        PROJECT_NAME = "es-jp-${ENV_BRANCH}-${PACKAGE}-api-service"
+        AWS_CREDENTIALS = 'aws-illuminarean-dev-ecr-credential'
+        BUCKET_TYPE = "jenkins-${ENV_BRANCH}"
+        TASK_REVISION = ""
+        TASK_DESIRED_COUNT = "1"
+        IMAGE_TAG = 'latest'
+        AWS_ECR_REGISTRY = "illuminarean/energy-shares-jp-${ENV_BRANCH}-${PACKAGE}-api"
+        SLACK_CHANNEL = "#esjp-dev-backend-build"
+        SLACK_DEPLOY_CHANNEL = "#esjp-${ENV_BRANCH}-deploy"
+        SLACK_DEVOPS_CHANNEL = "#esjp-deploy-devops"
+    }
+    tools {
+        git 'git'
+    }
+    stages {
+        stage('Setup Variables') {
+            steps {
+                script {
+                    def variables = RDS_ECS_Params.tokenize('\n')
+                    for (def var in variables) {
+                        if (var.contains("RDS_ENDPOINT")) {
+                            env.RDS_ENDPOINT = var.tokenize('=')[1]
+                        }
+                        if (var.contains("RDS_USERNAME")) {
+                            env.RDS_USERNAME = var.tokenize('=')[1]
+                        }
+                        if (var.contains("RDS_PASSWD")) {
+                            env.RDS_PASSWD = var.tokenize('=')[1]
+                        }
+                        if (var.contains("RDS_DB_NAME_SERVICE")) {
+                            env.RDS_DB_NAME_SERVICE = var.tokenize('=')[1]
+                        }
+                        if (var.contains("RDS_DB_NAME_MYNUMBER")) {
+                            env.RDS_DB_NAME_MYNUMBER = var.tokenize('=')[1]
+                        }
+                        if (var.contains("RDS_PORT_NUMBER")) {
+                            env.RDS_PORT_NUMBER = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_ACCOUNT_ID")) {
+                            env.AWS_ACCOUNT_ID = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_USER_TASK_FAMILY")) {
+                            env.TASK_FAMILY = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_USER_SERVICE_NAME")) {
+                            env.SERVICE_NAME = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_CLUSTER_NAME")) {
+                            env.CLUSTER_NAME = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_BUCKET_NAME")) {
+                            env.BUCKET_NAME = var.tokenize('=')[1]
+                        }
+                        if (var.contains("ECS_DEPLOY_REGION")) {
+                            env.AWS_DEPLOY_REGION = var.tokenize('=')[1]
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Prepare') {
+            steps {
+                echo 'prepare'
+                echo "ENV_BRANCH : ${ENV_BRANCH}"
+                echo "BUCKET_NAME : ${BUCKET_NAME}"
+                echo "AWS_CREDENTIALS : ${AWS_CREDENTIALS}"
+                echo "AWS_DEPLOY_REGION : ${AWS_DEPLOY_REGION}"
+                echo "AWS_ACCOUNT_ID : ${AWS_ACCOUNT_ID}"
+                echo "SERVICE_NAME : ${SERVICE_NAME}"
+                echo "AWS_ECR_REGISTRY : ${AWS_ECR_REGISTRY}"
+                echo "CLUSTER_NAME : ${CLUSTER_NAME}"
+                echo "RDS_ENDPOINT : ${RDS_ENDPOINT}"
+                echo "RDS_USERNAME : ${RDS_USERNAME}"
+                echo "RDS_PORT_NUMBER : ${RDS_PORT_NUMBER}"
+                echo "RDS_DB_NAME_SERVICE : ${RDS_DB_NAME_SERVICE}"
+                echo "RDS_DB_NAME_MYNUMBER : ${RDS_DB_NAME_MYNUMBER}"
+
+                script {
+                    env.GIT_HASH = sh(returnStdout: true, script: 'git rev-parse HEAD').trim()
+                }
+                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                    sh 'rm -rf ./*_JENKINS.zip'
+                }
+                checkout scm
+                sh 'git status'
+                sh 'ls -al'
+            }
+        }
+        stage('Edit Config file') {
+            steps {
+                script {
+                    sh "sed -i \"s/RDS_ID_SERVICE/${RDS_USERNAME}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_PASSWD_SERVICE/${RDS_PASSWD}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_ENDPOINT_SERVICE/${RDS_ENDPOINT}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_DB_NAME_SERVICE/${RDS_DB_NAME_SERVICE}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_PORT_NUMBER_SERVICE/${RDS_PORT_NUMBER}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_ID_MYNUMBER/${RDS_USERNAME}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_PASSWD_MYNUMBER/${RDS_PASSWD}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_DB_NAME_MYNUMBER/${RDS_DB_NAME_MYNUMBER}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_ENDPOINT_MYNUMBER/${RDS_ENDPOINT}/g\" config.${ENV_BRANCH}.yml"
+                    sh "sed -i \"s/RDS_PORT_NUMBER_MYNUMBER/${RDS_PORT_NUMBER}/g\" config.${ENV_BRANCH}.yml"
+
+                    sh "cat config.${ENV_BRANCH}.yml | head -n 3"
+                    sh "cat config.${ENV_BRANCH}.yml | head -n 14 | tail -n 3"
+                }
+            }
+        }
+        stage('Build Image') {
+            steps {
+                script {
+                    sh "docker system prune -f"
+                    app = docker.build("${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEPLOY_REGION}.amazonaws.com/${AWS_ECR_REGISTRY}:${IMAGE_TAG}", "-f Dockerfile.${ENV_BRANCH} .")
+                }
+            }
+        }
+        stage('Push Image ECR ') {
+            steps {
+                withDockerRegistry(credentialsId: 'ecr:' + "${AWS_DEPLOY_REGION}" + ":${AWS_CREDENTIALS}", url: "https://${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEPLOY_REGION}.amazonaws.com/${AWS_ECR_REGISTRY}") {
+                    script {
+                        app.push("${IMAGE_TAG}")
+                    }
+                }
+            }
+        }
+        stage('Clean docker image') {
+            steps {
+                sh "docker rmi ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEPLOY_REGION}.amazonaws.com/${AWS_ECR_REGISTRY}"
+            }
+        }
+        stage('ECS Deploy') {
+            steps {
+                script {
+                    withAWS(credentials: "${AWS_CREDENTIALS}", region: "${AWS_DEPLOY_REGION}") {
+                        script {
+                            sh "aws ecs register-task-definition --cli-input-json file://task-definition-${ENV_BRANCH}.json --region ${AWS_DEPLOY_REGION}"
+                            TASK_REVISION = sh(returnStdout: true, script: "aws ecs describe-task-definition --task-definition ${TASK_FAMILY} --region ${AWS_DEPLOY_REGION} | egrep 'revision' | tr '/' ' ' | awk '{print \$2}' | sed 's/,//g'").trim()
+                            TASK_DESIRED_COUNT = sh(returnStdout: true, script: "aws ecs describe-services --cluster ${CLUSTER_NAME} --services ${SERVICE_NAME} --region ${AWS_DEPLOY_REGION} | egrep 'desiredCount' | tr '/' ' ' | awk '{print \$2}' | sed 's/,\$//g' | head -n 1").trim()
+                            echo "TASK_REVISION : ${TASK_REVISION}"
+                            echo "TASK_DESIRED_COUNT : ${TASK_DESIRED_COUNT}"
+                            if (TASK_DESIRED_COUNT == '0') {
+                                TASK_DESIRED_COUNT = '1'
+                            }
+                            sh "aws ecs update-service --region ${AWS_DEPLOY_REGION} --cluster ${CLUSTER_NAME} --service ${SERVICE_NAME} --task-definition ${TASK_FAMILY}:${TASK_REVISION} --desired-count ${TASK_DESIRED_COUNT}"
+                        }
+                    }
+                }
+            }
+        }
+        stage('Wait for ECS to cut over') {
+            steps {
+                script {
+                    sh "ls -al"
+                    withAWS(credentials: "${AWS_CREDENTIALS}", region: "${AWS_DEPLOY_REGION}") {
+                        deployMsg = sh(returnStdout: true, script: "./.deployscripts/ecs-deploy-wait.sh --cluster ${CLUSTER_NAME} --service ${SERVICE_NAME} --task-definition ${TASK_FAMILY}:${TASK_REVISION} --region ${AWS_DEPLOY_REGION}").trim()
+                    }
+                    echo "deploymentMessage : ${deployMsg}"
+                    print(deployMsg)
+                    if (deployMsg != 'SUCCESS') {
+                        deployFailed = true
+                        error('DEPLOY FAILED')
+                    }
+                }
+            }
+        }
+        stage('send slack message') {
+            steps {
+                withAWS(credentials: "${AWS_CREDENTIALS}", region: "${AWS_DEPLOY_REGION}") {
+                    script {
+                        gitHash = GIT_HASH
+                        catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                            gitHash = sh(returnStdout: true,
+                                script: "aws s3 cp --region ${AWS_DEPLOY_REGION} s3://${BUCKET_NAME}/${BUCKET_TYPE}/${PROJECT_NAME}/git_hash -").trim()
+                        }
+                        deploymentMessage = sh(returnStdout: true, script: getGitFormattedLog())
+                        sh "echo ${GIT_HASH} > git_hash"
+                        sh "aws s3 cp --region ${AWS_DEPLOY_REGION} ./git_hash s3://${BUCKET_NAME}/${BUCKET_TYPE}/${PROJECT_NAME}/git_hash"
+                    }
+                }
+                script {
+                    if (SLACK_MSG_ONOFF == 'ON') {
+                        slackSend(channel: SLACK_CHANNEL,
+                            blocks: formatSlackMsg(deploymentMessage), botUser: true)
+                        slackSend(channel: SLACK_DEPLOY_CHANNEL,
+                            blocks: formatSlackMsg(deploymentMessage), botUser: true)
+                    }
+                }
+            }
+        }
+    }
+    post {
+        failure {
+            script {
+                failedStage = deployFailed ? 'DEPLOY' : 'BUILD'
+                msg = "${failedStage} FAILED: Job '${env.JOB_NAME} [${BUILD_TAG}/#${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+                if (SLACK_MSG_ONOFF == 'ON') {
+                    slackSend(channel: SLACK_CHANNEL, color: '#FF0000', message: msg)
+                    slackSend(channel: SLACK_DEVOPS_CHANNEL, color: '#FF0000', message: msg)
+                }
+            }
+        }
+        always {
+            cleanWs()
+        }
+    }
+}
+
+def getGitFormattedLog() {
+    return "git log --pretty=format:'<https://github.com/illuminarean/${getRepoName()}/commit/%h|%h> ( *%<(8,trunc) %an* ) %s' ${gitHash}...${GIT_HASH} --date=format:'%Y-%m-%d %H:%m' | sed '/Merge /d'"
+}
+
+String getRepoName() {
+    return scm.getUserRemoteConfigs()[0].getUrl().tokenize('/').last().split("\\.")[0]
+}
+
+def formatSlackMsg(msgStr) {
+    def arr = []
+    arr << [
+        type: 'header',
+        text: [
+            type: 'plain_text',
+            text: '[DEPLOY SUCCESS - BACKEND] Commit Messages'
+        ]
+    ]
+    arr << [
+        type: 'divider',
+    ]
+    arr << [
+        type: 'section',
+        text: [
+            type: 'plain_text',
+            text: "${PROJECT_NAME} - ${ENV_BRANCH} - ${currentBuild.number} "
+        ]
+    ]
+    msgStr.split('\n').each {
+        if (it.trim().length() > 0) {
+            arr << [
+                type: 'section',
+                text: [
+                    type: 'mrkdwn',
+                    text: it.trim()
+                ]
+            ]
+        }
+    }
+    return arr
+}

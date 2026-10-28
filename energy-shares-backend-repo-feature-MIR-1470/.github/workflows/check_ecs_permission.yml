@@ -1,0 +1,26 @@
+name: ECS権限の確認
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  check:
+    environment: prod
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials (OIDC role assumption)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ADMIN_ROLE_TO_ASSUME }}
+          role-session-name: check-ecs-permission
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: describe-services を試す
+        run: |
+          aws ecs describe-services --cluster mira-prod-cluster \
+            --services mira-prod-admin-ecs-backend \
+            --query 'services[0].deployments[].{id:id,rolloutState:rolloutState}'

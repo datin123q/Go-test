@@ -1,0 +1,17 @@
+all: true
+with-expecter: false
+dir: ./domain/mocks
+mockname: "{{.InterfaceName}}"
+filename: "{{.InterfaceName}}.go"
+outpkg: mocks
+disable-version-string: true
+
+
+packages:
+  github.com/illuminarean/energyshares-user-api/domain:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./domain/mocks
+    disable-version-string: true

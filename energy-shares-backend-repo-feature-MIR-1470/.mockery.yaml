@@ -1,0 +1,89 @@
+all: true
+with-expecter: false
+dir: ./clean-arch-domain/mocks
+mockname: "{{.InterfaceName}}"
+filename: "{{.InterfaceName}}.go"
+outpkg: mocks
+disable-version-string: true
+
+
+packages:
+  github.com/illuminarean/energy-shares-backend-repo/clean-arch-domain:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/factory:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/snsutils:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/s3utils:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/pwhelper:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/filehelper:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/idgenerator:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/emailutils:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/cipher:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true
+
+  github.com/illuminarean/energy-shares-backend-repo/pkg/egift:
+    with-expecter: false
+    mockname: "{{.InterfaceName}}"
+    filename: "{{.InterfaceName}}.go"
+    outpkg: mocks
+    dir: ./clean-arch-domain/mocks
+    disable-version-string: true

@@ -1,0 +1,4 @@
+commonConfig:
+  env: ENV_VALUE
+  aws:
+    region: REGION_VALUE

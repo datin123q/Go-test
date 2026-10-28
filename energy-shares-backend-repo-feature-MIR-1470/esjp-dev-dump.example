@@ -1,0 +1,10 @@
+# 파일을 복사 후 확장자를 .cnf로 변경하고, 실제 비밀번호를 적어두세요
+[clientmynumber]
+user=esjp_dev_developer
+password=비밀번호 # 여기에 실제 비밀번호를 넣으세요
+host=es-jp-rds-cluster-writer.illuminarean.com
+
+[clientesjp]
+user=esjp_dev_developer
+password=비밀번호 # 여기에 실제 비밀번호를 넣으세요
+host=es-jp-rds-cluster-writer.illuminarean.com

@@ -1,0 +1,90 @@
+name: Deploy user-api to ECS
+
+# a
+on:
+  push:
+    branches:
+      - production
+      - staging
+    paths:
+      - 'apps/user-api/**'
+      - 'clean-arch-domain/**'
+      - 'domain/**'
+      - 'pkg/**'
+      - 'repository/**'
+      - 'service/**'
+      - 'assets/**'
+      - '.github/workflows/user_api_deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: user-api-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AWS_REGION: ${{ vars.AWS_REGION }}
+  # dev環境のAWSリソースは廃止済み。production/staging以外のブランチでは
+  # 'unsupported'を経由して、下のガードステップで即座に失敗させる
+  # (/gha/dev/*を引きに行って原因が分かりにくい形で落ちるのを避けるため)。
+  DEPLOY_ENV: ${{ (github.ref_name == 'production' && 'prod') || (github.ref_name == 'staging' && 'stg') || 'unsupported' }}
+
+jobs:
+  deploy:
+    environment: ${{ (github.ref_name == 'production' && 'prod') || (github.ref_name == 'staging' && 'stg') || 'unsupported' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail fast on unsupported deploy targets
+        if: github.ref_type != 'branch' || (github.ref_name != 'production' && github.ref_name != 'staging')
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          echo "::error::dev環境は廃止されました。production/staging以外のref(${REF_TYPE}:${REF_NAME})からはデプロイできません。workflow_dispatchをブランチ以外やタグ、別ブランチから手動実行した場合に発生します。"
+          exit 1
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC role assumption)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_USER_ROLE_TO_ASSUME }}
+          role-session-name: user-api-deploy
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: Load params from SSM
+        run: |
+          GHA_PREFIX="/gha/${DEPLOY_ENV}/user-backend"
+          ECR_REPOSITORY=$(aws ssm get-parameter --name "${GHA_PREFIX}/ecr-repository" --with-decryption --query "Parameter.Value" --output text)
+          ECS_CLUSTER=$(aws ssm get-parameter --name "${GHA_PREFIX}/ecs-cluster" --with-decryption --query "Parameter.Value" --output text)
+          ECS_SERVICE=$(aws ssm get-parameter --name "${GHA_PREFIX}/ecs-service" --with-decryption --query "Parameter.Value" --output text)
+          ECS_CONTAINER_NAME=$(aws ssm get-parameter --name "${GHA_PREFIX}/ecs-container-name" --with-decryption --query "Parameter.Value" --output text)
+
+          echo "ECR_REPOSITORY=$ECR_REPOSITORY" >> "$GITHUB_ENV"
+          echo "ECS_CLUSTER=$ECS_CLUSTER" >> "$GITHUB_ENV"
+          echo "ECS_SERVICE=$ECS_SERVICE" >> "$GITHUB_ENV"
+          echo "ECS_CONTAINER_NAME=$ECS_CONTAINER_NAME" >> "$GITHUB_ENV"
+
+      - name: Login to Amazon ECR
+        id: ecr-login
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push Docker image
+        env:
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build -f apps/user-api/Dockerfile -t $ECR_REPOSITORY:$IMAGE_TAG -t $ECR_REPOSITORY:latest . \
+                       --build-arg DEPLOY_ENV=${DEPLOY_ENV}
+          docker push $ECR_REPOSITORY:$IMAGE_TAG
+          docker push $ECR_REPOSITORY:latest
+
+      - name: Deploy to Amazon ECS
+        run: |
+          aws ecs update-service \
+            --cluster $ECS_CLUSTER \
+            --service $ECS_SERVICE \
+            --force-new-deployment
