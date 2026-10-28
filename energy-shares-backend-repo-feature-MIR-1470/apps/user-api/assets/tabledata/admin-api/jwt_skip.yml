@@ -1,0 +1,42 @@
+#############
+# [작성 방법]
+#
+# 모든 method 에 대하여 jwt skip 을 적용하고 싶은 경우: method 를 "" 로 설정
+# - path: "/api/examples"
+#   method: ""
+#
+# (권장)
+# 특정 method 에 대하여 jwt skip 을 적용하고 싶은 경우: method 를 콤마(,) 로 구분하여 설정
+# - path: "/api/examples"
+#   method: "GET,POST"
+#
+#############
+
+# MIR-1408: ここに足したルートは、トークンの検査も権限の確認も飛ばす。足すときは
+# apps/admin-api/server/route_roles_test.go の表に「公開」として書く(書かないとテストが落ちる)。
+jwt_skip_data:
+  # swagger
+  - path: "/doc"
+    method: ""
+  - path: "/doc/swagger.json"
+    method: ""
+  - path: "/api/swagger*"
+    method: ""
+
+  # common(ログイン画面でもトークン無しで呼ぶ)
+  - path: "/api/codes"
+    method: "GET"
+
+  # ALB のヘルスチェック
+  - path: "/api/health-check"
+    method: "GET"
+
+  # auth(アクセストークン無しで呼ぶ作り。守りはリフレッシュトークンの検証)
+  - path: "/api/auth/update-token"
+    method: "POST"
+
+  ####################
+
+  # v1/admin-users
+  - path: "/api/v1/admin-users/login"
+    method: "POST"

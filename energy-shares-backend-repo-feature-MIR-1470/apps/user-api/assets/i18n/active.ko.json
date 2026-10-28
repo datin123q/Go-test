@@ -1,0 +1,4362 @@
+[
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PRICE_PER_SHARE",
+    "translation": "1구당 가격"
+  },
+  {
+    "id": "menu.manage_product.funding_request_list",
+    "translation": "대출의뢰 목록"
+  },
+  {
+    "id": "model.spv.id",
+    "translation": "ID"
+  },
+  {
+    "id": "pdf.report.corp_no",
+    "translation": "법인번호"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PAYMENT_STATUS",
+    "translation": "계통연계공사 부담금 납부현황"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FIXED_PURCHASE_PRICE",
+    "translation": "고정매입가격"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PROFESSIONAL_INVESTOR",
+    "translation": "전문 투자자 제도 (고지서)"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_AUDIT",
+    "translation": "가입상태 변경"
+  },
+  {
+    "id": "menu.manage_product.tab1",
+    "translation": "분배/상환"
+  },
+  {
+    "id": "model.deposit_check_data.investor_id",
+    "translation": "투자자 ID"
+  },
+  {
+    "id": "model.settlement.broker_fee",
+    "translation": "영업자 보수"
+  },
+  {
+    "id": "model.subscription.subscription_date",
+    "translation": "구독일자"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_ADDRESS_AUDIT",
+    "translation": "주소 확인중"
+  },
+  {
+    "id": "pdf.project_info.equipment_name",
+    "translation": "프로젝트명"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_AUDIT_STATUS",
+    "translation": "가입 상태"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_CHECK_TYPE.USER_HISTORY_CHECK_NO",
+    "translation": "아니오"
+  },
+  {
+    "id": "menu.manage_mypage.notice_manage",
+    "translation": "마이페이지 알림 관리"
+  },
+  {
+    "id": "menu.manage_product.developer_register",
+    "translation": "조성 회사 신규 등록"
+  },
+  {
+    "id": "menu.manage_qna.title",
+    "translation": "1:1 문의/답변 관리"
+  },
+  {
+    "id": "model.user.zip_code",
+    "translation": "우편번호"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECKER",
+    "translation": "반사회 체크자"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_FOURTH",
+    "translation": "제4Q"
+  },
+  {
+    "id": "pdf.project_info.equipment_addr",
+    "translation": "주소지"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAIT_HISTORY_TYPE.INVESTMENT_WAIT_HISTORY_STATUS",
+    "translation": "대기상태 변경"
+  },
+  {
+    "id": "pdf.report.day",
+    "translation": "일"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_APPLICATION_RULE",
+    "translation": "적용 룰"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_COMPLETE",
+    "translation": "송금완료"
+  },
+  {
+    "id": "menu.manage_operating_system.manage_newsletter_subscriber",
+    "translation": "메일 매거진 구독 관리"
+  },
+  {
+    "id": "model.user.sign_up_date",
+    "translation": "회원가입일"
+  },
+  {
+    "id": "model.withdrawal.bank_account",
+    "translation": "계좌번호"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET6",
+    "translation": "1,000만엔 이상 ~ 3,000만엔 미만"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_ASSIGNMENT",
+    "translation": "마일스톤 할당 진척도"
+  },
+  {
+    "id": "commoncode.TRANSACTION_HISTORY_TYPE.TRANSACTION_HISTORY_TRANSACTION",
+    "translation": "거래상태 변경"
+  },
+  {
+    "id": "pdf.report.profit",
+    "translation": "이익"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.GEOTHERMAL",
+    "translation": "지열발전소"
+  },
+  {
+    "id": "menu.manage_mail_sms.5_manage_mail_sms",
+    "translation": "메일/SMS관리"
+  },
+  {
+    "id": "menu.manage_product.tab2_waiting",
+    "translation": "대기자 상세"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.GOOGLE",
+    "translation": "구글"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FAMILY_NAME2",
+    "translation": "후리가나 성"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_EMAIL",
+    "translation": "담당자 이메일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_PHONE",
+    "translation": "담당자 전화번호"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PROVINCE",
+    "translation": "도, 시, 특별시"
+  },
+  {
+    "id": "menu.manage_users.pre_indv_investors_list",
+    "translation": "가등록 개인회원 목록"
+  },
+  {
+    "id": "model.mypage.qty",
+    "translation": "투자 구수"
+  },
+  {
+    "id": "pdf.evaluation_project.site_characteristics",
+    "translation": "입지특성"
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.NO_DEPOSIT",
+    "translation": "NO"
+  },
+  {
+    "id": "menu.manage_users.user_access_log",
+    "translation": "회원 접속로그 조회"
+  },
+  {
+    "id": "menu.manage_users.user_list_download",
+    "translation": "회원 리스트 다운로드"
+  },
+  {
+    "id": "menu.manage_users.referral_code_issuance",
+    "translation": "紹介コード発行"
+  },
+  {
+    "id": "model.user.withdrawal_depositor",
+    "translation": "출금계좌 예금주"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NEWSLETTER",
+    "translation": "메일 매거진 수신여부"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PHONE",
+    "translation": "전화번호"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DATE",
+    "translation": "반사회 체크일"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage_detail",
+    "translation": "과부족금 상세"
+  },
+  {
+    "id": "model.project.id",
+    "translation": "ID"
+  },
+  {
+    "id": "pdf.spv_info.end_at",
+    "translation": "모집 종료일"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ADDRESS",
+    "translation": "주소"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.SOLAR",
+    "translation": "태양광발전소"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TARGET_FUNDRAISING_AMOUNT",
+    "translation": "상한 모금액"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.SCHEDULED",
+    "translation": "예정"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_SENDING",
+    "translation": "송금중"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_PROJECT",
+    "translation": "투자상품 별 회원"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.FUND_PROJECT",
+    "translation": "펀드\t"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_ADDRESS2",
+    "translation": "상세주소"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CONTRACT_AFTER_PAGE",
+    "translation": "계약 체결시 교부서면"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.INVALID_FUNDING",
+    "translation": "무효"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_DIVIDEND",
+    "translation": "분배금"
+  },
+  {
+    "id": "menu.manage_printout.audit_response",
+    "translation": "감사대응"
+  },
+  {
+    "id": "model.spv.corp_name",
+    "translation": "법인명"
+  },
+  {
+    "id": "pdf.invest_info.target_fundraising_amount",
+    "translation": "상한 모금액"
+  },
+  {
+    "id": "pdf.report.investor_id",
+    "translation": "투자자ID"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_STATUS",
+    "translation": "마일스톤 상태"
+  },
+  {
+    "id": "pdf.invest_info.expected_return",
+    "translation": "예상 수익률"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.detail",
+    "translation": "공지사항 상세"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_PHONE",
+    "translation": "대표자 전화번호"
+  },
+  {
+    "id": "model.trust_info.transaction_id",
+    "translation": "거래ID"
+  },
+  {
+    "id": "model.user.equity_bank_account",
+    "translation": "사업형 계좌번호"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_CITY",
+    "translation": "시 또는 구, 군(설비)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NAME",
+    "translation": "이름"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_TEXT",
+    "translation": "답변내용"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.CONFIRM",
+    "translation": "확정"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ADDRESS",
+    "translation": "주소(설비)"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.STANDBY_REQUEST",
+    "translation": "신청중"
+  },
+  {
+    "id": "model.deposit_match_data.investor_id",
+    "translation": "투자자 ID"
+  },
+  {
+    "id": "pdf.report.record_date",
+    "translation": "기록 일시"
+  },
+  {
+    "id": "pdf.report.refund",
+    "translation": "상환"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CEO_NAME",
+    "translation": "대표자명"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTOR",
+    "translation": "투자자 출금"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SOLAR_TOTAL_SIZE",
+    "translation": "태양전지 합계규모"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.OK_SMS_CERT",
+    "translation": "인증 완료"
+  },
+  {
+    "id": "model.funding_request.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "pdf.project_info.corp_info",
+    "translation": "회사정보"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_ANSWER",
+    "translation": "답변 변경"
+  },
+  {
+    "id": "commoncode.PAYMENT_CHANGED_CONTENT_TYPE.PAYMENT_CHANGED_CONTENT_CONTRACT_UPLOAD",
+    "translation": "계약서 업로드"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_NOTE",
+    "translation": "마일스톤 비고"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_OFFICIALS_MANAGER",
+    "translation": "국가공무원 관리직"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_request",
+    "translation": "출금 의뢰 목록"
+  },
+  {
+    "id": "model.investment_waiters.status",
+    "translation": "대기 상태"
+  },
+  {
+    "id": "model.user_transaction.date",
+    "translation": "일시"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_SENT",
+    "translation": "발신 성공"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_FAILED",
+    "translation": "발신 실패"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.MAIL_PENDING",
+    "translation": "발신 대기"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.PROCESSING_REQUEST",
+    "translation": "보류중"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_response",
+    "translation": "담당자 확인코드 인증일"
+  },
+  {
+    "id": "model.user.equity_depositor",
+    "translation": "사업형 예금주"
+  },
+  {
+    "id": "pdf.report.cancellation",
+    "translation": "해약"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_REFERENCE_FILE",
+    "translation": "프로젝트 참고자료(다운로드)"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.REPAYMENT_SETTLEMENT",
+    "translation": "상환"
+  },
+  {
+    "id": "menu.manage_printout.for_investors",
+    "translation": "투자자용"
+  },
+  {
+    "id": "model.project.project_name",
+    "translation": "상품명"
+  },
+  {
+    "id": "pdf.report.cleanup_number",
+    "translation": "정리번호"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_COOLING_OFF",
+    "translation": "쿨링오프에 대한 안내(신청서)"
+  },
+  {
+    "id": "model.user_account.user_name",
+    "translation": "투자자 명"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_DATE",
+    "translation": "설비인정일"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FACILITY_STATUS",
+    "translation": "시설인정현황"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.PROCESS_INVEST",
+    "translation": "투자 처리중"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_BIRTHDAY",
+    "translation": "담당자 생년월일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PERSONAL_BIRTHDAY",
+    "translation": "생년월일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NATIONALITY",
+    "translation": "국적"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_GENDER",
+    "translation": "성별"
+  },
+  {
+    "id": "menu.manage_operating_system.display_code",
+    "translation": "디스플레이 코드"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET2",
+    "translation": "150만엔 이상 ~ 300만엔 미만"
+  },
+  {
+    "id": "menu.manage_accounting.receiving_amount",
+    "translation": "입금액 확인"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.PRIVATE_PRO_INVESTOR",
+    "translation": "개인 전문투자자"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNION_EMPLOYEE",
+    "translation": "조합직원"
+  },
+  {
+    "id": "menu.manage_accounting.deposit_list",
+    "translation": "예치금 목록"
+  },
+  {
+    "id": "model.trust_info.deposit_amount",
+    "translation": "입금 금액"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BIOMASS",
+    "translation": "바이오매스 발전소"
+  },
+  {
+    "id": "model.user.audit_status",
+    "translation": "가입 처리"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_AFTER_TEXT",
+    "translation": "(변경 후)답변내용"
+  },
+  {
+    "id": "pdf.report.credit",
+    "translation": "대변"
+  },
+  {
+    "id": "model.operator_history.state",
+    "translation": "작업 내용"
+  },
+  {
+    "id": "model.operator_history.log",
+    "translation": "로그"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_REPAYMENT_SCHEDULE",
+    "translation": "배당 일정"
+  },
+  {
+    "id": "model.corporate.uid",
+    "translation": "ID"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_c_risk",
+    "translation": "중간"
+  },
+  {
+    "id": "pdf.report.dividend_rate",
+    "translation": "배당율"
+  },
+  {
+    "id": "commoncode.EXCESS_AND_SHORTAGE_TARGET.COMPLETED",
+    "translation": "강제출금 완료"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_AUTO",
+    "translation": "자동처리"
+  },
+  {
+    "id": "pdf.project_info.to",
+    "translation": "까지"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.COMPLETED_AUDIT",
+    "translation": "승인 완료"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_MY_NUMBER_AUDIT",
+    "translation": "마이넘버 승인 대기"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_TRANSACTION",
+    "translation": "거래제한 변경"
+  },
+  {
+    "id": "model.virtual_account.va_account_number",
+    "translation": "가상계좌 번호"
+  },
+  {
+    "id": "pdf.project_info.output_suppression",
+    "translation": "출력억제"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_CONFIRM",
+    "translation": "확정"
+  },
+  {
+    "id": "commoncode.TRANSACTION_TYPE.TRANSACTION_BLOCK",
+    "translation": "거래제한"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_NAME2",
+    "translation": "후리가나 이름"
+  },
+  {
+    "id": "model.user.qty2",
+    "translation": "거래 구수"
+  },
+  {
+    "id": "pdf.invest_info.funding_date",
+    "translation": "모집 기간"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_BY_USER",
+    "translation": "회원 직접처리"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_NEWSLETTER",
+    "translation": "메일 매거진 수신동의 인원"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ORGANIZATION_EMPLOYEE",
+    "translation": "단체직원"
+  },
+  {
+    "id": "model.withdrawal.fee",
+    "translation": "이체 수수료"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME1",
+    "translation": "300만엔 미만"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_ADD",
+    "translation": "추가"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.FUND_LOAN",
+    "translation": "대출-펀드형"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.EXECESS_AND_SHORTAGE_TARGET_EXECUTE",
+    "translation": "강제출금 실행"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_d",
+    "translation": "D"
+  },
+  {
+    "id": "pdf.project_info.system_access_power_company",
+    "translation": "계통접속전력회사"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POSTED_STATE",
+    "translation": "게시상태"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_SECOND",
+    "translation": "제2Q"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADDRESS",
+    "translation": "주소"
+  },
+  {
+    "id": "pdf.spv_info.corp_name",
+    "translation": "법인명"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE",
+    "translation": "마일스톤"
+  },
+  {
+    "id": "commoncode.LOGIN_RESULT.SUCCESS_LOGIN",
+    "translation": "로그인 성공"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.UNREGISTERED",
+    "translation": "미등록"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANNUAL_INCOME",
+    "translation": "연봉"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_REPAYMENT",
+    "translation": "상환금"
+  },
+  {
+    "id": "menu.manage_accounting.3_manage_accounting",
+    "translation": "거래/정산 관리"
+  },
+  {
+    "id": "menu.manage_accounting.receiving_amount_list",
+    "translation": "소멸 체크 리스트"
+  },
+  {
+    "id": "model.user.ekyc_id",
+    "translation": "eKYC ID"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET1",
+    "translation": "150만엔 미만"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.PROCESS_PAYMENT",
+    "translation": "입금 대기"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SILENT_PARTNERSHIPS",
+    "translation": "익명조합 계약서"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_POSTAL_CODE_STATUS",
+    "translation": "담당자 우편물 발송상태"
+  },
+  {
+    "id": "model.project.post",
+    "translation": "게시상태"
+  },
+  {
+    "id": "pdf.project_info.corp_name",
+    "translation": "법인명"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ZIP_CODE",
+    "translation": "우편번호(설비)"
+  },
+  {
+    "id": "menu.manage_terms_manage",
+    "translation": "약관 관리"
+  },
+  {
+    "id": "model.investment_waiters.amount",
+    "translation": "총투자금액"
+  },
+  {
+    "id": "model.user.loan_bank_name",
+    "translation": "대출형 금융기관명"
+  },
+  {
+    "id": "pdf.report.number_of_cases",
+    "translation": "건수"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGIN",
+    "translation": "로그인"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGOUT",
+    "translation": "로그아웃"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOGIN_FAIL",
+    "translation": "로그인 실패"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.REGISTER",
+    "translation": "등록"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.CHANGE",
+    "translation": "변경"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.DELETE",
+    "translation": "삭제"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.DOWNLOAD",
+    "translation": "다운로드"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.LOOKUP",
+    "translation": "조회"
+  },
+  {
+    "id": "commoncode.OPERATOR_STATE.UPLOAD",
+    "translation": "업로드"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_PAYMENT_STATEMENT",
+    "translation": "지불조서"
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_CHANGE",
+    "translation": "변경"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.NO_SMS_CERT",
+    "translation": "비인증"
+  },
+  {
+    "id": "model.withdrawal.deposit_type",
+    "translation": "예금종목"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.SUCCESS_PAYMENT",
+    "translation": "입금 확인"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_NAME",
+    "translation": "상품명"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUND_NUMBER",
+    "translation": "펀드 번호"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_ADMIN",
+    "translation": "운용자"
+  },
+  {
+    "id": "model.user.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.user.email_id",
+    "translation": "이메일(ID)"
+  },
+  {
+    "id": "model.user_transaction.amount",
+    "translation": "금액"
+  },
+  {
+    "id": "pdf.report.to_residents_or_corporations",
+    "translation": "거주자 또는 국내 법인에게"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_INVESTOR_LIMIT",
+    "translation": "투자자수 제한 여부"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MOBILEPHONE",
+    "translation": "전화번호"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_DOCUMENT",
+    "translation": "증빙서류 변경"
+  },
+  {
+    "id": "pdf.project_info.power_connection_agenda_process",
+    "translation": "전원접속안건모집 프로세스"
+  },
+  {
+    "id": "pdf.report.batch",
+    "translation": "일괄"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_DATE",
+    "translation": "설비 인정일"
+  },
+  {
+    "id": "commoncode.POSTAL_CODE_STATE.POSTAL_CODE_STATE_NOTSENT",
+    "translation": "미발송"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ID",
+    "translation": "설비ID"
+  },
+  {
+    "id": "model.user.withdrawal_branch_name",
+    "translation": "출금계좌 지점명"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_REVIEW",
+    "translation": "검토상태 변경"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_PUBLISHED",
+    "translation": "게시상태 변경"
+  },
+  {
+    "id": "commoncode.PROJECT_INVEST_TYPE.PROJECT_INVEST_BLOCK",
+    "translation": "투자제한"
+  },
+  {
+    "id": "commoncode.USER_TYPE.ADMIN",
+    "translation": "운영자"
+  },
+  {
+    "id": "pdf.report.payment_confirmed_year_month",
+    "translation": "지불확정 년 월"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SHARES",
+    "translation": "발행 구수"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SPV",
+    "translation": "개발회사"
+  },
+  {
+    "id": "model.sms.content",
+    "translation": "내용"
+  },
+  {
+    "id": "pdf.invest_info.minimum_fundraising_amount",
+    "translation": "목표 모금액"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DEPOSITOR",
+    "translation": "예금주"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_list",
+    "translation": "운영자 리스트"
+  },
+  {
+    "id": "model.corporate.corp_name",
+    "translation": "법인명"
+  },
+  {
+    "id": "model.corporate.representative_name",
+    "translation": "대표자 성명"
+  },
+  {
+    "id": "model.corporate.manager_name",
+    "translation": "거래담당자명"
+  },
+  {
+    "id": "model.corporate.manager_birthday",
+    "translation": "거래담당자 생년월일"
+  },
+  {
+    "id": "model.corporate.shareholder_name",
+    "translation": "실질지배자명"
+  },
+  {
+    "id": "model.corporate.shareholder_birthday",
+    "translation": "실질지배자 생년월일"
+  },
+  {
+    "id": "model.funding_request.status",
+    "translation": "상태"
+  },
+  {
+    "id": "model.user.age",
+    "translation": "연령"
+  },
+  {
+    "id": "pdf.invest_info.funding_accounts_qty",
+    "translation": "발행 구수"
+  },
+  {
+    "id": "pdf.report.debit",
+    "translation": "차변"
+  },
+  {
+    "id": "pdf.report.furikana",
+    "translation": "후리가나"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PRO_INVEST_FINANCE_ASSET",
+    "translation": "3억엔 이상의 금융자산 보유 여부"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SUMMARY",
+    "translation": "프로젝트 정보"
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_DEL",
+    "translation": "삭제"
+  },
+  {
+    "id": "menu.manage_users.individual_investors_list",
+    "translation": "개인 회원 리스트"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_match_amount",
+    "translation": "과부족 금액"
+  },
+  {
+    "id": "pdf.invest_info.term_of_operation",
+    "translation": "운용기간"
+  },
+  {
+    "id": "pdf.report.address",
+    "translation": "주소(거소)"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ANTISOCIAL_FORCES_BAGIC",
+    "translation": "반사회세력에 대한 기본 방침"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.HOLD_AUDIT",
+    "translation": "본인 확인 보류"
+  },
+  {
+    "id": "menu.manage_users.user_access_log_list",
+    "translation": "접속 로그 리스트"
+  },
+  {
+    "id": "model.login_history.ip",
+    "translation": "접속IP"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_b",
+    "translation": "B"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_manage_detail",
+    "translation": "메일 상세"
+  },
+  {
+    "id": "commoncode.EXCESS_AND_SHORTAGE_TARGET.NOT_EXECUTED",
+    "translation": "출금 미실시"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNLISTED_COMPANY_EMPLOYEE",
+    "translation": "비상장회사직원"
+  },
+  {
+    "id": "model.investment_waiters.qty",
+    "translation": "투자취소대기신청구수"
+  },
+  {
+    "id": "pdf.report.payment_statement",
+    "translation": "%s 년분 익명조합 계약등의 이익 배당 지불조서"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_PROCESSING",
+    "translation": "발행 중"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANK_NAME",
+    "translation": "금융기관명"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADDRESS2",
+    "translation": "상세주소"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.INVALID_VA_ACCOUNT",
+    "translation": "무효완료"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails",
+    "translation": "메일 관리"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_USER",
+    "translation": "회원구분"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_BEFORE_TEXT",
+    "translation": "(변경 전)답변내용"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_REPORT",
+    "translation": "장표 출력"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_FIRSTNAME_FURIGANA",
+    "translation": "담당자명 후리가나"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_WAIT",
+    "translation": "송금대기"
+  },
+  {
+    "id": "model.user.transaction_id",
+    "translation": "거래 번호"
+  },
+  {
+    "id": "pdf.invest_info.power_plant",
+    "translation": "발전 유형"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAIT_HISTORY_TYPE.INVESTMENT_WAIT_HISTORY_MAIL",
+    "translation": "투자제안 메일 전송"
+  },
+  {
+    "id": "pdf.report.balance_month",
+    "translation": "당월 잔액"
+  },
+  {
+    "id": "pdf.evaluation_project.equipment_recognition_and_system_access_data",
+    "translation": "설비 인정, 계통접속관계자료"
+  },
+  {
+    "id": "pdf.report.fund_name",
+    "translation": "펀드 명칭"
+  },
+  {
+    "id": "menu.manage_website.manage_news_list",
+    "translation": "공지사항 리스트"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_DEL",
+    "translation": "삭제"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.PASS_REQUEST",
+    "translation": "승인 완료"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_manage_detail",
+    "translation": "SMS 상세"
+  },
+  {
+    "id": "commoncode.DEPOSIT_TYPE_CODE.ORDINARY_ACCOUNT",
+    "translation": "보통계좌"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CERTIFICATION",
+    "translation": "인증"
+  },
+  {
+    "id": "menu.manage_product.funding_request_detail",
+    "translation": "자금 조달 요청 상세"
+  },
+  {
+    "id": "model.sms.status",
+    "translation": "발송상태"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DISAPPROVE_INVALID_REASON",
+    "translation": "반사회 비승인 처리 사유"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PASSWORD",
+    "translation": "비밀번호"
+  },
+  {
+    "id": "commoncode.POLICY_VIEW_TYPE.POLICY_VIEW_FOOTER",
+    "translation": "Footer"
+  },
+  {
+    "id": "commoncode.PRINT_STATUS_TYPE.PRINT_STATUS_FAIL",
+    "translation": "실패"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DUE_DATE",
+    "translation": "예상자금 회수일"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ZIPCODE",
+    "translation": "우편번호(설비)"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.ALL_PROJECT",
+    "translation": "모든 상품"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.LOAN_PROJECT",
+    "translation": "대출형"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_PRODUCT",
+    "translation": "투자상품관리"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_ACCOUNT_REGISTRATION",
+    "translation": "회원가입"
+  },
+  {
+    "id": "model.corporate.corp_number",
+    "translation": "법인번호"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.list",
+    "translation": "알림 발신 리스트"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_send",
+    "translation": "SMS 발송"
+  },
+  {
+    "id": "pdf.report.profit_dividend_rate",
+    "translation": "이익 배당율"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_DONE",
+    "translation": "완료"
+  },
+  {
+    "id": "pdf.evaluation_project.local_permits",
+    "translation": "PLA(지역허가증)"
+  },
+  {
+    "id": "pdf.report.invest_kind",
+    "translation": "거래 구분"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_state",
+    "translation": "담당자 우편물 발송 상태"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_CONTENTS",
+    "translation": "내용 변경"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.VARIANCE_PORTFOLIO",
+    "translation": "포트폴리오의 분산"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.RAISING_FUTURE_MONEY",
+    "translation": "장래를 위한 자금 마련"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.MICRO_INVESTMENT",
+    "translation": "소액 투자에 대한 관심"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.RENEWABLE_ENERGY_INVESTMENT",
+    "translation": "재생가능에너지 투자에 대한 관심"
+  },
+  {
+    "id": "commoncode.INVESTMENT_PURPOSE_TYPE.ETC",
+    "translation": "기타"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_manage",
+    "translation": "출금 의뢰 관리"
+  },
+  {
+    "id": "model.payment.payment_status",
+    "translation": "거래 상태"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_LICENSE_STATUS",
+    "translation": "인허가 취득 현황"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.REQUEST_PAYMENT",
+    "translation": "지불 요청"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POLICY",
+    "translation": "유의사항"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SCHEDULE_DATE",
+    "translation": "계통연계 예정일"
+  },
+  {
+    "id": "model.user.address",
+    "translation": "주소"
+  },
+  {
+    "id": "pdf.spv_info.addr",
+    "translation": "주소"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_EMAIL",
+    "translation": "이메일"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCHEDULE_DATE",
+    "translation": "계통연계 예정일"
+  },
+  {
+    "id": "menu.manage_product.product",
+    "translation": "투자상품 관리"
+  },
+  {
+    "id": "model.payment.spv_name",
+    "translation": "개발회사"
+  },
+  {
+    "id": "pdf.report.breakdown",
+    "translation": "내역"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ZIP_CODE",
+    "translation": "우편번호"
+  },
+  {
+    "id": "menu.manage_printout.for_tax_office",
+    "translation": "세무서용"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.INVALIDITY_AUDIT",
+    "translation": "무효"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CITY",
+    "translation": "시 또는 구, 군"
+  },
+  {
+    "id": "pdf.report.number",
+    "translation": "구수"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET7",
+    "translation": "3,000만엔 이상"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.CREDIT_REFUND",
+    "translation": "신용카드"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_AUTO",
+    "translation": "자동처리"
+  },
+  {
+    "id": "menu.manage_website.manage_news",
+    "translation": "소식 관리"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BESS",
+    "translation": "축전지 단지"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.LOGIN",
+    "translation": "로그인"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ELECTRONIC_TEACHING",
+    "translation": "전자적 방법에 의한 서면 교부 (전자교부)에 관한 승낙서"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_PROVINCE",
+    "translation": "도, 시, 특별시(설비)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_VISIBLE_INVESTMENT_INFO",
+    "translation": "투자 정보 공개 여부"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_STATUS",
+    "translation": "모집상태"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_FIRST",
+    "translation": "제1Q"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_MYNUMBER",
+    "translation": "마이넘버 관리"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_DISTANCE",
+    "translation": "자영선거리"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage_list",
+    "translation": "과부족금 리스트"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_OPERATOR",
+    "translation": "운영자 처리"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_list",
+    "translation": "법인 회원 목록"
+  },
+  {
+    "id": "model.project.response_date",
+    "translation": "자료 전송일"
+  },
+  {
+    "id": "model.settlement.period",
+    "translation": "결산 기간"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.FAIL_SMS",
+    "translation": "실패"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.RETRY_SMS",
+    "translation": "재전송"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ZIPCODE",
+    "translation": "담당자 우편번호"
+  },
+  {
+    "id": "model.mypage.investor_type",
+    "translation": "투자 등급"
+  },
+  {
+    "id": "model.project.created",
+    "translation": "등록 일자"
+  },
+  {
+    "id": "model.user.address2",
+    "translation": "상세 주소"
+  },
+  {
+    "id": "pdf.report.dividend_date",
+    "translation": "약정 년월일"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET4",
+    "translation": "500만엔 이상 ~ 700만엔 미만"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ASSET",
+    "translation": "금융자산"
+  },
+  {
+    "id": "pdf.report.payer",
+    "translation": "지불자"
+  },
+  {
+    "id": "pdf.report.payment_statement_sum",
+    "translation": "%s 년분 익명조합 계약등의 이익 배당 지불조서 합계표"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME6",
+    "translation": "3,000만엔 이상"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCALE_FUND",
+    "translation": "총 규모"
+  },
+  {
+    "id": "menu.manage_operating_system.6_manage_operating_system",
+    "translation": "기본관리"
+  },
+  {
+    "id": "menu.manage_product.2_manage_product",
+    "translation": "투자상품 관리"
+  },
+  {
+    "id": "menu.manage_product.funding_requester",
+    "translation": "資金需要者管理"
+  },
+  {
+    "id": "pdf.report.sum_what_you_need",
+    "translation": "필요한 것에 합계"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LOCAL_PERMITS",
+    "translation": "PLA(지역 허가증)"
+  },
+  {
+    "id": "model.mypage.invest_date",
+    "translation": "거래 일시"
+  },
+  {
+    "id": "pdf.report.phone_short",
+    "translation": "전화"
+  },
+  {
+    "id": "pdf.report.transaction_details",
+    "translation": "거래 명세"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_PROVINCE",
+    "translation": "담당자 도,시,특별시"
+  },
+  {
+    "id": "model.operator_history.ip",
+    "translation": "IP"
+  },
+  {
+    "id": "pdf.report.sir",
+    "translation": "님"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CITY",
+    "translation": "시 또는 구, 군"
+  },
+  {
+    "id": "model.deposit_match_data.investment_amount",
+    "translation": "투자 신청 금\u001e액"
+  },
+  {
+    "id": "model.trust_info.deposit_date",
+    "translation": "입금 일시"
+  },
+  {
+    "id": "pdf.report.sign",
+    "translation": "(인)"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.CREDIT_PAYMENT",
+    "translation": "신용카드"
+  },
+  {
+    "id": "model.user.equity_bank_name",
+    "translation": "사업형 금융기관명"
+  },
+  {
+    "id": "pdf.project_info.corp_no",
+    "translation": "법인번호"
+  },
+  {
+    "id": "pdf.report.order_date",
+    "translation": "수주일"
+  },
+  {
+    "id": "pdf.report.taxation",
+    "translation": "과세분"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANNERIMAGE_URL",
+    "translation": "배너"
+  },
+  {
+    "id": "model.csv_form.second_line_phrase",
+    "translation": "1. 등록하실 이메일 주소는 A열의 6번째 줄부터 아래 방향으로 입력해 주세요.(A 이외에 다른 열에 입력시 오류가 발생할 수 있습니다.)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROCESS",
+    "translation": "전원접속안건모집 프로세스"
+  },
+  {
+    "id": "model.csv_form.fourth_line_phrase",
+    "translation": "* 수신 동의한 회원에게만 발송됩니다. 정보통신망법에 따라 수신거부한 회원에게는 광고성 정보를 발송할 수 없습니다."
+  },
+  {
+    "id": "model.login_history.email",
+    "translation": "처리자"
+  },
+  {
+    "id": "commoncode.QNA_CHANGED_CONTENT_TYPE.QNA_CHANGED_CONTENT_FIRST",
+    "translation": "답변 최초 등록"
+  },
+  {
+    "id": "model.withdrawal.complete_date",
+    "translation": "완료 일시"
+  },
+  {
+    "id": "pdf.report.agreed_price",
+    "translation": "약정단가"
+  },
+  {
+    "id": "menu.manage_accounting.withdrawal_request_detail",
+    "translation": "출금 의뢰 상세"
+  },
+  {
+    "id": "commoncode.NATIONALITY_CODE.JP",
+    "translation": "일본"
+  },
+  {
+    "id": "commoncode.PAYMENT_HISTORY_TYPE.PAYMENT_HISTORY_TRANSACTION",
+    "translation": "거래상태 변경"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_CUSTOMER_CENTERED_WORK",
+    "translation": "고객 중심의 업무 운영에 관한 정책"
+  },
+  {
+    "id": "menu.manage_mynumber.8_manage",
+    "translation": "마이넘버 관리"
+  },
+  {
+    "id": "model.trust_info.period",
+    "translation": "대상기간:"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CORP_NO",
+    "translation": "법인번호"
+  },
+  {
+    "id": "commoncode.PAYMENT_CHANGED_CONTENT_TYPE.PAYMENT_CHANGED_CONTENT_TRANSACTION_STATUS",
+    "translation": "거래상태"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MINIMUM_FUNDRAISING_AMOUNT",
+    "translation": "목표 모금액"
+  },
+  {
+    "id": "pdf.report.submittee_second_word",
+    "translation": "출"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.WAITING_END",
+    "translation": "대기종료"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BIRTHDAY",
+    "translation": "생년월일"
+  },
+  {
+    "id": "pdf.project_info.start_date",
+    "translation": "시작일"
+  },
+  {
+    "id": "pdf.report.item_code",
+    "translation": "(품목 코드)"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FOREST_DEVELOPMENT",
+    "translation": "임지개발허가의 필요여부"
+  },
+  {
+    "id": "menu.manage_users.pre_indv_investors",
+    "translation": "가등록 개인회원 관리"
+  },
+  {
+    "id": "pdf.project_info.no_need",
+    "translation": "불필요"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.WAIT_APPROVE",
+    "translation": "승인 대기중"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_NAME",
+    "translation": "지점명"
+  },
+  {
+    "id": "model.funding_request.start_date",
+    "translation": "대출의뢰일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ALL_CERTIFICATE_HISTORY",
+    "translation": "이력사항전부 증명서"
+  },
+  {
+    "id": "pdf.invest_info.post_date",
+    "translation": "모집개시일"
+  },
+  {
+    "id": "pdf.project_info.days",
+    "translation": "일"
+  },
+  {
+    "id": "model.sms.send_count",
+    "translation": "발송건수"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.LOAN",
+    "translation": "대출형"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DOCUMENT",
+    "translation": "확인 자료"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FAMILY_NAME",
+    "translation": "성"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_a",
+    "translation": "A"
+  },
+  {
+    "id": "pdf.report.thousand",
+    "translation": "천"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ENVIRONMENTAL_IMPACT",
+    "translation": "환경영향평가의 필요여부"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SETTLEMENT",
+    "translation": "결산 실행"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_BASE",
+    "translation": "시스템 데이터 관리"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_LASTNAME_FURIGANA",
+    "translation": "대표자성 후리가나"
+  },
+  {
+    "id": "model.deposit_match_data.update_date",
+    "translation": "최근 업데이트 일자"
+  },
+  {
+    "id": "model.private.birthday",
+    "translation": "생년월일"
+  },
+  {
+    "id": "pdf.project_info.is_forest_development",
+    "translation": "임지개발허가의필요여부"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_DOING",
+    "translation": "진행중"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_AGREEMENT_TYPE.USER_HISTORY_AGREEMENT_AGREE",
+    "translation": "동의"
+  },
+  {
+    "id": "pdf.report.withdrawal",
+    "translation": "출금"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.SUCCESS_SMS",
+    "translation": "성공"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ID",
+    "translation": "설비ID"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.FAIL_FUNDING",
+    "translation": "불성립"
+  },
+  {
+    "id": "model.mail.title",
+    "translation": "제목"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_DEVELOP_SCALE",
+    "translation": "발전규모"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_INFO",
+    "translation": "프로젝트 개요"
+  },
+  {
+    "id": "model.corporate.code_certified",
+    "translation": "소재지 확인코드 인증일"
+  },
+  {
+    "id": "model.payment.investor",
+    "translation": "투자자"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME3",
+    "translation": "500만엔 이상 ~ 700만엔 미만"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_detail",
+    "translation": "법인 회원 상세"
+  },
+  {
+    "id": "model.mypage.project_name",
+    "translation": "상품명"
+  },
+  {
+    "id": "model.spv.phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "pdf.report.processing_points_first",
+    "translation": "처"
+  },
+  {
+    "id": "pdf.report.withdrawal_amount",
+    "translation": "출금 금액"
+  },
+  {
+    "id": "pdf.spv_info.corp_info",
+    "translation": "회사정보"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PRO_INVEST_ASSET",
+    "translation": "3억엔 이상의 자산 보유 여부"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_INCOMPLETE",
+    "translation": "미완료"
+  },
+  {
+    "id": "menu.manage_printout.7_manage",
+    "translation": "장표 출력"
+  },
+  {
+    "id": "model.login_history.device",
+    "translation": "기기 정보"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_RETIREE",
+    "translation": "연금수급자"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_ADULT_GUARDIAN",
+    "translation": "성년 후견인 등에 관한 동의서"
+  },
+  {
+    "id": "menu.manage_accounting.send_manage",
+    "translation": "송금 관리"
+  },
+  {
+    "id": "model.user.loan_depositor",
+    "translation": "대출형 예금주"
+  },
+  {
+    "id": "pdf.invest_info.expected_exit_date",
+    "translation": "예상 자금회수일"
+  },
+  {
+    "id": "commoncode.FUNDING_STATE_CHANGE_TYPE.FUNDING_STATE_CHANGE_BY_OPERATOR",
+    "translation": "운영자 직접처리"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_OPERATION_TERM",
+    "translation": "운용기간"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_EXECUTION_STATUS.SETTLEMENT_INCOMPLETE",
+    "translation": "미완료"
+  },
+  {
+    "id": "model.user.disagree",
+    "translation": "미동의"
+  },
+  {
+    "id": "model.user.equity_branch_name",
+    "translation": "사업형 지점명"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LOAN_COMPLETED",
+    "translation": "대출 확정"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CERTIFIEDCOPY",
+    "translation": "이력사항전부 증명서"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_POWER_OF_ATTORNEY",
+    "translation": "위임장"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_POSITION",
+    "translation": "담당자 직책"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators",
+    "translation": "운영자 관리"
+  },
+  {
+    "id": "pdf.project_info.application_rule",
+    "translation": "적용 룰"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_EMAIL",
+    "translation": "대표자 이메일"
+  },
+  {
+    "id": "model.withdrawal.branch_code",
+    "translation": "지점번호"
+  },
+  {
+    "id": "menu.manage_website.manage_news_detail",
+    "translation": "소식 상세"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.INVESTMENT_SETTLEMENT",
+    "translation": "출자"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_REFUND",
+    "translation": "강제출금"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_TYPE.DEPOSIT_TRANSACTION",
+    "translation": "입금"
+  },
+  {
+    "id": "model.investment_waiters.user_type",
+    "translation": "투자등급"
+  },
+  {
+    "id": "model.user.agreement_date",
+    "translation": "수신동의 일자"
+  },
+  {
+    "id": "pdf.project_info.equipment_id",
+    "translation": "설비ID"
+  },
+  {
+    "id": "commoncode.PROJECT_LIST_TYPE.EQUITY_PROJECT",
+    "translation": "사업형"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.PROPOSAL",
+    "translation": "투자 제안중"
+  },
+  {
+    "id": "model.operator_history.menu",
+    "translation": "로그 종류"
+  },
+  {
+    "id": "pdf.report.description_my_number",
+    "translation": "↓개인 번호 기입은 좌측을 빈칸으로 하여, 여기서부터 기입 해주세요."
+  },
+  {
+    "id": "pdf.report.project_name",
+    "translation": "품목"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ADDRESS2",
+    "translation": "상세주소(설비)"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_OUTPUT_SUPPRESSION",
+    "translation": "출력억제"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.FAIL_INVEST",
+    "translation": "투자 불성립"
+  },
+  {
+    "id": "model.mypage.invest_status",
+    "translation": "거래 상태"
+  },
+  {
+    "id": "pdf.project_info.fixed_purchase_period",
+    "translation": "고정매입기간"
+  },
+  {
+    "id": "pdf.report.investment",
+    "translation": "출자"
+  },
+  {
+    "id": "commoncode.DEPOSIT_TYPE_CODE.CHECKING_ACCOUNT",
+    "translation": "당좌계좌"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.CASH_PAYMENT",
+    "translation": "현금"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_STATUS.COMPLETED",
+    "translation": "완료"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_ADDRESS",
+    "translation": "주소"
+  },
+  {
+    "id": "menu.manage_website.manage_faq",
+    "translation": "자주묻는질문 관리"
+  },
+  {
+    "id": "menu.manage_website.manage_column",
+    "translation": "칼럼 관리 (미사용)"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.GMO_API_REQUEST",
+    "translation": "GMO API 연동"
+  },
+  {
+    "id": "menu.manage_accounting.manage_withdrawal_close",
+    "translation": "출금 요청 마감"
+  },
+  {
+    "id": "model.investment_waiters.name",
+    "translation": "이름/법인명"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.SELECTION_INVEST",
+    "translation": "당첨 (입금대기)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_APPLICATION_RULE",
+    "translation": "적용 룰"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_manage_send",
+    "translation": "발송 메일 목록"
+  },
+  {
+    "id": "model.user_transaction.deposit_withdrawal",
+    "translation": "입금/출금"
+  },
+  {
+    "id": "model.csv_form.third_line_phrase",
+    "translation": "2. 이메일 주소에는 '@'와 점(.)기호를 포함해 주세요.(ex. first@illuminarean.com)"
+  },
+  {
+    "id": "pdf.report.point",
+    "translation": "적요"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_PHONE",
+    "translation": "전화번호"
+  },
+  {
+    "id": "commoncode.PROJECT_INVEST_TYPE.PROJECT_INVEST_NOTBLOCK",
+    "translation": "투자제한 안함"
+  },
+  {
+    "id": "menu.manage_main.contact_detail",
+    "translation": "문의 관리 상세"
+  },
+  {
+    "id": "pdf.report.japan_money",
+    "translation": "엔"
+  },
+  {
+    "id": "pdf.report.processing_points_second",
+    "translation": "리"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.REQUEST_INVEST",
+    "translation": "투자 신청중"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_PROGRESS_PERCENT",
+    "translation": "프로젝트 진행률"
+  },
+  {
+    "id": "model.user.temporary_date",
+    "translation": "등록 메일 발송일시"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.WAITING",
+    "translation": "대기중"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_COMPLETED",
+    "translation": "완료"
+  },
+  {
+    "id": "pdf.report.deposit_amount",
+    "translation": "입금 금액"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DISTANCE",
+    "translation": "자영선거리"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_check_status",
+    "translation": "입금액 확인"
+  },
+  {
+    "id": "pdf.invest_info.invest_info",
+    "translation": "투자 정보"
+  },
+  {
+    "id": "pdf.report.phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code_send_date",
+    "translation": "담당자 우편물 발송 일"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_SYSTEM_ACCESS_POWER_COMPANY",
+    "translation": "계통접속전력회사"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.CANCEL_INVEST",
+    "translation": "투자 취소"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPEN_FUNDING",
+    "translation": "모집 중"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_SHAREHOLDER",
+    "translation": "최대주주정보 변경"
+  },
+  {
+    "id": "model.user.gender",
+    "translation": "성별"
+  },
+  {
+    "id": "model.user.postal_code",
+    "translation": "본인확인코드"
+  },
+  {
+    "id": "pdf.report.transaction_kind",
+    "translation": "거래 종류"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_LAND_STATUS",
+    "translation": "토지취득현황"
+  },
+  {
+    "id": "menu.manage_terms_manage_detail",
+    "translation": "약관 상세"
+  },
+  {
+    "id": "pdf.report.Investment_price",
+    "translation": "출자 단가"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_PAYMENT_STATEMENT_SUM",
+    "translation": "지불조서 합계표"
+  },
+  {
+    "id": "commoncode.QUATER_TYPE.QUARTER_THIRD",
+    "translation": "제3Q"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME4",
+    "translation": "700만엔 이상 ~ 1,000만엔 미만"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.DIVIDEND_SETTLEMENT",
+    "translation": "배당"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_DOCUMENT_TYPE.USER_HISTORY_DOCUMENT_DEL",
+    "translation": "삭제"
+  },
+  {
+    "id": "menu.manage_product.product_register",
+    "translation": "펀드 신규 등록"
+  },
+  {
+    "id": "model.user.pay",
+    "translation": "결제 금액"
+  },
+  {
+    "id": "pdf.report.description_head",
+    "translation": "항상 에너지쉐어즈를 이용해주셔서 감사합니다."
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.SOLAR_BESS",
+    "translation": "축전지 병설 태양광발전소"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.UNSUCCESSFUL_INVEST",
+    "translation": "낙선"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SOLAR_TOTAL_SIZE",
+    "translation": "태양전지합계규모"
+  },
+  {
+    "id": "model.withdrawal.id",
+    "translation": "출금번호"
+  },
+  {
+    "id": "pdf.report.transaction_record",
+    "translation": "모집에 관한 거래기록"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.CHECK_ANTISOCIAL_AUDIT",
+    "translation": "반사회 확인중"
+  },
+  {
+    "id": "model.investment_waiters.waiting_date",
+    "translation": "신청 일시"
+  },
+  {
+    "id": "pdf.project_info.addr",
+    "translation": "주소"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEPOSIT_TYPE",
+    "translation": "예금종류"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PROCESS",
+    "translation": "전원접속안건모집 프로세스"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BANK_ACCOUNT",
+    "translation": "계좌번호"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ORGANIZATION_EXECUTIVE",
+    "translation": "단체임원"
+  },
+  {
+    "id": "menu.manage_product.funding_request",
+    "translation": "자금 조달 요청 리스트"
+  },
+  {
+    "id": "menu.manage_virtualaccount_manage",
+    "translation": "가상 계좌 관리"
+  },
+  {
+    "id": "model.mypage.invest_number",
+    "translation": "거래 번호"
+  },
+  {
+    "id": "pdf.report.balance_base_date",
+    "translation": "잔액기준일"
+  },
+  {
+    "id": "pdf.report.note",
+    "translation": "비고"
+  },
+  {
+    "id": "commoncode.MILESTONE_STATUS_CODE.MILESTONE_READY",
+    "translation": "준비중"
+  },
+  {
+    "id": "pdf.report.signed_and_seal",
+    "translation": "서명 날인"
+  },
+  {
+    "id": "pdf.report.recipient",
+    "translation": "받는자"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUNDRAISING_END_DATE",
+    "translation": "모집종료일"
+  },
+  {
+    "id": "model.virtual_account.va_branch_code",
+    "translation": "가상계좌 지점 번호"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_FUNDS",
+    "translation": "펀드 운영"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_ADD",
+    "translation": "추가"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_EMAIL",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.project.project_type",
+    "translation": "투자 유형"
+  },
+  {
+    "id": "model.sms.type",
+    "translation": "발송유형"
+  },
+  {
+    "id": "pdf.report.investment_amount",
+    "translation": "출자 금액"
+  },
+  {
+    "id": "pdf.report.processing_points_fourth",
+    "translation": "항"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_CONSULTING",
+    "translation": "상담 내용"
+  },
+  {
+    "id": "pdf.report.cleanup_department",
+    "translation": "정리부 등재"
+  },
+  {
+    "id": "pdf.report.cleanup_column",
+    "translation": "정리란"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION2_FRONT",
+    "translation": "본인확인서류2 (앞)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION2_BACK",
+    "translation": "본인확인서류2 (뒤)"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_TYPE.WITHDRAWAL_TRANSACTION",
+    "translation": "출금"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.OFF_VA_ACCOUNT",
+    "translation": "미부여"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME2",
+    "translation": "300만엔 이상 ~ 500만엔 미만"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRADING_DIARY",
+    "translation": "거래일기장"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_HOUSEWIFE",
+    "translation": "주부"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TECHNICAL_ASPECTS",
+    "translation": "기술적 측면"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.END_FUNDING",
+    "translation": "모집 종료"
+  },
+  {
+    "id": "menu.manage_product.product_list",
+    "translation": "펀드 리스트"
+  },
+  {
+    "id": "model.funding_request.id",
+    "translation": "신청ID"
+  },
+  {
+    "id": "pdf.report.head_office",
+    "translation": "본점"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_FIXED_PURCHASE_PRICE",
+    "translation": "고정매입가격"
+  },
+  {
+    "id": "commoncode.SMS_CERT_STATUS.FAIL_SMS_CERT",
+    "translation": "인증 미완료"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_REQUEST_STATUS_TYPE.WITHDRAWAL_REQUEST_STATUS_WAIT",
+    "translation": "송금대기"
+  },
+  {
+    "id": "model.adminstrator.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.user.payment_status",
+    "translation": "거래 상태"
+  },
+  {
+    "id": "pdf.report.payment_amount",
+    "translation": "지불금액"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_REFERENCE",
+    "translation": "관련 자료 첨부"
+  },
+  {
+    "id": "menu.manage_accounting.trust_info.list",
+    "translation": "신탁 정보 관리"
+  },
+  {
+    "id": "model.adminstrator.name",
+    "translation": "이름"
+  },
+  {
+    "id": "pdf.invest_info.scale_fund",
+    "translation": "(총) 규모"
+  },
+  {
+    "id": "pdf.project_info.develop_scale",
+    "translation": "규모"
+  },
+  {
+    "id": "pdf.report.customer_account",
+    "translation": "고객 계정 원장"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.PAYMENT_STATEMENT_BATCH_EXECUTE",
+    "translation": "지불조서 발행 배치 실행"
+  },
+  {
+    "id": "pdf.report.deposit",
+    "translation": "입금"
+  },
+  {
+    "id": "commoncode.MAIL_STATUS.RETRY_MAIL",
+    "translation": "재전송"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_OPERATOR",
+    "translation": "운용관리"
+  },
+  {
+    "id": "menu.manage_qna.list",
+    "translation": "문의 창구 리스트"
+  },
+  {
+    "id": "model.deposit_check_data.investor_name",
+    "translation": "투자자명"
+  },
+  {
+    "id": "model.user.uid",
+    "translation": "ID"
+  },
+  {
+    "id": "pdf.report.non_taxable_or",
+    "translation": "비과세 또는"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_NON_ANTISOCIAL_FORCES_AGREEMENT",
+    "translation": "반사회세력 아님에 대한 확약에 관한 동의서"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_IS_ADDRESS_CHANGE",
+    "translation": "담당자 주소변경 처리중(투자제한) "
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRANSACTION_BALANCE_REPORT",
+    "translation": "거래잔액 보고서"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_PURPOSE",
+    "translation": "투자목적"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_ADDRESS2",
+    "translation": "상세주소(설비)"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNLISTED_COMPANY_EXECUTIVES",
+    "translation": "비상장회사임원"
+  },
+  {
+    "id": "pdf.report.year",
+    "translation": "년"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_WITHDRAWAL_CANCEL",
+    "translation": "출자취소"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTOR_CANCEL",
+    "translation": "출금취소"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.AUTO_SMS",
+    "translation": "자동발송"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_FAIL",
+    "translation": "송금실패"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_CANCEL",
+    "translation": "출금취소"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_list",
+    "translation": "자주 묻는 질문 리스트"
+  },
+  {
+    "id": "menu.manage_website.manage_column_list",
+    "translation": "칼럼 목록"
+  },
+  {
+    "id": "model.user.sign_up_response",
+    "translation": "회원가입 승인일"
+  },
+  {
+    "id": "pdf.report.amount",
+    "translation": "가격"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_CITY",
+    "translation": "시 또는 구, 군(설비)"
+  },
+  {
+    "id": "model.mail.send_date",
+    "translation": "발송일시"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_PROVINCE",
+    "translation": "도, 시, 특별시"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_TYPE.DIVIDEND_REPAYMENT_SETTLEMENT",
+    "translation": "배당•상환"
+  },
+  {
+    "id": "menu.manage_website.manage_news_register",
+    "translation": "소식 신규등록"
+  },
+  {
+    "id": "pdf.report.submission",
+    "translation": "           년      월      일  제출"
+  },
+  {
+    "id": "commoncode.FAQ_TYPE.OTHER",
+    "translation": "기타"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_GOING",
+    "translation": "진행중"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_POSTAL_CODE",
+    "translation": "우편물 발송상태"
+  },
+  {
+    "id": "commoncode.WITHDRAWAL_STATUS_TYPE.WITHDRAWAL_STATUS_COMPLETE",
+    "translation": "완료"
+  },
+  {
+    "id": "menu.manage_accounting.payment_list",
+    "translation": "거래 리스트"
+  },
+  {
+    "id": "pdf.project_info.total_size_of_solar",
+    "translation": "태양전지 합계규모"
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.SAME_DEPOSIT",
+    "translation": "일치"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_READY",
+    "translation": "준비중"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IS_ADDRESS_CHANGE",
+    "translation": "주소변경 처리중(투자제한) "
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.FUNDING_REQUEST_ACCEPT",
+    "translation": "대출의뢰 승인 완료"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_LIMITED_INVEST",
+    "translation": "투자제한 상태 변경"
+  },
+  {
+    "id": "commoncode.GENDER.FEMALE",
+    "translation": "여성"
+  },
+  {
+    "id": "commoncode.NATIONALITY_CODE.OTHERS",
+    "translation": "일본 외"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EXPECTED_RETURN",
+    "translation": "예상 수익률"
+  },
+  {
+    "id": "model.deposit_check_data.invest_date",
+    "translation": "투자 일시"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_match_status",
+    "translation": "과부족 현황"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_REPAY_DISTRIBUTION",
+    "translation": "상환·분배"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms",
+    "translation": "SMS 관리"
+  },
+  {
+    "id": "model.csv_form.fifth_line_phrase",
+    "translation": "[이메일 주소]"
+  },
+  {
+    "id": "pdf.project_info.is_environmental_impact",
+    "translation": "환경영향평가의필요여부"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DEVELOP_SCALE",
+    "translation": "발전규모"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ADDRESS",
+    "translation": "담당자 주소"
+  },
+  {
+    "id": "commoncode.USER_TYPE.PRIVATE",
+    "translation": "개인회원"
+  },
+  {
+    "id": "model.user_account.updated",
+    "translation": "업데이트 일시"
+  },
+  {
+    "id": "pdf.report.my_number_or_corp_number",
+    "translation": "개인번호 또는 법인번호"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.APPLE",
+    "translation": "애플"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_FIRSTNAME_FURIGANA",
+    "translation": "대표자명 후리가나"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEL",
+    "translation": "삭제"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INVALID_REASON",
+    "translation": "무효 처리 사유"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_sms_manage_send",
+    "translation": "발송 SMS 목록"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_AUDIT",
+    "translation": "승인 대기중"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.PROVISIONAL_AUDIT",
+    "translation": "가회원"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.ETC",
+    "translation": "기타"
+  },
+  {
+    "id": "commoncode.SPV_HISTORY_TYPE.SPV_HISTORY_CONTENTS",
+    "translation": "내용 변경"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_c",
+    "translation": "C"
+  },
+  {
+    "id": "commoncode.ANNUALINCOME_STATUS.ANNUALINCOME5",
+    "translation": "1,000만엔 이상 ~ 3,000만엔 미만"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_STATUS",
+    "translation": "상태"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_LASTNAME",
+    "translation": "대표자성"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_DEPARTMENT",
+    "translation": "담당자 부서"
+  },
+  {
+    "id": "model.project.target_share_amount",
+    "translation": "상한 모금액"
+  },
+  {
+    "id": "pdf.report.my_number_or",
+    "translation": "개인번호 또는"
+  },
+  {
+    "id": "pdf.report.name_or",
+    "translation": "이름 또는"
+  },
+  {
+    "id": "pdf.report.payment_confirmation_date",
+    "translation": "지불확정일"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_COMMISSION_RISK",
+    "translation": "수수료 위험 등의 광고 기재 사항"
+  },
+  {
+    "id": "pdf.report.submittee_first_word",
+    "translation": "제"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_ETC",
+    "translation": "기타"
+  },
+  {
+    "id": "model.operator_history.created",
+    "translation": "처리일시"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MAINIMAGE_URL",
+    "translation": "썸네일"
+  },
+  {
+    "id": "commoncode.PROJECT_PUBLISH_TYPE.PROJECT_PUBLISH_UNPOSTED",
+    "translation": "미게시"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.REFUND_INVEST",
+    "translation": "상환됨"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_CITY",
+    "translation": "담당자 시 또는 구,군"
+  },
+  {
+    "id": "model.user.agree",
+    "translation": "동의"
+  },
+  {
+    "id": "pdf.report.ceo_name",
+    "translation": "대표자명 날인"
+  },
+  {
+    "id": "model.login_history.login_time",
+    "translation": "접속일시"
+  },
+  {
+    "id": "pdf.report.presence_or_not",
+    "translation": "유·무"
+  },
+  {
+    "id": "model.deposit_match_data.investor_name",
+    "translation": "투자자명"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_MESSENGER",
+    "translation": "메일/SMS관리"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SUBSTANTIVE_RULER",
+    "translation": "실질적 지배자에 대해"
+  },
+  {
+    "id": "model.operator_history.name",
+    "translation": "운영자명"
+  },
+  {
+    "id": "model.user.postal_code_send_date",
+    "translation": "우편물 발송일"
+  },
+  {
+    "id": "pdf.report.repayment",
+    "translation": "상환"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_TRANSACTION_RECORD",
+    "translation": "모집 취급에 관한 거래 기록"
+  },
+  {
+    "id": "pdf.report.sum",
+    "translation": "합계"
+  },
+  {
+    "id": "model.virtual_account.update_date",
+    "translation": "갱신 일시"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.DEPOSIT_VIRTUAL_ACCOUNT",
+    "translation": "계좌이체 입금"
+  },
+  {
+    "id": "model.deposit_match_data.lack_amount",
+    "translation": "미확인 입금액"
+  },
+  {
+    "id": "model.settlement.type",
+    "translation": "대출 내용"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_BRANCH_NAME",
+    "translation": "지점명"
+  },
+  {
+    "id": "model.user.marketing_agree",
+    "translation": "메일 매거진 동의"
+  },
+  {
+    "id": "model.user.name",
+    "translation": "이름"
+  },
+  {
+    "id": "pdf.invest_info.interest_rate",
+    "translation": "배당율(연) "
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_FINANCE_NAME",
+    "translation": "금융기관명"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_detail",
+    "translation": "운영자 상세"
+  },
+  {
+    "id": "model.user.withdrawal_bank_name",
+    "translation": "출금계좌 금융기관명"
+  },
+  {
+    "id": "model.user.withdrawal_deposit_type",
+    "translation": "출금계좌 예금종류"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FIXED_PURCHASE_PERIOD",
+    "translation": "고정매입기간"
+  },
+  {
+    "id": "pdf.report.processing_points_third",
+    "translation": "사"
+  },
+  {
+    "id": "menu.manage_operating_system.mange_administrators_register",
+    "translation": "운영자 권한 등록"
+  },
+  {
+    "id": "model.csv_form.first_line_phrase",
+    "translation": "[양식 입력방법]"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_AGREEMENT_TYPE.USER_HISTORY_AGREEMENT_DISAGREE",
+    "translation": "미동의"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_STATE_TYPE.FUNDING_STATE_NOT_NEED",
+    "translation": "불필요"
+  },
+  {
+    "id": "pdf.project_info.loan_shares",
+    "translation": "구"
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.LACK_DEPOSIT",
+    "translation": "부족"
+  },
+  {
+    "id": "pdf.report.transaction_balance",
+    "translation": "거래 잔액"
+  },
+  {
+    "id": "pdf.evaluation_project.climatology_and_hazards",
+    "translation": "기후와 위험요소"
+  },
+  {
+    "id": "model.user.loan_bank_account",
+    "translation": "대출형 계좌번호"
+  },
+  {
+    "id": "pdf.invest_info.internal_rate_of_return",
+    "translation": "전분기 내부 수익률"
+  },
+  {
+    "id": "pdf.project_info.system_connection_scheduled_date",
+    "translation": "계통연계 예정일"
+  },
+  {
+    "id": "pdf.report.paid",
+    "translation": "지불한 것"
+  },
+  {
+    "id": "model.user.invest_date",
+    "translation": "거래 일시"
+  },
+  {
+    "id": "pdf.project_info.for_years",
+    "translation": "년간"
+  },
+  {
+    "id": "waiting.manual_investment.registration",
+    "translation": "수동투자 신규등록"
+  },
+  {
+    "id": "model.user_transaction.kind",
+    "translation": "종류"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FOREST_DEVELOPMENT",
+    "translation": "임지개발허가의 필요여부"
+  },
+  {
+    "id": "model.settlement.dividend_date",
+    "translation": "배당\u001e일"
+  },
+  {
+    "id": "model.withdrawal.orderer",
+    "translation": "예금주명"
+  },
+  {
+    "id": "pdf.evaluation_project.land_status",
+    "translation": "토지현황"
+  },
+  {
+    "id": "pdf.report.tax_accountant_number",
+    "translation": "세무사 번호"
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.CANCEL_DEPOSIT",
+    "translation": "Cancel"
+  },
+  {
+    "id": "commoncode.PAYMENT_METHOD.VIRTUAL_ACCOUNT_PAYMENT",
+    "translation": "가상계좌"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_NO",
+    "translation": "마일스톤 순서"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SITE_CHARACTERISTICS",
+    "translation": "입지특성"
+  },
+  {
+    "id": "menu.manage_users.4_manage_users",
+    "translation": "투자회원 관리"
+  },
+  {
+    "id": "model.virtual_account.project_type",
+    "translation": "종류"
+  },
+  {
+    "id": "pdf.report.money_balance",
+    "translation": "금전 잔액"
+  },
+  {
+    "id": "pdf.report.new_add",
+    "translation": "신규=1,추가=2"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET5",
+    "translation": "700만엔 이상 ~ 1,000만엔 미만"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_NEWS",
+    "translation": "소식"
+  },
+  {
+    "id": "model.adminstrator.phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "model.mypage.project_type",
+    "translation": "투자유형"
+  },
+  {
+    "id": "pdf.report.balance",
+    "translation": "잔액"
+  },
+  {
+    "id": "pdf.report.balance_previous_month",
+    "translation": "전월말 잔액"
+  },
+  {
+    "id": "pdf.report.payments",
+    "translation": "지불을"
+  },
+  {
+    "id": "pdf.report.qty",
+    "translation": "수량"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_FUNDRAISING_START_DATE",
+    "translation": "모집개시일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ZIPCODE",
+    "translation": "우편번호"
+  },
+  {
+    "id": "model.withdrawal.amount_sum",
+    "translation": "출금 합계 금액"
+  },
+  {
+    "id": "pdf.invest_info.total_shares_qty",
+    "translation": "총 구수"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.SIGN_UP_COMPLETE_SMS",
+    "translation": "회원가입 승인"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_NAME",
+    "translation": "프로젝트명"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PAYMENT_STATUS",
+    "translation": "계통연계공사 부담금 납부현황"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_LASTNAME_FURIGANA",
+    "translation": "담당자성 후리가나"
+  },
+  {
+    "id": "menu.manage_mail_sms.manage_emails_send",
+    "translation": "메일 발송"
+  },
+  {
+    "id": "model.spv.address",
+    "translation": "소재지"
+  },
+  {
+    "id": "model.withdrawal.investor_id",
+    "translation": "투자자ID"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_ENVIRONMENTAL_IMPACT",
+    "translation": "환경영향평가의 필요여부"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_GRID_CONNECTION_STATUS",
+    "translation": "계통연계 접속 계약 현황"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_TYPE.FUNDING_HISTORY_REFERENCE",
+    "translation": "참고자료 변경"
+  },
+  {
+    "id": "menu.manage_product.developer_detail",
+    "translation": "조성 회사 상세"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_FIXED_PURCHASE_PRICE_DATE",
+    "translation": "고정매입기간"
+  },
+  {
+    "id": "pdf.report.price",
+    "translation": "단가"
+  },
+  {
+    "id": "model.user.code_certified",
+    "translation": "본인확인코드 인증일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_CERTIFICATION",
+    "translation": "대표자 인증"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_ADDRESS2",
+    "translation": "담당자 상세주소"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_ANTISOCIAL",
+    "translation": "반사회정보 변경"
+  },
+  {
+    "id": "pdf.report.agreement_date",
+    "translation": "약정일"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.STANDBY_FUNDING",
+    "translation": "모집 개시전"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.NORMAL_SMS",
+    "translation": "개별/전체"
+  },
+  {
+    "id": "model.sms.sender",
+    "translation": "발송처리자"
+  },
+  {
+    "id": "commoncode.SMS_STATUS.REQUEST_SMS",
+    "translation": "요청"
+  },
+  {
+    "id": "model.user.phone_certified",
+    "translation": "전화번호 인증일"
+  },
+  {
+    "id": "pdf.report.correction_Invalid",
+    "translation": "정정=3,무효=4"
+  },
+  {
+    "id": "commoncode.PROJECT_HISTORY_TYPE.PROJECT_HISTORY_CONTENTS",
+    "translation": "내용 변경"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LIMITED_INVEST",
+    "translation": "투자제한"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_OUTPUT_SUPPRESSION",
+    "translation": "출력억제"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_PROCESS_TYPE.USER_HISTORY_PROCESS_MEMBER",
+    "translation": "회원 직접 처리"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_NONE",
+    "translation": "발행 중"
+  },
+  {
+    "id": "commoncode.GENDER.MALE",
+    "translation": "남성"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TOTAL_EVALUATION_SCORE",
+    "translation": "종합평가점수"
+  },
+  {
+    "id": "commoncode.VIRTUAL_ACCOUNT_LINK_STATUS.ON_VA_ACCOUNT",
+    "translation": "부여완료"
+  },
+  {
+    "id": "pdf.evaluation_project.evaluation_project",
+    "translation": "프로젝트 평가"
+  },
+  {
+    "id": "pdf.invest_info.spv_developer",
+    "translation": "개발회사"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_ADDRESS",
+    "translation": "주소(설비)"
+  },
+  {
+    "id": "menu.manage_product.product_detail",
+    "translation": "펀드 상세"
+  },
+  {
+    "id": "menu.manage_system_data_manage",
+    "translation": "시스템 데이터 관리"
+  },
+  {
+    "id": "model.user.withdrawal_bank_account",
+    "translation": "출금계좌 계좌번호"
+  },
+  {
+    "id": "pdf.project_info.equipment_date",
+    "translation": "설비인정일"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_QUESTIONS",
+    "translation": "문의사항"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_UNION_EXECUTIVE",
+    "translation": "조합임원"
+  },
+  {
+    "id": "model.investment_waiters.turn",
+    "translation": "순번"
+  },
+  {
+    "id": "model.spv.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.user_account.balance",
+    "translation": "예치금 잔액"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.APPROVE",
+    "translation": "승인"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.FUND_EQUITY",
+    "translation": "사업-펀드형"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.CASH_REFUND",
+    "translation": "현금"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors",
+    "translation": "법인회원 관리"
+  },
+  {
+    "id": "pdf.report.tax_accountant",
+    "translation": "작성 세무사"
+  },
+  {
+    "id": "pdf.report.to_non_resident_or_corporation",
+    "translation": "비 거주자 또는 외국 법인에게"
+  },
+  {
+    "id": "commoncode.LOGIN_RESULT.FAIL_LOGIN",
+    "translation": "로그인 실패"
+  },
+  {
+    "id": "model.payment.invest_date",
+    "translation": "거래 일시"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LISTED_COMPANY_EXECUTIVES",
+    "translation": "상장회사임원"
+  },
+  {
+    "id": "commoncode.POLICY_VIEW_TYPE.POLICY_VIEW_JOIN",
+    "translation": "회원가입"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_DISAPPROVE",
+    "translation": "비승인"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_register",
+    "translation": "자주 묻는 질문 신규 등록"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PURCHASE_PERIOD",
+    "translation": "년간"
+  },
+  {
+    "id": "pdf.report.communication_time_seal",
+    "translation": "통신일시 날인"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.PRIVATE_INVESTOR",
+    "translation": "개인 일반투자자"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.CLOSE_FUNDING",
+    "translation": "상환완료"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_ACCOUNT",
+    "translation": "계좌번호"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.CORPORATE_PRO_INVESTOR",
+    "translation": "법인 전문투자자"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CAUTION",
+    "translation": "유의사항"
+  },
+  {
+    "id": "model.mypage.spv_name",
+    "translation": "개발회사"
+  },
+  {
+    "id": "model.payment.pay",
+    "translation": "결제 금액"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_TYPE.DEPOSIT_REQUEST",
+    "translation": "입금요청"
+  },
+  {
+    "id": "model.user_transaction.invest_name",
+    "translation": "투자자명"
+  },
+  {
+    "id": "pdf.project_info.target_loan_amount",
+    "translation": "총 대출액"
+  },
+  {
+    "id": "model.user.nationality",
+    "translation": "국적"
+  },
+  {
+    "id": "commoncode.MY_NUMBER_STATUS_CODE.DISAPPROVED",
+    "translation": "비승인(재통지 완료)"
+  },
+  {
+    "id": "model.user.job",
+    "translation": "직업"
+  },
+  {
+    "id": "commoncode.NOTICE_USER_TYPE.NOTICE_DIRECT",
+    "translation": "직접입력"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_ADDRESS2",
+    "translation": "상세주소"
+  },
+  {
+    "id": "model.settlement.status",
+    "translation": "상태"
+  },
+  {
+    "id": "model.project.period",
+    "translation": "모집 기간"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.WIND_BESS",
+    "translation": "축전지 병설 풍력발전소"
+  },
+  {
+    "id": "commoncode.REQUEST_STATUS.FAIL_REQUEST",
+    "translation": "무효"
+  },
+  {
+    "id": "menu.manage_project.request",
+    "translation": "자료요청 회원 목록"
+  },
+  {
+    "id": "model.adminstrator.sign_up_date",
+    "translation": "최근 접속일"
+  },
+  {
+    "id": "model.mypage.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.mypage.name",
+    "translation": "이름"
+  },
+  {
+    "id": "pdf.report.description_middle",
+    "translation": "대상 거래 기간내의 고객님의 거래 내역을 하기와 같이 보고 드립니다."
+  },
+  {
+    "id": "commoncode.USER_HISTORY_DOCUMENT_TYPE.USER_HISTORY_DOCUMENT_ADD",
+    "translation": "추가"
+  },
+  {
+    "id": "menu.manage_users.corporate_investors_shares_detail",
+    "translation": "투자거래내역 상세"
+  },
+  {
+    "id": "pdf.report.transaction_period",
+    "translation": "거래기간"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_STATE_TYPE.FUNDING_STATE_NEED",
+    "translation": "필요"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CEO_NAME",
+    "translation": "대표자명"
+  },
+  {
+    "id": "model.settlement.repayment_reserve",
+    "translation": "상환 적립금"
+  },
+  {
+    "id": "pdf.report.or_name",
+    "translation": "명칭"
+  },
+  {
+    "id": "pdf.report.order_qty",
+    "translation": "수주 수량"
+  },
+  {
+    "id": "pdf.report.submittee_last_word",
+    "translation": "자"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SCALE",
+    "translation": "규모"
+  },
+  {
+    "id": "pdf.project_info.need",
+    "translation": "필요"
+  },
+  {
+    "id": "commoncode.SETTLEMENT_EXECUTION_STATUS.SETTLEMENT_COMPLETE",
+    "translation": "완료"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ADD",
+    "translation": "추가"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_POWER_PLANT",
+    "translation": "발전 유형"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IRR",
+    "translation": "전 분기 내부 수익률"
+  },
+  {
+    "id": "commoncode.ASSETS_STATUS.ASSET3",
+    "translation": "300만엔 이상 ~ 500만엔 미만"
+  },
+  {
+    "id": "menu.manage_users.individual_investors_detail",
+    "translation": "개인 회원 상세"
+  },
+  {
+    "id": "model.trust_info.investor_name",
+    "translation": "투자자명"
+  },
+  {
+    "id": "pdf.report.furikana_name",
+    "translation": "후리가나 이름"
+  },
+  {
+    "id": "commoncode.PROJECT_PUBLISH_TYPE.PROJECT_PUBLISH_POSTED",
+    "translation": "게시"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION1_FRONT",
+    "translation": "본인확인서류1 (앞)"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_IDENTIFICATION1_BACK",
+    "translation": "본인확인서류1 (뒤)"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_CHECK_TYPE.USER_HISTORY_CHECK_YES",
+    "translation": "예"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_OFFICIALS",
+    "translation": "국가공무원"
+  },
+  {
+    "id": "model.project.category_type",
+    "translation": "발전 유형"
+  },
+  {
+    "id": "model.trust_info.title",
+    "translation": "신탁금액 명세표"
+  },
+  {
+    "id": "pdf.project_info.distance",
+    "translation": "자영선거리"
+  },
+  {
+    "id": "commoncode.PROJECT_NEWS_TYPE.PROJECT_NEWS_ADD",
+    "translation": "추가"
+  },
+  {
+    "id": "pdf.report.statement_of_payment_in_Total",
+    "translation": "합계 중 지불조서 제출이"
+  },
+  {
+    "id": "menu.manage_accounting.excess_and_shortage",
+    "translation": "과부족금 관리"
+  },
+  {
+    "id": "menu.manage_qna.detail",
+    "translation": "문의 창구 상세"
+  },
+  {
+    "id": "model.deposit_match_data.deposit_total_amount",
+    "translation": "입금 금액 합\u001c계"
+  },
+  {
+    "id": "model.trust_info.investor_id",
+    "translation": "투자자ID"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CLIMATOLOGY_AND_HAZARDS",
+    "translation": "기후와 위험요소"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.CONTRACT_BATCH_EXECUTE",
+    "translation": "계약 체결시 교부서면 작성 배치실행"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_INVEST_GRADE",
+    "translation": "투자등급 변경"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_b_risk",
+    "translation": "중간-낮음"
+  },
+  {
+    "id": "pdf.report.recruitment",
+    "translation": "모집"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_NAME",
+    "translation": "프로젝트명"
+  },
+  {
+    "id": "commoncode.USER_TRANSACTION_DETAIL_TYPE.WITHDRAWAL_INVESTMENT",
+    "translation": "출자금"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_DEPOSITOR",
+    "translation": "예금주"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_NON_PEPS",
+    "translation": "외국 PEPs가 아님에 대한 동의서"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_amount",
+    "translation": "입금 금액"
+  },
+  {
+    "id": "pdf.invest_info.price_per_share",
+    "translation": "1구당 가격"
+  },
+  {
+    "id": "commoncode.PAYMENT_STATUS.FAIL_PAYMENT",
+    "translation": "지불 실패"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_INVESTOR",
+    "translation": "투자회원관리"
+  },
+  {
+    "id": "model.user.postal_code_state",
+    "translation": "우편물 발송상태"
+  },
+  {
+    "id": "commoncode.PROJECT_MILESTONE_STATUS_TYPE.PROJECT_MILESTONE_DEL",
+    "translation": "삭제"
+  },
+  {
+    "id": "model.user.last_login_date",
+    "translation": "최근 접속일"
+  },
+  {
+    "id": "pdf.report.tax_office_head",
+    "translation": "세무소장 님"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_LAND_STATUS",
+    "translation": "토지취득현황"
+  },
+  {
+    "id": "menu.manage_website.manage_main_banner",
+    "translation": "배너 관리"
+  },
+  {
+    "id": "menu.manage_website.manage_main_banner_detail",
+    "translation": "배너 상세"
+  },
+  {
+    "id": "model.corporate.postal_code",
+    "translation": "소재지 확인코드"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BUSINESSREGISTRATION",
+    "translation": "사업자등록증"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_ANTISOCIAL_CHECK_APPROVE",
+    "translation": "승인"
+  },
+  {
+    "id": "model.investment_waiters.email",
+    "translation": "이메일(ID)"
+  },
+  {
+    "id": "commoncode.DEPOSIT_MATCH_STATUS.OVER_DEPOSIT",
+    "translation": "초과"
+  },
+  {
+    "id": "commoncode.INVESTOR_TYPE.CORPORATE_INVESTOR",
+    "translation": "법인 일반투자자"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SPECIFIC_INVESTORS",
+    "translation": "전문 투자자 제도 (고지서)"
+  },
+  {
+    "id": "commoncode.TRANSACTION_CHANGED_CONTENT_TYPE.TRANSACTION_CHANGED_CONTENT_TRANSACTION_STATUS",
+    "translation": "거래상태"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LISTED_COMPANY_EMPLOYEE",
+    "translation": "상장회사직원"
+  },
+  {
+    "id": "commoncode.FAQ_TYPE.DEVELOPER",
+    "translation": "개발회사"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_PRIVATE_FREE_BUSINESS",
+    "translation": "개인사업자 / 자유업자"
+  },
+  {
+    "id": "model.user_account.user_id",
+    "translation": "투자자ID"
+  },
+  {
+    "id": "pdf.invest_info.funding_shares_qty",
+    "translation": "발행 구수"
+  },
+  {
+    "id": "pdf.project_info.project_info",
+    "translation": "프로젝트 정보"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LOCAL_OFFICIALS_MANAGER",
+    "translation": "지방공무원 관리직"
+  },
+  {
+    "id": "menu.manage_website.manage_product_recommendation",
+    "translation": "추천 상품 관리"
+  },
+  {
+    "id": "pdf.project_info.fixed_purchase_price",
+    "translation": "고정매입가격"
+  },
+  {
+    "id": "pdf.report.withholding_tax",
+    "translation": "원천징수 세액"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INVEST_GRADE",
+    "translation": "투자등급"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_TRANSACTION",
+    "translation": "거래제한"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_LOCAL_OFFICIALS",
+    "translation": "지방공무원"
+  },
+  {
+    "id": "model.adminstrator.update_date",
+    "translation": "수정일시"
+  },
+  {
+    "id": "model.funding_request.phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_FIRSTNAME",
+    "translation": "담당자명"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.WIND",
+    "translation": "풍력발전소"
+  },
+  {
+    "id": "model.deposit_check_data.deposit_date",
+    "translation": "입금 확인 일시"
+  },
+  {
+    "id": "model.deposit_check_data.va_account_number",
+    "translation": "가상계좌"
+  },
+  {
+    "id": "model.subscription.email",
+    "translation": "이메일"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_PROTECTION",
+    "translation": "개인정보 보호 정책"
+  },
+  {
+    "id": "commoncode.MAIL_TYPE.MAIL_SEND_PRIORITY_FAST",
+    "translation": "빠른 발신"
+  },
+  {
+    "id": "commoncode.MAIL_TYPE.MAIL_SEND_PRIORITY_NORMAL",
+    "translation": "일반 발신"
+  },
+  {
+    "id": "model.settlement.etc_profit",
+    "translation": "잡이익"
+  },
+  {
+    "id": "model.user.mobile_phone",
+    "translation": "전화 번호"
+  },
+  {
+    "id": "pdf.project_info.funding_end_date",
+    "translation": "모집종료일"
+  },
+  {
+    "id": "pdf.report.spv_name",
+    "translation": "발행자"
+  },
+  {
+    "id": "commoncode.AUDIT_STATUS.WAIT_ANTISOCIAL_AUDIT",
+    "translation": "반사회 대기중"
+  },
+  {
+    "id": "model.corporate.corporate_postal_code",
+    "translation": "담당자 확인코드"
+  },
+  {
+    "id": "model.mail.send_count",
+    "translation": "발송건수"
+  },
+  {
+    "id": "pdf.project_info.purchase_period",
+    "translation": "매입기간"
+  },
+  {
+    "id": "pdf.report.transfer_date",
+    "translation": "양도일"
+  },
+  {
+    "id": "commoncode.ROLE_TYPE.ROLE_PAYMENT",
+    "translation": "거래/정산관리"
+  },
+  {
+    "id": "pdf.evaluation_project.technical_aspects",
+    "translation": "기술적 측면"
+  },
+  {
+    "id": "menu.dashboard",
+    "translation": "Dashboard"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_PROVINCE",
+    "translation": "도, 시, 특별시"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.BIOFUEL",
+    "translation": "바이오 연료제조"
+  },
+  {
+    "id": "pdf.report.statement_submission_classification",
+    "translation": "조서제출 구분"
+  },
+  {
+    "id": "commoncode.DEPOSIT_CHECK_STATUS.OK_DEPOSIT",
+    "translation": "OK"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_TOTAL_SHARES",
+    "translation": "총 구수"
+  },
+  {
+    "id": "pdf.report.person_in_charge",
+    "translation": "작성 담당자"
+  },
+  {
+    "id": "menu.manage_users.individual_investors",
+    "translation": "개인회원 관리"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_CAUTION",
+    "translation": "서비스 이용 약관"
+  },
+  {
+    "id": "menu.manage_website.manage_faq_detail",
+    "translation": "자주 묻는 질문 상세"
+  },
+  {
+    "id": "menu.manage_website.manage_column_detail",
+    "translation": "칼럼 상세"
+  },
+  {
+    "id": "model.mail.sender",
+    "translation": "발송처리자"
+  },
+  {
+    "id": "model.project.project_status",
+    "translation": "모집 상태"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_NAME",
+    "translation": "법인명"
+  },
+  {
+    "id": "menu.manage_mynumber_list",
+    "translation": "마이넘버 관리 목록"
+  },
+  {
+    "id": "model.funding_request.corp_name",
+    "translation": "법인명"
+  },
+  {
+    "id": "pdf.attachment.reference",
+    "translation": "참고자료"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_a_risk",
+    "translation": "낮음"
+  },
+  {
+    "id": "commoncode.EKYC_RESULT_STATUS.MATCH",
+    "translation": "승인"
+  },
+  {
+    "id": "commoncode.EKYC_RESULT_STATUS.UNMATCH",
+    "translation": "비승인"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_SCHEDULED",
+    "translation": "계산 진행"
+  },
+  {
+    "id": "commoncode.REFUND_METHOD.VIRTUAL_ACCOUNT_REFUND",
+    "translation": "가상계좌"
+  },
+  {
+    "id": "model.virtual_account.linked_status",
+    "translation": "가상계좌 상태"
+  },
+  {
+    "id": "menu.manage_accounting.deposit_detail",
+    "translation": "입출금 내역 목록"
+  },
+  {
+    "id": "commoncode.USER_TYPE.CORPORATE",
+    "translation": "법인회원"
+  },
+  {
+    "id": "menu.manage_mypage.notice_send.notice",
+    "translation": "알림 발신"
+  },
+  {
+    "id": "model.settlement.interest_amount",
+    "translation": "이자"
+  },
+  {
+    "id": "pdf.project_info.shares",
+    "translation": "구"
+  },
+  {
+    "id": "commoncode.USER_HISTORY_TYPE.USER_HISTORY_CONTENTS",
+    "translation": "내용 변경"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DIVIDEND_RATE",
+    "translation": "배당율(연)"
+  },
+  {
+    "id": "model.sms.send_date",
+    "translation": "발송일시"
+  },
+  {
+    "id": "pdf.project_info.power_develop_scale",
+    "translation": "발전규모"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_CITY",
+    "translation": "시 또는 구, 군"
+  },
+  {
+    "id": "pdf.project_info.end_at",
+    "translation": "모집 종료일"
+  },
+  {
+    "id": "pdf.report.month",
+    "translation": "월"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EQUIPMENT_PROVINCE",
+    "translation": "도, 시, 특별시(설비)"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MILESTONE_INFO",
+    "translation": "마일스톤 내용"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPERATION_FUNDING",
+    "translation": "운용중"
+  },
+  {
+    "id": "model.deposit_check_data.investment_amount",
+    "translation": "투자 확정 금액"
+  },
+  {
+    "id": "model.withdrawal.bank_code",
+    "translation": "은행번호"
+  },
+  {
+    "id": "pdf.report.transaction_date",
+    "translation": "양도 년월일"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.VA_BATCH_EXECUTE",
+    "translation": "가상계좌 알럿 배치 실행"
+  },
+  {
+    "id": "model.payment.project_name",
+    "translation": "상품명"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_OPERATINGFUNDS",
+    "translation": "여유자금 운용여부"
+  },
+  {
+    "id": "model.project.request_date",
+    "translation": "자료요청 신청일"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_INCHARGE_LASTNAME",
+    "translation": "담당자성"
+  },
+  {
+    "id": "model.settlement.principal_balance",
+    "translation": "원금 잔액"
+  },
+  {
+    "id": "pdf.report.identification",
+    "translation": "신원 확인"
+  },
+  {
+    "id": "commoncode.CORP_TYPE_CODE.MANAGER",
+    "translation": "관리자"
+  },
+  {
+    "id": "commoncode.SMS_TYPE.PASSWORD_RESET_COMPLETE_SMS",
+    "translation": "비밀번호 재설정"
+  },
+  {
+    "id": "menu.manage_product.developer_list",
+    "translation": "조성 회사 리스트"
+  },
+  {
+    "id": "model.user.sign_up_request",
+    "translation": "회원가입 신청일"
+  },
+  {
+    "id": "pdf.report.location",
+    "translation": "또는 소재지"
+  },
+  {
+    "id": "model.withdrawal.amount",
+    "translation": "이체금액"
+  },
+  {
+    "id": "model.withdrawal.request_date",
+    "translation": "의뢰 일시"
+  },
+  {
+    "id": "pdf.report.description_tail",
+    "translation": "본 서면은 금융상품 거래법 제37조 4  제1항 및 금융상품거래업등의 관한 내각부 령 제98조 제1항 제3호에 규정된 거래잔액 보고서에 해당합니다."
+  },
+  {
+    "id": "pdf.spv_info.corp_no",
+    "translation": "법인번호"
+  },
+  {
+    "id": "model.spv.post_date",
+    "translation": "등록 일자"
+  },
+  {
+    "id": "model.mail.status",
+    "translation": "발송상태"
+  },
+  {
+    "id": "pdf.project_info.burden_payment_status",
+    "translation": "계통연계공사 부담금 납부현황"
+  },
+  {
+    "id": "commoncode.PAYMENT_HISTORY_TYPE.PAYMENT_HISTORY_CONTRACT",
+    "translation": "계약서 변경"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_PROJECT_REPORT",
+    "translation": "펀드 보고서"
+  },
+  {
+    "id": "commoncode.REPORT_TYPE.REPORT_CUSTOMER_ACCOUNT",
+    "translation": "고객계정 원장"
+  },
+  {
+    "id": "model.mypage.pay",
+    "translation": "거래 금액"
+  },
+  {
+    "id": "model.settlement.withholding_tax",
+    "translation": "원천징수세"
+  },
+  {
+    "id": "model.user.loan_branch_name",
+    "translation": "대출형 지점명"
+  },
+  {
+    "id": "pdf.invest_info.minimum_number_of_investment_shares",
+    "translation": "최소 투자수"
+  },
+  {
+    "id": "pdf.report.distribution",
+    "translation": "배당"
+  },
+  {
+    "id": "commoncode.POLICY_HISTORY_TYPE.POLICY_HISTORY_CONTENTS",
+    "translation": "내용 변경"
+  },
+  {
+    "id": "menu.manage_users.pre_corp_investors_list",
+    "translation": "가등록 법인회원 목록"
+  },
+  {
+    "id": "pdf.report.submit",
+    "translation": "제출"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CORP_NAME",
+    "translation": "법인명"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_REVIEW_STATE",
+    "translation": "검토상태"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_MANAGER_CERTIFICATION",
+    "translation": "담당자 인증"
+  },
+  {
+    "id": "commoncode.CONTRACT_STATUS.CONTRACT_SIGNED",
+    "translation": "발행 완료"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.SUCCESS_INVEST",
+    "translation": "투자 완료"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_ABOUT_EVALUATION",
+    "translation": "평가에 대하여"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_EQUIPMENT_RECOGNITION_AND_SYSTEM_ACCESS_DATA",
+    "translation": "설비인정, 계통접속자료"
+  },
+  {
+    "id": "menu.manage_accounting.payment_detail",
+    "translation": "거래내역 상세"
+  },
+  {
+    "id": "model.corporate.address",
+    "translation": "소재지"
+  },
+  {
+    "id": "pdf.report.transaction_balance_report",
+    "translation": "거래잔액 보고서"
+  },
+  {
+    "id": "commoncode.INVEST_STATUS.OPERATION_INVEST",
+    "translation": "운용중"
+  },
+  {
+    "id": "model.user.investor_type",
+    "translation": "투자 등급"
+  },
+  {
+    "id": "pdf.report.or_furikana_name",
+    "translation": "또는 명칭"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_MINIMUM_INVESTMENT",
+    "translation": "최소 투자수"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_SYSTEM_ACCESS_POWER_COMPANY",
+    "translation": "계통접속전력회사"
+  },
+  {
+    "id": "menu.manage_users.pre_corp_investors",
+    "translation": "가등록 법인회원 관리"
+  },
+  {
+    "id": "model.investment_waiters.phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "pdf.report.agreed_qty",
+    "translation": "약정 수량"
+  },
+  {
+    "id": "commoncode.POLICY_HISTORY_TYPE.POLICY_CHANGED_CONTENTS",
+    "translation": "변경 내용"
+  },
+  {
+    "id": "commoncode.PRINT_STATUS_TYPE.PRINT_STATUS_COMPLETE",
+    "translation": "완료"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_DESCRIPTION",
+    "translation": "상품설명"
+  },
+  {
+    "id": "commoncode.SPV_CHANGED_CONTENT_TYPE.SPV_CHANGED_CONTENT_CORPNO",
+    "translation": "법인번호"
+  },
+  {
+    "id": "model.mail.type",
+    "translation": "발송유형"
+  },
+  {
+    "id": "commoncode.CORP_TYPE_CODE.CORP",
+    "translation": "법인"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CEO_FIRSTNAME",
+    "translation": "대표자명"
+  },
+  {
+    "id": "menu.manage_main.contact_manage",
+    "translation": "문의 관리"
+  },
+  {
+    "id": "pdf.invest_info.month",
+    "translation": "개월"
+  },
+  {
+    "id": "commoncode.LOG_CONTENT_TYPE.ADMIN_ROLE_DELETED",
+    "translation": "운영자 권한 삭제"
+  },
+  {
+    "id": "commoncode.PROJECT_TYPE.EQUITY",
+    "translation": "사업형"
+  },
+  {
+    "id": "commoncode.TRANSACTION_TYPE.TRANSACTION_NOTBLOCK",
+    "translation": "거래제한 안함"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_CORP_NAME",
+    "translation": "법인명"
+  },
+  {
+    "id": "commoncode.PROJECT_SETTLEMENT_TYPE.PROJECT_SETTLEMENT_COMPLETED",
+    "translation": "완료"
+  },
+  {
+    "id": "commoncode.PROJECT_CATEGORY.HYDROGEN",
+    "translation": "수소제조"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_IS_AMOUNT_LIMIT",
+    "translation": "500만엔 제한"
+  },
+  {
+    "id": "commoncode.POLICY_TYPE.POLICY_SOLICITATION",
+    "translation": "권유방침"
+  },
+  {
+    "id": "model.payment.transaction_id",
+    "translation": "거래 번호"
+  },
+  {
+    "id": "pdf.report.duty_free",
+    "translation": "면세 분"
+  },
+  {
+    "id": "pdf.report.investor_name",
+    "translation": "고객명/명칭"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.SUCCESS_FUNDING",
+    "translation": "성립"
+  },
+  {
+    "id": "commoncode.USER_JOB_TYPE.USER_STUDENT",
+    "translation": "학생"
+  },
+  {
+    "id": "menu.manage_accounting.manage_withdrawal_download",
+    "translation": "출금 요청 CSV 다운로드"
+  },
+  {
+    "id": "menu.manage_operating_system.look_up_administrators_access_history",
+    "translation": "운영자 로그 조회"
+  },
+  {
+    "id": "menu.manage_website.1_manage_website",
+    "translation": "운영관리"
+  },
+  {
+    "id": "model.corporate.corp_type",
+    "translation": "사업내용"
+  },
+  {
+    "id": "model.virtual_account.user_id",
+    "translation": "투자자ID"
+  },
+  {
+    "id": "pdf.report.inspection",
+    "translation": "검수"
+  },
+  {
+    "id": "commoncode.LOGIN_TYPE.MAIL",
+    "translation": "메일"
+  },
+  {
+    "id": "pdf.report.trading_diary",
+    "translation": "거래 일기장"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_PUT_TAKE_MONEY",
+    "translation": "운영・입금・출금"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_CONTRACT_BEFORE_PAGE",
+    "translation": "계약 체결전 교부서면"
+  },
+  {
+    "id": "model.user.name_furi",
+    "translation": "이름 후리가나"
+  },
+  {
+    "id": "pdf.report.media",
+    "translation": "매체"
+  },
+  {
+    "id": "commoncode.FAQ_CATEGORY_TYPE.FAQ_CATEGORY_INVESTING",
+    "translation": "투자"
+  },
+  {
+    "id": "menu.manage_product.developer",
+    "translation": "개발회사 관리"
+  },
+  {
+    "id": "pdf.project_info.remaining",
+    "translation": "남은 기간"
+  },
+  {
+    "id": "commoncode.FUNDING_HISTORY_CONTENT_TYPE.FUNDING_CONTENT_EMAIL",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.mypage.mobile_phone",
+    "translation": "전화번호"
+  },
+  {
+    "id": "model.withdrawal.status",
+    "translation": "상태"
+  },
+  {
+    "id": "commoncode.USER_CHANGED_CONTENT_TYPE.USER_CHANGED_CONTENT_BANK_BOOK",
+    "translation": "출금계좌 통장사본"
+  },
+  {
+    "id": "pdf.evaluation_project.grade_d_risk",
+    "translation": "높음"
+  },
+  {
+    "id": "commoncode.POSTAL_CODE_STATE.POSTAL_CODE_STATE_SENT",
+    "translation": "발송완료"
+  },
+  {
+    "id": "commoncode.PROJECT_CHANGED_CONTENT_TYPE.PROJECT_CHANGED_CONTENT_INVESTMENT_METHOD",
+    "translation": "투자유형"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_WAIT",
+    "translation": "송금대기"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_SUCCESS",
+    "translation": "송금성공"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_FAIL",
+    "translation": "송금실패"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_REPAYMENT",
+    "translation": "환불"
+  },
+  {
+    "id": "commoncode.TRANSFER_STATUS_TYPE.TRANSFER_STATUS_CANCEL",
+    "translation": "송금취소"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.INVESTMENT_EXECUTE",
+    "translation": "출자"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.DIVIDEND_RETURN",
+    "translation": "배당"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_TYPE_CODE.REPAYMENT_RETURN",
+    "translation": "상환"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_STATUS_CODE.RETURN_SCHEDULED",
+    "translation": "미실시"
+  },
+  {
+    "id": "commoncode.INVESTMENT_RETURN_STATUS_CODE.RETURN_COMPLETED",
+    "translation": "실시됨"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.type",
+    "translation": "내용"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.decide_date",
+    "translation": "일시"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.execute_date",
+    "translation": "결산일"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.status",
+    "translation": "상태"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.repayment",
+    "translation": "출자상환액"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.dividend",
+    "translation": "배당금"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.broker_fee",
+    "translation": "공제(원칙０)"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.withholding_tax",
+    "translation": "원천징수세"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.repayment_reserve",
+    "translation": "상환적립금"
+  },
+  {
+    "id": "model.repayment_dividend_schedule.investment_balance",
+    "translation": "원금잔액"
+  },
+  {
+    "id": "commoncode.PROJECT_COUNTRY_TYPE.PROJECT_COUNTRY_JP",
+    "translation": "국내"
+  },
+  {
+    "id": "commoncode.PROJECT_COUNTRY_TYPE.PROJECT_COUNTRY_US",
+    "translation": "미국"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WAITING",
+    "translation": "투자 취소 대기"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.END_FUNDING",
+    "translation": "모집 종료"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.CANCELLED",
+    "translation": "취소"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING",
+    "translation": "당첨(미입금)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_SUCCESS",
+    "translation": "당첨(확정)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_CANCELED",
+    "translation": "당첨(취소)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.WINNING_AFTER_FAILED",
+    "translation": "당첨(불성립)"
+  },
+  {
+    "id": "commoncode.INVESTMENT_WAITING_STATUS.PROPOSAL",
+    "translation": "투자 제안 중"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RECEIVED",
+    "translation": "접수 완료"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RESPONSE_PENDING",
+    "translation": "답변 대기"
+  },
+  {
+    "id": "commoncode.QNA_STATUS_TYPE.QNA_RESPONSE_COMPLETED",
+    "translation": "답변 완료"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.INCOME_AND_CAPITAL_GAIN",
+    "translation": "インカムゲインおよびキャピタルゲイン"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.INCOME_GAIN",
+    "translation": "インカムゲイン"
+  },
+  {
+    "id": "commoncode.DIVIDEND_TYPE.CAPITAL_GAIN",
+    "translation": "キャピタルゲイン"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.APPLIED",
+    "translation": "신청중"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.WINNING",
+    "translation": "당첨"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.PARTIAL_WINNING",
+    "translation": "일부 당첨"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.LOST",
+    "translation": "낙첨"
+  },
+  {
+    "id": "commoncode.LOTTERY_STATUS.CANCELED",
+    "translation": "취소"
+  },
+  {
+    "id": "model.lottery_application.id",
+    "translation": "추첨 ID"
+  },
+  {
+    "id": "model.lottery_application.status",
+    "translation": "추첨 상태"
+  },
+  {
+    "id": "model.lottery_application.user_name",
+    "translation": "투자자명"
+  },
+  {
+    "id": "model.lottery_application.user_email",
+    "translation": "이메일"
+  },
+  {
+    "id": "model.lottery_application.project_name",
+    "translation": "펀드명"
+  },
+  {
+    "id": "model.lottery_application.qty",
+    "translation": "신청 구수"
+  },
+  {
+    "id": "model.lottery_application.amount",
+    "translation": "신청 금액"
+  },
+  {
+    "id": "model.lottery_application.winning_amount",
+    "translation": "당첨 총액"
+  },
+  {
+    "id": "model.lottery_application.canceled_winning_amount",
+    "translation": "당첨 후 취소 금액"
+  },
+  {
+    "id": "model.lottery_application.user_account_balance",
+    "translation": "투자 가능 금액"
+  },
+  {
+    "id": "model.lottery_application.applied_at",
+    "translation": "신청 일시"
+  },
+  {
+    "id": "model.bulk_lottery.result",
+    "translation": "당락"
+  },
+  {
+    "id": "model.bulk_lottery.requested_winning_amount",
+    "translation": "요청 당첨 금액"
+  },
+  {
+    "id": "menu.manage_accounting.project_lottery.list",
+    "translation": "추첨 목록"
+  },
+  {
+    "id": "commoncode.PROJECT_STATUS.OPERATION_END_FUNDING",
+    "translation": "운용종료"
+  }
+]

@@ -1,0 +1,26 @@
+user_roles_data:
+
+  - role_code: "ROLE_USER"
+    role_name: "ROLE_USER"
+
+  - role_code: "ROLE_SUPER_ADMIN"
+    role_name: "ROLE_SUPER_ADMIN"
+
+  - role_code: "ROLE_ADMIN"
+    role_name: "commoncode.ROLE_TYPE.ROLE_ADMIN"
+  - role_code: "ROLE_OPERATOR"
+    role_name: "commoncode.ROLE_TYPE.ROLE_OPERATOR"
+  - role_code: "ROLE_PRODUCT"
+    role_name: "commoncode.ROLE_TYPE.ROLE_PRODUCT"
+  - role_code: "ROLE_PAYMENT"
+    role_name: "commoncode.ROLE_TYPE.ROLE_PAYMENT"
+  - role_code: "ROLE_INVESTOR"
+    role_name: "commoncode.ROLE_TYPE.ROLE_INVESTOR"
+  - role_code: "ROLE_MESSENGER"
+    role_name: "commoncode.ROLE_TYPE.ROLE_MESSENGER"
+  - role_code: "ROLE_BASE"
+    role_name: "commoncode.ROLE_TYPE.ROLE_BASE"
+  - role_code: "ROLE_REPORT"
+    role_name: "commoncode.ROLE_TYPE.ROLE_REPORT"
+  - role_code: "ROLE_MYNUMBER"
+    role_name: "commoncode.ROLE_TYPE.ROLE_MYNUMBER"
